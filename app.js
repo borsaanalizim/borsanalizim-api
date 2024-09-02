@@ -105,9 +105,9 @@ async function getAllData() {
     }
 }
 
-app.listen(3000, async () => {
+app.listen(3001, async () => {
     // await getAllData()
     // await dropDatabase()
     // await memberDisclosureQuery()
-    console.log("listening on port 3000")
+    console.log("listening on port 3001")
 })
