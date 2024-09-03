@@ -15,8 +15,7 @@
     "joi": "^17.13.3",
     "moment": "^2.30.1",
     "moment-timezone": "^0.5.45",
-    "mongoose": "^8.6.0",
-    "request": "^2.88.2"
+    "mongoose": "^8.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
