@@ -61,8 +61,8 @@ async function memberDisclosureQuery() {
         let price
         let lastPrice
         const priceHistoryResponse = await fetchPriceHistory('1440', dateUtil.nowYear() + '0101000000', dateUtil.nowYear() + '1231235959', stockCode + '.E.BIST')
-        const priceHistoryResponseData = priceHistoryResponse.data.data
         if (priceHistoryResponse) {
+            const priceHistoryResponseData = priceHistoryResponse.data.data
             let priceHistoryMap = {}
             priceHistoryResponseData.forEach((priceHistoryItem, priceHistoryIndex) => {
                 const date = dateUtil.formatDateFromTimestamp(priceHistoryItem[0])
@@ -94,7 +94,7 @@ async function memberDisclosureQuery() {
             if (!existingPeriod) {
                 balanceSheetDate.dates.push({ period, publishedAt, price })
             }
-            
+
             await balanceSheetDate.save()
             return
         }
@@ -130,9 +130,10 @@ async function getAllData() {
 async function fetchPriceHistory(period, from, to, endeks) {
     try {
         const response = await axios.get('https://www.isyatirim.com.tr/_Layouts/15/IsYatirim.Website/Common/ChartData.aspx/IndexHistoricalAll', { params: { period: period, from: from, to: to, endeks: endeks } })
+        // console.log('Endeks: ' + endeks + ' Period: ' + period)
         return response
     } catch (error) {
-        console.log('FETCH PRICE HISTORY ERROR: ' + error)
+        console.log('FETCH PRICE HISTORY ERROR: ' + error + 'endeks: ' + endeks)
         return null
     }
 }
@@ -140,6 +141,6 @@ async function fetchPriceHistory(period, from, to, endeks) {
 app.listen(3001, async () => {
     // await getAllData()
     // await dropDatabase()
-    // await memberDisclosureQuery()
+    await memberDisclosureQuery()
     console.log("listening on port 3001")
 })
