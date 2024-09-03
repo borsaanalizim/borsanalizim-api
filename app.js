@@ -59,48 +59,51 @@ async function memberDisclosureQuery() {
         }
 
         let price
+        let lastPrice
         const priceHistoryResponse = await fetchPriceHistory('1440', dateUtil.nowYear() + '0101000000', dateUtil.nowYear() + '1231235959', stockCode + '.E.BIST')
-            const priceHistoryResponseData = priceHistoryResponse.data.data
-            if (priceHistoryResponse) {
-                let priceHistoryMap = {}
-                priceHistoryResponseData.forEach((priceHistoryItem, priceHistoryIndex) => {
-                    const date = dateUtil.formatDateFromTimestamp(priceHistoryItem[0])
-                    priceHistoryMap[date] = priceHistoryItem[1]
-                })
-                if (typeof publishedAt === 'string') {
-                    const shortPublishedAt = publishedAt.split("T")[0]
-                    let foundPrice = false;
-                    for (const date in priceHistoryMap) {
-                        if (date >= shortPublishedAt) {
-                            price = priceHistoryMap[date];
-                            foundPrice = true;
-                            break;
-                        }
+        const priceHistoryResponseData = priceHistoryResponse.data.data
+        if (priceHistoryResponse) {
+            let priceHistoryMap = {}
+            priceHistoryResponseData.forEach((priceHistoryItem, priceHistoryIndex) => {
+                const date = dateUtil.formatDateFromTimestamp(priceHistoryItem[0])
+                priceHistoryMap[date] = priceHistoryItem[1]
+                if ((priceHistoryResponseData.size - 1) == priceHistoryIndex) {
+                    lastPrice = priceHistoryItem[1]
+                }
+            })
+            if (typeof publishedAt === 'string') {
+                const shortPublishedAt = publishedAt.split("T")[0]
+                let foundPrice = false;
+                for (const date in priceHistoryMap) {
+                    if (date >= shortPublishedAt) {
+                        price = priceHistoryMap[date];
+                        foundPrice = true;
+                        break;
                     }
                 }
             }
-
-        const balanceSheetDate = await config.BalanceSheetDate.findOne({ period: period, stockCode: stockCode })
-
-        if (balanceSheetDate) {
-            balanceSheetDate.set({ publishedAt, stockCode, price });
-            await balanceSheetDate.save();
-            console.log("Data updated successfully!")
-            return
         }
 
+        const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode: stockCode })
+
+        if (balanceSheetDate) {
+            const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period)
+
+            balanceSheetDate.lastPrice = lastPrice
+
+            if (!existingPeriod) {
+                balanceSheetDate.dates.push({ period, publishedAt, price })
+            }
+            
+            await balanceSheetDate.save()
+            return
+        }
         const newBalanceSheetDate = new config.BalanceSheetDate({
-            period,
-            publishedAt,
             stockCode,
-            price
+            lastPrice,
+            dates: [{ period, publishedAt, price }]
         })
-        console.log(newBalanceSheetDate)
-
-        // Save the document
-        // await newBalanceSheetDate.save()
-
-        // console.log("Data saved successfully!")
+        await newBalanceSheetDate.save()
     })
 }
 
@@ -129,7 +132,7 @@ async function fetchPriceHistory(period, from, to, endeks) {
         const response = await axios.get('https://www.isyatirim.com.tr/_Layouts/15/IsYatirim.Website/Common/ChartData.aspx/IndexHistoricalAll', { params: { period: period, from: from, to: to, endeks: endeks } })
         return response
     } catch (error) {
-        console.log(error)
+        console.log('FETCH PRICE HISTORY ERROR: ' + error)
         return null
     }
 }

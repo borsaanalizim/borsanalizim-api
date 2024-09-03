@@ -1,25 +1,33 @@
-const { Double, Decimal128 } = require('bson');
+const { Decimal128 } = require('bson');
 const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema
 
 const balanceSheetDateSchema = new Schema({
-    period: {
-        type: String,
-        required: true
-    },
-    publishedAt: {
-        type: String,
-        required: true
-    },
     stockCode: {
         type: String,
         required: true
     },
-    price: {
+    lastPrice: {
         type: Decimal128,
         required: true
-    }
+    },
+    dates: [
+        {
+            period: {
+                type: String,
+                required: true
+            },
+            publishedAt: {
+                type: String,
+                required: true
+            },
+            price: {
+                type: Decimal128,
+                required: true
+            }
+        }
+    ]
 }, {collection: 'balance_sheet_date'})
 
 
