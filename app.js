@@ -15,8 +15,8 @@ app.use("/", main)
 app.use("/api/balancesheetdates", balanceSheetDates)
 
 const requestData = {
-    "fromDate": "2021-01-01",
-    "toDate": "2021-12-31",
+    "fromDate":  dateUtil.nowYear() + "-01-01",
+    "toDate": dateUtil.nowYear() + "-12-31",
     "year": "",
     "prd": "",
     "term": "",
@@ -159,5 +159,5 @@ app.listen(3001, async () => {
     await db.connectDB()
     // await dropDatabase()
     // await getAllData()
-    await memberDisclosureQuery()
+    // await memberDisclosureQuery()
 })
