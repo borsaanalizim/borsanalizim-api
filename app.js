@@ -53,6 +53,8 @@ function getSingleStockCodeString(str) {
 async function memberDisclosureQuery() {
     const response = await axios.post('https://www.kap.org.tr/tr/api/memberDisclosureQuery', requestData)
     const responseData = response.data
+    const responseDataLength = responseData.length
+    let isCompleted = false
 
     responseData.forEach(async (item, index) => {
 
@@ -94,7 +96,7 @@ async function memberDisclosureQuery() {
             }
         }
 
-        console.log('StockCode: ' + stockCode +' Period: ' + period + ' Price: ' + price + ' LastPrice: ' + lastPrice)
+        // console.log('StockCode: ' + stockCode +' Period: ' + period + ' Price: ' + price + ' LastPrice: ' + lastPrice)
 
         const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode: stockCode })
 
@@ -117,7 +119,13 @@ async function memberDisclosureQuery() {
             dates: [{ period, publishedAt, price }]
         })
         await newBalanceSheetDate.save()
+        if(index == responseDataLength - 1) {
+            isCompleted = true
+        }
     })
+    if(isCompleted) {
+        console.log("IS_COMPLETED: " + isCompleted)
+    }
 }
 
 async function dropDatabase() {
