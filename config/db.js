@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const connectionString = 'mongodb://167.99.6.203:27017/borsaanalizim_db'
+const connectionString = 'mongodb://127.0.0.1:27017/borsaanalizim_db'
 
 mongoose.connect(connectionString)
     .then(() => {
