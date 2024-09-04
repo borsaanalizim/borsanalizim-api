@@ -67,10 +67,9 @@ async function memberDisclosureQuery() {
             priceHistoryResponseData.forEach((priceHistoryItem, priceHistoryIndex) => {
                 const date = dateUtil.formatDateFromTimestamp(priceHistoryItem[0])
                 priceHistoryMap[date] = priceHistoryItem[1]
-                if ((priceHistoryResponseData.size - 1) == priceHistoryIndex) {
-                    lastPrice = priceHistoryItem[1]
-                }
             })
+            const priceValues = Object.values(priceHistoryMap);
+            lastPrice = priceValues.slice(-1)[0];
             if (typeof publishedAt === 'string') {
                 const shortPublishedAt = publishedAt.split("T")[0]
                 let foundPrice = false;
@@ -83,19 +82,23 @@ async function memberDisclosureQuery() {
                 }
             }
         }
+        const collectionExists = await isCollectionExists('balance_sheet_dates');
 
-        const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode: stockCode })
+        if (collectionExists) {
 
-        if (balanceSheetDate) {
-            const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period)
+            const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode: stockCode })
 
-            balanceSheetDate.lastPrice = lastPrice
-
-            if (!existingPeriod) {
-                balanceSheetDate.dates.push({ period, publishedAt, price })
+            if(balanceSheetDate) {
+                const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period)
+    
+                balanceSheetDate.lastPrice = lastPrice
+    
+                if (!existingPeriod) {
+                    balanceSheetDate.dates.push({ period, publishedAt, price })
+                }
+    
+                await balanceSheetDate.save()
             }
-
-            await balanceSheetDate.save()
             return
         }
         const newBalanceSheetDate = new config.BalanceSheetDate({
@@ -109,7 +112,7 @@ async function memberDisclosureQuery() {
 
 async function dropDatabase() {
     try {
-        await db.mongoose.connection.dropDatabase();
+        await db.connection.dropDatabase();
         console.log('Database dropped successfully');
         process.exit(0); // Uygulamayı kapat
     } catch (error) {
@@ -133,14 +136,22 @@ async function fetchPriceHistory(period, from, to, endeks) {
         // console.log('Endeks: ' + endeks + ' Period: ' + period)
         return response
     } catch (error) {
+        if(error == 'Error: read ECONNRESET') {
+            return fetchPriceHistory(period, from, to, endeks)
+        }
         console.log('FETCH PRICE HISTORY ERROR: ' + error + 'endeks: ' + endeks)
         return null
     }
 }
 
+async function isCollectionExists(collectionName) {
+    const collections = await db.mongoose.connection.db.listCollections({ name: collectionName }).toArray();
+    return collections.length > 0;
+}
+
 app.listen(3001, async () => {
     // await getAllData()
     // await dropDatabase()
-    // await memberDisclosureQuery()
+    await memberDisclosureQuery()
     console.log("listening on port 3001")
 })
