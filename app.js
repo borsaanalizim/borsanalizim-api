@@ -39,6 +39,17 @@ const requestData = {
     "discIndex": []
 }
 
+function getSingleStockCodeString(str) {
+    if (str == 'ISATR, ISBTR, ISCTR, ISKUR, TIB') {
+        return 'ISCTR'
+    } else if (str == 'KRDMA, KRDMB, KRDMD') {
+        return 'KRDMD'
+    } else {
+        const items = str.split(',').map(item => item.trim());
+        return items.find(item => item.length >= 4);
+    }
+}
+
 async function memberDisclosureQuery() {
     const response = await axios.post('https://www.kap.org.tr/tr/api/memberDisclosureQuery', requestData)
     const responseData = response.data
@@ -49,7 +60,7 @@ async function memberDisclosureQuery() {
         const ruleTypeTerm = item.ruleTypeTerm;
         const formattedTime = dateUtil.formatDateOfSpecial(item.publishDate)
         const publishedAt = formattedTime ? formattedTime : item.publishDate
-        const stockCode = item.stockCodes
+        const stockCode = getSingleStockCodeString(item.stockCodes)
 
         let period
         if (ruleTypeTerm && typeof ruleTypeTerm === 'string') {
@@ -83,6 +94,8 @@ async function memberDisclosureQuery() {
             }
         }
 
+        console.log('StockCode: ' + stockCode +' Period: ' + period + ' Price: ' + price + ' LastPrice: ' + lastPrice)
+
         const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode: stockCode })
 
         if (balanceSheetDate) {
@@ -109,7 +122,7 @@ async function memberDisclosureQuery() {
 
 async function dropDatabase() {
     try {
-        await db.connection.dropDatabase();
+        await db.mongoose.connection.dropDatabase();
         console.log('Database dropped successfully');
         process.exit(0); // Uygulamayı kapat
     } catch (error) {
@@ -126,33 +139,25 @@ async function getAllData() {
     }
 }
 
-
 async function fetchPriceHistory(period, from, to, endeks) {
     try {
         const response = await axios.get('https://www.isyatirim.com.tr/_Layouts/15/IsYatirim.Website/Common/ChartData.aspx/IndexHistoricalAll', { params: { period: period, from: from, to: to, endeks: endeks } })
         // console.log('Endeks: ' + endeks + ' Period: ' + period)
         return response
     } catch (error) {
-        if (error == 'Error: read ECONNRESET') {
+        if (error == 'Error: read ECONNRESET' || error == 'Error: read ETIMEDOUT' || error == 'Error: connect ETIMEDOUT 37.131.254.117:443') {
             return fetchPriceHistory(period, from, to, endeks)
         }
-        console.log('FETCH PRICE HISTORY ERROR: ' + error + 'endeks: ' + endeks)
+        console.log('FETCH PRICE HISTORY ERROR: ' + error + ' Period: ' + period + ' Endeks: ' + endeks)
         return null
     }
 }
 
-async function ensureCollectionExists(collectionName) {
-    const collectionExists = await isCollectionExists(collectionName);
-    if (!collectionExists) {
-        console.log(`Koleksiyon ${collectionName} mevcut değil, oluşturulacak.`);
-        // Burada gerekli adımları atabilirsiniz. Ancak, genellikle Mongoose bunu otomatik yapacaktır.
-    }
-}
 
 app.listen(3001, async () => {
-    // await getAllData()
+    await db.connectDB()
     // await dropDatabase()
-    // await ensureCollectionExists('balance_sheet_dates');
-    // await memberDisclosureQuery()
-    console.log("listening on port 3001")
+    // await getAllData()
+    await memberDisclosureQuery()
+    console.log("Sunucu 3001 portunda dinleniyor")
 })
