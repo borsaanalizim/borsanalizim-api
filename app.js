@@ -158,6 +158,6 @@ app.listen(3001, async () => {
     await db.connectDB()
     // await dropDatabase()
     // await getAllData()
-    await memberDisclosureQuery()
+    // await memberDisclosureQuery()
     console.log("Sunucu 3001 portunda dinleniyor")
 })
