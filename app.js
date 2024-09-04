@@ -55,7 +55,6 @@ async function memberDisclosureQuery() {
     const responseData = response.data
 
     responseData.forEach(async (item, index) => {
-
         const year = item.year;
         const ruleTypeTerm = item.ruleTypeTerm;
         const formattedTime = dateUtil.formatDateOfSpecial(item.publishDate)
@@ -83,18 +82,14 @@ async function memberDisclosureQuery() {
             lastPrice = priceValues.slice(-1)[0];
             if (typeof publishedAt === 'string') {
                 const shortPublishedAt = publishedAt.split("T")[0]
-                let foundPrice = false;
                 for (const date in priceHistoryMap) {
                     if (date >= shortPublishedAt) {
                         price = priceHistoryMap[date];
-                        foundPrice = true;
                         break;
                     }
                 }
             }
         }
-
-        // console.log('StockCode: ' + stockCode +' Period: ' + period + ' Price: ' + price + ' LastPrice: ' + lastPrice)
 
         const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode: stockCode })
 
@@ -108,6 +103,7 @@ async function memberDisclosureQuery() {
             }
 
             await balanceSheetDate.save()
+            // console.log('StockCode: ' + stockCode + ' Period: ' + period + ' Price: ' + price + ' LastPrice: ' + lastPrice)
             return
         }
 
@@ -117,6 +113,7 @@ async function memberDisclosureQuery() {
             dates: [{ period, publishedAt, price }]
         })
         await newBalanceSheetDate.save()
+        // console.log('StockCode: ' + stockCode + ' Period: ' + period + ' Price: ' + price + ' LastPrice: ' + lastPrice)
     })
 }
 
