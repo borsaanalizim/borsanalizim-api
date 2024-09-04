@@ -142,11 +142,8 @@ async function fetchPriceHistory(period, from, to, endeks) {
         // console.log('Endeks: ' + endeks + ' Period: ' + period)
         return response
     } catch (error) {
-        if (error == 'Error: read ECONNRESET' || error == 'Error: read ETIMEDOUT' || error == 'Error: connect ETIMEDOUT 37.131.254.117:443') {
-            return fetchPriceHistory(period, from, to, endeks)
-        }
         console.log('FETCH PRICE HISTORY ERROR: ' + error + ' Period: ' + period + ' Endeks: ' + endeks)
-        return null
+        return fetchPriceHistory(period, from, to, endeks)
     }
 }
 
