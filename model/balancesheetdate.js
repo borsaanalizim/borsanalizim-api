@@ -1,4 +1,3 @@
-const { Decimal128 } = require('bson');
 const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema
@@ -9,7 +8,7 @@ const balanceSheetDateSchema = new Schema({
         required: true
     },
     lastPrice: {
-        type: Decimal128,
+        type: Number,
         required: true
     },
     dates: [
@@ -23,7 +22,7 @@ const balanceSheetDateSchema = new Schema({
                 required: true
             },
             price: {
-                type: Decimal128,
+                type: Number,
                 required: true
             }
         }

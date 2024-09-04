@@ -15,8 +15,8 @@ app.use("/", main)
 app.use("/api/balancesheetdates", balanceSheetDates)
 
 const requestData = {
-    "fromDate": dateUtil.nowYear() + "-01-01",
-    "toDate": dateUtil.nowYear() + "-12-31",
+    "fromDate": "2021-01-01",
+    "toDate": "2021-12-31",
     "year": "",
     "prd": "",
     "term": "",
@@ -53,8 +53,6 @@ function getSingleStockCodeString(str) {
 async function memberDisclosureQuery() {
     const response = await axios.post('https://www.kap.org.tr/tr/api/memberDisclosureQuery', requestData)
     const responseData = response.data
-    const responseDataLength = responseData.length
-    let isCompleted = false
 
     responseData.forEach(async (item, index) => {
 
@@ -119,13 +117,7 @@ async function memberDisclosureQuery() {
             dates: [{ period, publishedAt, price }]
         })
         await newBalanceSheetDate.save()
-        if(index == responseDataLength - 1) {
-            isCompleted = true
-        }
     })
-    if(isCompleted) {
-        console.log("IS_COMPLETED: " + isCompleted)
-    }
 }
 
 async function dropDatabase() {
@@ -163,9 +155,9 @@ async function fetchPriceHistory(period, from, to, endeks) {
 
 
 app.listen(3001, async () => {
+    console.log("Sunucu 3001 portunda dinleniyor")
     await db.connectDB()
     // await dropDatabase()
     // await getAllData()
-    // await memberDisclosureQuery()
-    console.log("Sunucu 3001 portunda dinleniyor")
+    await memberDisclosureQuery()
 })
