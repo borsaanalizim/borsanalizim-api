@@ -82,25 +82,22 @@ async function memberDisclosureQuery() {
                 }
             }
         }
-        const collectionExists = await isCollectionExists('balance_sheet_dates');
 
-        if (collectionExists) {
+        const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode: stockCode })
 
-            const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode: stockCode })
+        if (balanceSheetDate) {
+            const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period)
 
-            if(balanceSheetDate) {
-                const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period)
-    
-                balanceSheetDate.lastPrice = lastPrice
-    
-                if (!existingPeriod) {
-                    balanceSheetDate.dates.push({ period, publishedAt, price })
-                }
-    
-                await balanceSheetDate.save()
+            balanceSheetDate.lastPrice = lastPrice
+
+            if (!existingPeriod) {
+                balanceSheetDate.dates.push({ period, publishedAt, price })
             }
+
+            await balanceSheetDate.save()
             return
         }
+
         const newBalanceSheetDate = new config.BalanceSheetDate({
             stockCode,
             lastPrice,
@@ -136,7 +133,7 @@ async function fetchPriceHistory(period, from, to, endeks) {
         // console.log('Endeks: ' + endeks + ' Period: ' + period)
         return response
     } catch (error) {
-        if(error == 'Error: read ECONNRESET') {
+        if (error == 'Error: read ECONNRESET') {
             return fetchPriceHistory(period, from, to, endeks)
         }
         console.log('FETCH PRICE HISTORY ERROR: ' + error + 'endeks: ' + endeks)
@@ -144,14 +141,18 @@ async function fetchPriceHistory(period, from, to, endeks) {
     }
 }
 
-async function isCollectionExists(collectionName) {
-    const collections = await db.mongoose.connection.db.listCollections({ name: collectionName }).toArray();
-    return collections.length > 0;
+async function ensureCollectionExists(collectionName) {
+    const collectionExists = await isCollectionExists(collectionName);
+    if (!collectionExists) {
+        console.log(`Koleksiyon ${collectionName} mevcut değil, oluşturulacak.`);
+        // Burada gerekli adımları atabilirsiniz. Ancak, genellikle Mongoose bunu otomatik yapacaktır.
+    }
 }
 
 app.listen(3001, async () => {
     // await getAllData()
     // await dropDatabase()
+    // await ensureCollectionExists('balance_sheet_dates');
     // await memberDisclosureQuery()
     console.log("listening on port 3001")
 })
