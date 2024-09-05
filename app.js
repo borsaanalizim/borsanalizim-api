@@ -1,5 +1,6 @@
 const express = require("express")
 const axios = require('axios')
+const cron = require('node-cron')
 
 const app = express()
 
@@ -14,8 +15,14 @@ app.use(express.json())
 app.use("/", main)
 app.use("/api/balancesheetdates", balanceSheetDates)
 
+const schedule = cron.schedule('0 0 * * *', async () => {
+    await memberDisclosureQuery()
+})
+
+schedule.start()
+
 const requestData = {
-    "fromDate":  dateUtil.nowYear() + "-01-01",
+    "fromDate": dateUtil.nowYear() + "-01-01",
     "toDate": dateUtil.nowYear() + "-12-31",
     "year": "",
     "prd": "",
@@ -60,6 +67,7 @@ async function memberDisclosureQuery() {
         const formattedTime = dateUtil.formatDateOfSpecial(item.publishDate)
         const publishedAt = formattedTime ? formattedTime : item.publishDate
         const stockCode = getSingleStockCodeString(item.stockCodes)
+        const lastUpdated = Date.now()
 
         let period
         if (ruleTypeTerm && typeof ruleTypeTerm === 'string') {
@@ -100,6 +108,7 @@ async function memberDisclosureQuery() {
 
             if (!existingPeriod) {
                 balanceSheetDate.dates.push({ period, publishedAt, price })
+                balanceSheetDate.lastUpdated = lastUpdated
             }
 
             await balanceSheetDate.save()
@@ -110,7 +119,8 @@ async function memberDisclosureQuery() {
         const newBalanceSheetDate = new config.BalanceSheetDate({
             stockCode,
             lastPrice,
-            dates: [{ period, publishedAt, price }]
+            dates: [{ period, publishedAt, price }],
+            lastUpdated
         })
         await newBalanceSheetDate.save()
         // console.log('StockCode: ' + stockCode + ' Period: ' + period + ' Price: ' + price + ' LastPrice: ' + lastPrice)

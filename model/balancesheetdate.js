@@ -26,7 +26,11 @@ const balanceSheetDateSchema = new Schema({
                 required: true
             }
         }
-    ]
+    ],
+    lastUpdated: {
+        type: Date,
+        default: Date.now
+    }
 }, {collection: 'balance_sheet_date'})
 
 
