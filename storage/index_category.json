@@ -1,0 +1,266 @@
+[
+    {
+        "code": "XU100",
+        "name": "BIST 100"
+    },
+    {
+        "code": "XU050",
+        "name": "BIST 50"
+    },
+    {
+        "code": "XU030",
+        "name": "BIST 30"
+    },
+    {
+        "code": "XU500",
+        "name": "BIST 500"
+    },
+    {
+        "code": "XLBNK",
+        "name": "BIST LİKİT BANKA"
+    },
+    {
+        "code": "X10XB",
+        "name": "BIST BANKA DIŞI LİKİT 10"
+    },
+    {
+        "code": "XUTUM",
+        "name": "BIST TÜM"
+    },
+    {
+        "code": "XYUZO",
+        "name": "BIST 100-30"
+    },
+    {
+        "code": "XTUMY",
+        "name": "BIST TÜM-100"
+    },
+    {
+        "code": "XYLDZ",
+        "name": "BIST YILDIZ"
+    },
+    {
+        "code": "XBANA",
+        "name": "BIST ANA"
+    },
+    {
+        "code": "XHARZ",
+        "name": "BIST HALKA ARZ"
+    },
+    {
+        "code": "XKOBI",
+        "name": "BIST KOBI SANAYİ"
+    },
+    {
+        "code": "XTMTU",
+        "name": "BIST TEMETTÜ"
+    },
+    {
+        "code": "XTM25",
+        "name": "BIST TEMETTÜ 25"
+    },
+    {
+        "code": "XKURY",
+        "name": "BIST KURUMSAL YÖNETİM"
+    },
+    {
+        "code": "XUSRD",
+        "name": "BIST SÜRDÜRÜLEBİLİRLİK"
+    },
+    {
+        "code": "XSD25",
+        "name": "BIST SÜRDÜRÜLEBİLİRLİK 25"
+    },
+    {
+        "code": "XUSIN",
+        "name": "BIST SINAİ"
+    },
+    {
+        "code": "XGIDA",
+        "name": "BIST GIDA, İÇECEK"
+    },
+    {
+        "code": "XKMYA",
+        "name": "BIST KİMYA, PETROL, PLASTİK"
+    },
+    {
+        "code": "XMADN",
+        "name": "BIST MADENCİLİK"
+    },
+    {
+        "code": "XMANA",
+        "name": "BIST METAL ANA"
+    },
+    {
+        "code": "XMESY",
+        "name": "BIST METAL EŞYA, MAKİNA"
+    },
+    {
+        "code": "XKAGT",
+        "name": "BIST ORMAN, KAĞIT, BASIM"
+    },
+    {
+        "code": "XTAST",
+        "name": "BIST TAŞ, TOPRAK"
+    },
+    {
+        "code": "XTEKS",
+        "name": "BIST TEKSTİL, DERİ"
+    },
+    {
+        "code": "XUHIZ",
+        "name": "BIST HİZMETLER"
+    },
+    {
+        "code": "XELKT",
+        "name": "BIST ELEKTRİK"
+    },
+    {
+        "code": "XILTM",
+        "name": "BIST İLETİŞİM"
+    },
+    {
+        "code": "XINSA",
+        "name": "BIST İNŞAAT"
+    },
+    {
+        "code": "XSPOR",
+        "name": "BIST SPOR"
+    },
+    {
+        "code": "XTCRT",
+        "name": "BIST TİCARET"
+    },
+    {
+        "code": "XTRZM",
+        "name": "BIST TURİZM"
+    },
+    {
+        "code": "XULAS",
+        "name": "BIST ULAŞTIRMA"
+    },
+    {
+        "code": "XUMAL",
+        "name": "BIST MALİ"
+    },
+    {
+        "code": "XBANK",
+        "name": "BIST BANKA"
+    },
+    {
+        "code": "XSGRT",
+        "name": "BIST SİGORTA"
+    },
+    {
+        "code": "XFINK",
+        "name": "BIST FİN. KİR. FAKTORİNG"
+    },
+    {
+        "code": "XHOLD",
+        "name": "BIST HOLDİNG VE YATIRIM"
+    },
+    {
+        "code": "XGMYO",
+        "name": "BIST GAYRİMENKUL YAT. ORT."
+    },
+    {
+        "code": "XAKUR",
+        "name": "BIST ARACI KURUM"
+    },
+    {
+        "code": "XYORT",
+        "name": "BIST MENKUL KIYM Y.O."
+    },
+    {
+        "code": "XUTEK",
+        "name": "BIST TEKNOLOJİ"
+    },
+    {
+        "code": "XBLSM",
+        "name": "BIST BİLİŞİM"
+    },
+    {
+        "code": "XSADA",
+        "name": "BIST ADANA"
+    },
+    {
+        "code": "XSANK",
+        "name": "BIST ANKARA"
+    },
+    {
+        "code": "XSANT",
+        "name": "BIST ANTALYA"
+    },
+    {
+        "code": "XSAYD",
+        "name": "BIST AYDIN"
+    },
+    {
+        "code": "XSBAL",
+        "name": "BIST BALIKESİR"
+    },
+    {
+        "code": "XSBUR",
+        "name": "BIST BURSA"
+    },
+    {
+        "code": "XSDNZ",
+        "name": "BIST DENİZLİ"
+    },
+    {
+        "code": "XSIST",
+        "name": "BIST İSTANBUL"
+    },
+    {
+        "code": "XSIZM",
+        "name": "BIST İZMİR"
+    },
+    {
+        "code": "XSKAY",
+        "name": "BIST KAYSERİ"
+    },
+    {
+        "code": "XSKOC",
+        "name": "BIST KOCAELİ"
+    },
+    {
+        "code": "XSKON",
+        "name": "BIST KONYA"
+    },
+    {
+        "code": "XSMNS",
+        "name": "BIST MANİSA"
+    },
+    {
+        "code": "XSTKR",
+        "name": "BIST TEKİRDAĞ"
+    },
+    {
+        "code": "XKTUM",
+        "name": "BIST KATILIM TUM"
+    },
+    {
+        "code": "XK100",
+        "name": "BIST KATILIM 100"
+    },
+    {
+        "code": "XK050",
+        "name": "BIST KATILIM 50"
+    },
+    {
+        "code": "XK030",
+        "name": "BIST KATILIM 30"
+    },
+    {
+        "code": "XKTMT",
+        "name": "BIST KATILIM TEMETTU"
+    },
+    {
+        "code": "XSRDK",
+        "name": "BIST SÜRDÜRÜLEBİLİRLİK KATILIM"
+    },
+    {
+        "code": "XUGRA",
+        "name": "BIST GERİ ALIM"
+    }
+]

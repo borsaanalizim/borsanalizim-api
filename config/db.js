@@ -1,7 +1,8 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 
-const connectionString = 'mongodb://127.0.0.1:27017/borsaanalizim_db'
+const connectionString = 'mongodb://127.0.0.1:27017/borsaanalizim_db';
 
+// Veritabanına bağlanma fonksiyonu
 async function connectDB() {
     try {
         await mongoose.connect(connectionString);
@@ -12,7 +13,18 @@ async function connectDB() {
     }
 }
 
-module.exports = {
-    mongoose,
-    connectDB,
+// Veritabanı bağlantısını kapatma fonksiyonu
+async function closeDB() {
+    try {
+        await mongoose.connection.close(); // Bağlantı kapanana kadar beklenir
+        console.log('Mongoose bağlantısı kapatıldı');
+    } catch (err) {
+        console.log("DB Kapatma Hatası:" + err);
+        throw err;
+    }
 }
+
+module.exports = {
+    connectDB,
+    closeDB,
+};

@@ -1,4 +1,4 @@
-const config = require("../config/config")
+const config = require("../../config/config")
 
 exports.get = async function(req, res, next) {
     try {

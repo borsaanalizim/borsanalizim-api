@@ -31,7 +31,7 @@ const balanceSheetDateSchema = new Schema({
         type: Date,
         default: Date.now
     }
-}, {collection: 'balance_sheet_date'})
+}, { collection: 'balance_sheet_date' })
 
 
 module.exports = mongoose.model('BalanceSheetDate', balanceSheetDateSchema);
