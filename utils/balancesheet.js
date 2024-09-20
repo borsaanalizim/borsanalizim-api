@@ -17,7 +17,7 @@ async function getBalanceSheets(year) {
             ];
 
             if(financialGroup == "UFRS_K") {
-                return
+                continue
             }
 
             const response = await axios.get(
