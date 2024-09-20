@@ -4,6 +4,7 @@ const Sector = require('../model/sector')
 const Stock = require('../model/stock')
 const StockIndex = require('../model/stockindex')
 const StockSector = require('../model/stocksector')
+const BalanceSheet = require('../model/balancesheet')
 
 module.exports.BalanceSheetDate = BalanceSheetDate
 module.exports.Index = Index
@@ -11,3 +12,4 @@ module.exports.Sector = Sector
 module.exports.Stock = Stock
 module.exports.StockIndex = StockIndex
 module.exports.StockSector = StockSector
+module.exports.BalanceSheet = BalanceSheet

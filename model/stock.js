@@ -11,6 +11,10 @@ const stockSchema = new Schema({
         type: String,
         required: true
     },
+    financialGroup: {
+        type: String,
+        required: true
+    },
     indexes: {
         type: [String],
         required: true,

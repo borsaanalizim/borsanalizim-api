@@ -3,6 +3,8 @@ const cron = require('node-cron');
 
 const db = require("./config/db");
 const notificationUtil = require('./utils/notification');
+const balanceSheetUtil = require('./utils/balancesheet');
+const dateUtil = require('./utils/date');
 
 const app = express();
 
@@ -14,6 +16,8 @@ require('./routes/manager')(app);
 // Cron job ile her gece çalışacak görev
 const schedule = cron.schedule('0 0 * * *', async () => {
     await notificationUtil.memberDisclosureQuery();
+    await balanceSheetUtil.getBalanceSheets(`${dateUtil.nowYear() - 1}`);
+    await balanceSheetUtil.getBalanceSheets(`${dateUtil.nowYear()}`);
 });
 
 // Sunucu dinleme ve veritabanı bağlantısı

@@ -9,10 +9,11 @@ async function addAllStocks(req, res, next) {
         for (const item of stocks) {
             const code = stockUtil.getSingleStockCodeString(item.code);
             const name = item.name;
+            var financialGroup = ""
 
             const existingStock = await config.Stock.findOne({ code });
 
-            if (existingStock && existingStock.code !== code) {
+            if (existingStock) {
                 return;
             }
 
@@ -20,11 +21,24 @@ async function addAllStocks(req, res, next) {
                 config.StockIndex.find({ "stocks.code": code }, "category"),
                 config.StockSector.find({ "stocks.code": code }, "category"),
             ]);
+            
+            const liquidBank = "BIST LİKİT BANKA";
+            const bank = "BIST BANKA";
+            const insurance = "BIST SİGORTA";
+
+            const indexCategories = indexes.map(index => index.category);
+
+            if ([liquidBank, bank, insurance].some(item => indexCategories.includes(item))) {
+                financialGroup = "UFRS_K";
+            } else {
+                financialGroup = "XI_29";
+            }
 
             const newStock = new config.Stock({
                 code,
                 name,
-                indexes: indexes.map(index => index.category),
+                financialGroup,
+                indexes: indexCategories,
                 sectors: sectors.map(sector => sector.category),
             });
 
