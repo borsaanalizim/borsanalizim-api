@@ -20,24 +20,7 @@ async function getBalanceSheets(year) {
                 continue
             }
 
-            const response = await axios.get(
-                'https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo',
-                {
-                    params: {
-                        companyCode,
-                        exchange,
-                        financialGroup,
-                        year1: periods[0].year,
-                        period1: periods[0].period,
-                        year2: periods[1].year,
-                        period2: periods[1].period,
-                        year3: periods[2].year,
-                        period3: periods[2].period,
-                        year4: periods[3].year,
-                        period4: periods[3].period,
-                    }
-                }
-            );
+            const response = await fetchBalanceSheet(companyCode, exchange, financialGroup, periods)
 
             const responseDataValues = response.data.value;
 
@@ -61,6 +44,33 @@ async function getBalanceSheets(year) {
         }
     } catch (error) {
         console.error("Balance Sheet Error:", error);
+    }
+}
+
+async function fetchBalanceSheet(companyCode, exchange, financialGroup, periods) {
+    try {
+        const response = await axios.get(
+            'https://www.isyatirim.com.tr/_layouts/15/IsYatirim.Website/Common/Data.aspx/MaliTablo',
+            {
+                params: {
+                    companyCode,
+                    exchange,
+                    financialGroup,
+                    year1: periods[0].year,
+                    period1: periods[0].period,
+                    year2: periods[1].year,
+                    period2: periods[1].period,
+                    year3: periods[2].year,
+                    period3: periods[2].period,
+                    year4: periods[3].year,
+                    period4: periods[3].period,
+                }
+            }
+        );
+        return response
+    } catch (error) {
+        console.log("ERROR SERVICE: " + error + " Company: " + companyCode + " Periods: " + periods)
+        return fetchBalanceSheet(companyCode, exchange, financialGroup, periods)
     }
 }
 
