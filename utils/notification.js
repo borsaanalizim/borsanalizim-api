@@ -5,9 +5,11 @@ const stockUtil = require('./stock');
 
 const { fetchPriceHistory } = require('./pricehistory');
 
+const nowYear = dateUtil.nowYear()
+
 const requestData = {
-    "fromDate": dateUtil.nowYear() + "-01-01",
-    "toDate": dateUtil.nowYear() + "-12-31",
+    "fromDate": nowYear + "-01-01",
+    "toDate": nowYear + "-12-31",
     "year": "",
     "prd": "",
     "term": "",
@@ -77,7 +79,7 @@ function determinePeriod(year, ruleTypeTerm) {
 async function getPrices(stockCode, publishedAt) {
     let price, lastPrice;
     try {
-        const priceHistoryResponse = await fetchPriceHistory('1440', dateUtil.nowYear() + '0101000000', dateUtil.nowYear() + '1231235959', stockCode + '.E.BIST');
+        const priceHistoryResponse = await fetchPriceHistory('1440', nowYear + '0101000000', nowYear + '1231235959', stockCode + '.E.BIST');
 
         if (priceHistoryResponse) {
             const priceHistoryMap = priceHistoryResponse.data.data.reduce((map, item) => {
