@@ -256,6 +256,10 @@
         "name": "ATA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
     },
     {
+        "code": "ATA, ATAYM",
+        "name": "ATA YATIRIM MENKUL KIYMETLER A.Ş."
+    },
+    {
         "code": "ATAKP",
         "name": "ATAKEY PATATES GIDA SANAYİ VE TİCARET A.Ş."
     },
@@ -442,10 +446,6 @@
     {
         "code": "BNPPI",
         "name": "BNP PARIBAS ISSUANCE B.V."
-    },
-    {
-        "code": "BNPFK",
-        "name": "BNP PARİBAS FİNANSAL KİRALAMA A.Ş."
     },
     {
         "code": "BOBET",
@@ -744,6 +744,10 @@
         "name": "DURAN DOĞAN BASIM VE AMBALAJ SANAYİ A.Ş."
     },
     {
+        "code": "DURKN",
+        "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
+    },
+    {
         "code": "DNYVA",
         "name": "DÜNYA VARLIK YÖNETİM A.Ş."
     },
@@ -996,10 +1000,6 @@
         "name": "GARANTİ FAKTORİNG A.Ş."
     },
     {
-        "code": "GARFL",
-        "name": "GARANTİ FİLO YÖNETİM HİZMETLERİ A.Ş."
-    },
-    {
         "code": "GRNYO",
         "name": "GARANTİ YATIRIM ORTAKLIĞI A.Ş."
     },
@@ -1150,6 +1150,10 @@
     {
         "code": "HDFVK",
         "name": "HEDEF VARLIK KİRALAMA A.Ş."
+    },
+    {
+        "code": "HDFYB, HYB",
+        "name": "HEDEF YATIRIM BANKASI A.Ş."
     },
     {
         "code": "HEKTS",
@@ -1348,19 +1352,15 @@
         "name": "KALKINMA YATIRIM VARLIK KİRALAMA A.Ş."
     },
     {
+        "code": "KAPTESTAS001, TRAKAPTEST01",
+        "name": "KAP TEST A.Ş."
+    },
+    {
         "code": "KAPLM",
         "name": "KAPLAMİN AMBALAJ SANAYİ VE TİCARET A.Ş."
     },
     {
-        "code": "KRDMA",
-        "name": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KRDMB",
-        "name": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KRDMD",
+        "code": "KRDMA, KRDMB, KRDMD",
         "name": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş."
     },
     {
@@ -1598,6 +1598,10 @@
     {
         "code": "LYDHO",
         "name": "LYDİA HOLDİNG A.Ş."
+    },
+    {
+        "code": "TETMT",
+        "name": "LYDİA YEŞİL ENERJİ KAYNAKLARI A.Ş."
     },
     {
         "code": "MACKO",
@@ -2320,10 +2324,6 @@
         "name": "TAV HAVALİMANLARI HOLDİNG A.Ş."
     },
     {
-        "code": "TEBFA",
-        "name": "TEB FAKTORİNG A.Ş."
-    },
-    {
         "code": "TEBCE",
         "name": "TEB FİNANSMAN A.Ş."
     },
@@ -2346,10 +2346,6 @@
     {
         "code": "TERA, TRA",
         "name": "TERA YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "TETMT",
-        "name": "TETAMAT GIDA YATIRIMLARI A.Ş."
     },
     {
         "code": "TFNVK",
@@ -2412,10 +2408,6 @@
         "name": "TUREKS TURUNÇ MADENCİLİK İÇ VE DIŞ TİCARET A.Ş."
     },
     {
-        "code": "TRKFN",
-        "name": "TURK FİNANSMAN A.Ş."
-    },
-    {
         "code": "TRILC",
         "name": "TURK İLAÇ VE SERUM SANAYİ A.Ş."
     },
@@ -2430,10 +2422,6 @@
     {
         "code": "TBA, TRKSH",
         "name": "TURKISH BANK A.Ş."
-    },
-    {
-        "code": "TRKNT",
-        "name": "TURKNET İLETİŞİM HİZMETLERİ A.Ş."
     },
     {
         "code": "TMSN",
@@ -2626,10 +2614,6 @@
     {
         "code": "YATAS",
         "name": "YATAŞ YATAK VE YORGAN SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "YAT, YFMEN",
-        "name": "YATIRIM FİNANSMAN MENKUL DEĞERLER A.Ş."
     },
     {
         "code": "YATVK",

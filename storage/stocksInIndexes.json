@@ -3281,6 +3281,10 @@
                 "name": "ÇEMTAŞ ÇELİK MAKİNA SANAYİ VE TİCARET A.Ş."
             },
             {
+                "code": "CEMZY",
+                "name": "CEM ZEYTİN A.Ş."
+            },
+            {
                 "code": "CEOEM",
                 "name": "CEO EVENT MEDYA A.Ş."
             },
@@ -3431,6 +3435,10 @@
             {
                 "code": "DURDO",
                 "name": "DURAN DOĞAN BASIM VE AMBALAJ SANAYİ A.Ş."
+            },
+            {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
             },
             {
                 "code": "DYOBY",
@@ -4762,7 +4770,7 @@
             },
             {
                 "code": "TETMT",
-                "name": "TETAMAT GIDA YATIRIMLARI A.Ş."
+                "name": "LYDİA YEŞİL ENERJİ KAYNAKLARI A.Ş."
             },
             {
                 "code": "TEZOL",
@@ -5671,6 +5679,10 @@
                 "name": "ÇEMTAŞ ÇELİK MAKİNA SANAYİ VE TİCARET A.Ş."
             },
             {
+                "code": "CEMZY",
+                "name": "CEM ZEYTİN A.Ş."
+            },
+            {
                 "code": "CEOEM",
                 "name": "CEO EVENT MEDYA A.Ş."
             },
@@ -5805,6 +5817,10 @@
             {
                 "code": "DURDO",
                 "name": "DURAN DOĞAN BASIM VE AMBALAJ SANAYİ A.Ş."
+            },
+            {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
             },
             {
                 "code": "DYOBY",
@@ -6920,7 +6936,7 @@
             },
             {
                 "code": "TETMT",
-                "name": "TETAMAT GIDA YATIRIMLARI A.Ş."
+                "name": "LYDİA YEŞİL ENERJİ KAYNAKLARI A.Ş."
             },
             {
                 "code": "TEZOL",
@@ -7382,6 +7398,10 @@
             {
                 "code": "CEMTS",
                 "name": "ÇEMTAŞ ÇELİK MAKİNA SANAYİ VE TİCARET A.Ş."
+            },
+            {
+                "code": "CEMZY",
+                "name": "CEM ZEYTİN A.Ş."
             },
             {
                 "code": "CIMSA",
@@ -8569,6 +8589,10 @@
                 "name": "DURAN DOĞAN BASIM VE AMBALAJ SANAYİ A.Ş."
             },
             {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
+            },
+            {
                 "code": "DYOBY",
                 "name": "DYO BOYA FABRİKALARI SANAYİ VE TİCARET A.Ş."
             },
@@ -9077,6 +9101,10 @@
                 "name": "SMARTİKS YAZILIM A.Ş."
             },
             {
+                "code": "TBORG",
+                "name": "TÜRK TUBORG BİRA VE MALT SANAYİİ A.Ş."
+            },
+            {
                 "code": "TDGYO",
                 "name": "TREND GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
             },
@@ -9270,6 +9298,10 @@
                 "name": "ÇATES ELEKTRİK ÜRETİM A.Ş."
             },
             {
+                "code": "CEMZY",
+                "name": "CEM ZEYTİN A.Ş."
+            },
+            {
                 "code": "CVKMD",
                 "name": "CVK MADEN İŞLETMELERİ SANAYİ VE TİCARET A.Ş."
             },
@@ -9288,6 +9320,10 @@
             {
                 "code": "DOFER",
                 "name": "DOFER YAPI MALZEMELERİ SANAYİ VE TİCARET A.Ş."
+            },
+            {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
             },
             {
                 "code": "EBEBK",
@@ -9645,10 +9681,6 @@
             {
                 "code": "SEYKM",
                 "name": "SEYİTLER KİMYA SANAYİ A.Ş."
-            },
-            {
-                "code": "TETMT",
-                "name": "TETAMAT GIDA YATIRIMLARI A.Ş."
             },
             {
                 "code": "VANGD",
@@ -11141,6 +11173,10 @@
                 "name": "ÇEMTAŞ ÇELİK MAKİNA SANAYİ VE TİCARET A.Ş."
             },
             {
+                "code": "CEMZY",
+                "name": "CEM ZEYTİN A.Ş."
+            },
+            {
                 "code": "CIMSA",
                 "name": "ÇİMSA ÇİMENTO SANAYİ VE TİCARET A.Ş."
             },
@@ -11211,6 +11247,10 @@
             {
                 "code": "DURDO",
                 "name": "DURAN DOĞAN BASIM VE AMBALAJ SANAYİ A.Ş."
+            },
+            {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
             },
             {
                 "code": "DYOBY",
@@ -11761,12 +11801,12 @@
                 "name": "TAT GIDA SANAYİ A.Ş."
             },
             {
-                "code": "TCKRC",
-                "name": "KIRAÇ GALVANİZ TELEKOMİNİKASYON METAL MAKİNE İNŞAAT ELEKTRİK SANAYİ VE TİCARET A.Ş."
+                "code": "TBORG",
+                "name": "TÜRK TUBORG BİRA VE MALT SANAYİİ A.Ş."
             },
             {
-                "code": "TETMT",
-                "name": "TETAMAT GIDA YATIRIMLARI A.Ş."
+                "code": "TCKRC",
+                "name": "KIRAÇ GALVANİZ TELEKOMİNİKASYON METAL MAKİNE İNŞAAT ELEKTRİK SANAYİ VE TİCARET A.Ş."
             },
             {
                 "code": "TEZOL",
@@ -11894,12 +11934,20 @@
                 "name": "COCA-COLA İÇECEK A.Ş."
             },
             {
+                "code": "CEMZY",
+                "name": "CEM ZEYTİN A.Ş."
+            },
+            {
                 "code": "DARDL",
                 "name": "DARDANEL ÖNENTAŞ GIDA SANAYİ A.Ş."
             },
             {
                 "code": "DMRGD",
                 "name": "DMR UNLU MAMULLER ÜRETİM GIDA TOPTAN PERAKENDE İHRACAT A.Ş."
+            },
+            {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
             },
             {
                 "code": "EFORC",
@@ -12014,8 +12062,8 @@
                 "name": "TAT GIDA SANAYİ A.Ş."
             },
             {
-                "code": "TETMT",
-                "name": "TETAMAT GIDA YATIRIMLARI A.Ş."
+                "code": "TBORG",
+                "name": "TÜRK TUBORG BİRA VE MALT SANAYİİ A.Ş."
             },
             {
                 "code": "TUKAS",
@@ -13014,10 +13062,6 @@
                 "name": "GÜR-SEL TURİZM TAŞIMACILIK VE SERVİS TİCARET A.Ş."
             },
             {
-                "code": "GRTRK",
-                "name": "GRAINTURK HOLDİNG A.Ş."
-            },
-            {
                 "code": "GSDDE",
                 "name": "GSD DENİZCİLİK GAYRİMENKUL İNŞAAT SANAYİ VE TİCARET A.Ş."
             },
@@ -13238,6 +13282,10 @@
                 "name": "TEK-ART İNŞAAT TİCARET TURİZM SANAYİ VE YATIRIMLAR A.Ş."
             },
             {
+                "code": "TETMT",
+                "name": "LYDİA YEŞİL ENERJİ KAYNAKLARI A.Ş."
+            },
+            {
                 "code": "TGSAS",
                 "name": "TGS DIŞ TİCARET A.Ş."
             },
@@ -13427,6 +13475,10 @@
                 "name": "TATLIPINAR ENERJİ ÜRETİM A.Ş."
             },
             {
+                "code": "TETMT",
+                "name": "LYDİA YEŞİL ENERJİ KAYNAKLARI A.Ş."
+            },
+            {
                 "code": "ZEDUR",
                 "name": "ZEDUR ENERJİ ELEKTRİK ÜRETİM A.Ş."
             },
@@ -13561,10 +13613,6 @@
             {
                 "code": "GMTAS",
                 "name": "GİMAT MAĞAZACILIK SANAYİ VE TİCARET A.Ş."
-            },
-            {
-                "code": "GRTRK",
-                "name": "GRAINTURK HOLDİNG A.Ş."
             },
             {
                 "code": "INTEM",
@@ -13936,6 +13984,10 @@
             {
                 "code": "GOZDE",
                 "name": "GÖZDE GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
+            },
+            {
+                "code": "GRTRK",
+                "name": "GRAINTURK HOLDİNG A.Ş."
             },
             {
                 "code": "GSDHO",
@@ -14480,6 +14532,10 @@
             {
                 "code": "GOZDE",
                 "name": "GÖZDE GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
+            },
+            {
+                "code": "GRTRK",
+                "name": "GRAINTURK HOLDİNG A.Ş."
             },
             {
                 "code": "GSDHO",
@@ -15237,6 +15293,10 @@
                 "name": "BÜLBÜLOĞLU VİNÇ SANAYİ VE TİCARET A.Ş."
             },
             {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
+            },
+            {
                 "code": "EDATA",
                 "name": "E-DATA TEKNOLOJİ PAZARLAMA A.Ş."
             },
@@ -15381,10 +15441,6 @@
                 "name": "SEĞMEN KARDEŞLER GIDA ÜRETİM VE AMBALAJ SANAYİ A.Ş."
             },
             {
-                "code": "TETMT",
-                "name": "TETAMAT GIDA YATIRIMLARI A.Ş."
-            },
-            {
                 "code": "TRILC",
                 "name": "TURK İLAÇ VE SERUM SANAYİ A.Ş."
             },
@@ -15498,6 +15554,10 @@
             {
                 "code": "BNTAS",
                 "name": "BANTAŞ BANDIRMA AMBALAJ SANAYİ VE TİCARET A.Ş."
+            },
+            {
+                "code": "CEMZY",
+                "name": "CEM ZEYTİN A.Ş."
             },
             {
                 "code": "EKOS",
@@ -16392,6 +16452,10 @@
                 "name": "SUN TEKSTİL SANAYİ VE TİCARET A.Ş."
             },
             {
+                "code": "TBORG",
+                "name": "TÜRK TUBORG BİRA VE MALT SANAYİİ A.Ş."
+            },
+            {
                 "code": "TEZOL",
                 "name": "EUROPAP TEZOL KAĞIT SANAYİ VE TİCARET A.Ş."
             },
@@ -16980,6 +17044,10 @@
             {
                 "code": "DOGUB",
                 "name": "DOĞUSAN BORU SANAYİ VE TİCARET A.Ş."
+            },
+            {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
             },
             {
                 "code": "DYOBY",

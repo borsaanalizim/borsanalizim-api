@@ -12,7 +12,7 @@ async function deleteAllIndexes(req, res, next) {
 
 async function addAllIndexes(req, res, next) {
     try {
-        const indexCategories = await fileUtil.readJsonFile('storage/index_category.json')
+        const indexCategories = await fileUtil.readJsonFile('storage/indexes.json')
         const existingCodes = await config.Index.find().distinct('code');
         const newIndexes = indexCategories.filter(item => !existingCodes.includes(item.code));
 
@@ -28,6 +28,10 @@ async function addAllIndexes(req, res, next) {
 }
 
 exports.get = async function (req, res, next) {
-    await addAllIndexes(req, res, next)
+    try {
+        await addAllIndexes(req, res, next);
+    } catch (error) {
+        console.error("Hata oluştu: ", error);
+        res.status(500).send("Bir hata oluştu: " + error.message);
+    }
 };
-

@@ -1,9 +1,14 @@
 const indexPage = require('./indexPage')
 
+const createSectors = require('./createSectors')
 const sectors = require('./sectors')
+const createStocksInSectors = require('./createStocksInSectors')
 const stocksInSectors = require('./stocksInSectors')
+const createIndexes = require('./createIndexes')
 const indexes = require('./indexes')
+const createStocksInIndexes = require('./createStocksInIndexes')
 const stocksInIndexes = require('./stocksInIndexes')
+const createStocks = require('./createStocks')
 const stocks = require('./stocks')
 const balanceSheets = require('./balancesheets')
 
@@ -18,10 +23,15 @@ const balanceSheetsApi = require("./api/balancesheets")
 module.exports = function (app) {
     app.use("/", indexPage)
 
+    app.use("/createSectors", createSectors)
     app.use("/sectors", sectors)
+    app.use("/createStocksInSectors", createStocksInSectors)
     app.use("/stocksInSectors", stocksInSectors)
+    app.use("/createIndexes", createIndexes)
+    app.use("/createStocksInIndexes", createStocksInIndexes)
     app.use("/indexes", indexes)
     app.use("/stocksInIndexes", stocksInIndexes)
+    app.use("/createStocks", createStocks)
     app.use("/stocks", stocks)
     app.use("/balanceSheets", balanceSheets)
 

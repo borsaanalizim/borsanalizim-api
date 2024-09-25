@@ -12,7 +12,7 @@ async function deleteAllStocksInIndexes(req, res, next) {
 
 async function addAllStocksInIndexes(req, res, next) {
     try {
-        const indexes = await fileUtil.readJsonFile('storage/index.json')
+        const indexes = await fileUtil.readJsonFile('storage/stocksInIndexes.json')
         const stockIndexes = await config.StockIndex.find()
         const indexMap = new Map()
         stockIndexes.forEach(index => indexMap.set(index.category, index))

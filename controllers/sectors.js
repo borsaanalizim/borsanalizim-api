@@ -12,7 +12,7 @@ async function deleteAllSectors(req, res, next) {
 
 async function addAllSectors(req, res, next) {
     try {
-        const indexCategories = await fileUtil.readJsonFile('storage/sector_category.json')
+        const indexCategories = await fileUtil.readJsonFile('storage/sectors.json')
         const findPromises = indexCategories.map(item => config.Sector.findOne({ mainCategory: item.mainCategory }));
 
         const existingSectors = await Promise.all(findPromises);

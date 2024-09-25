@@ -6,13 +6,14 @@ async function addBalanceSheets(req, res, next) {
         const stockCode = req.query.stockCode
         const year = req.query.year
         if(stockCode) {
-            await balanceSheetUtil.getBalanceSheetsByStock(stockCode, year)
+            balanceSheetUtil.getBalanceSheetsByStock(stockCode, year)
+            res.status(200).send("BORSA ANALIZIM - Balance Sheet - " + stockCode)
         } else {
-            await balanceSheetUtil.getBalanceSheets(year)
+            balanceSheetUtil.getBalanceSheets(year)
+            res.status(200).send("BORSA ANALIZIM - Bilanço isteği yapıldı, yaklaşık 10 dakika sonra tamamlanacaktır.")
         }
-        res.status(200).send("BORSA ANALIZIM - Balance Sheet")
     } catch (error) {
-        res.status(500).json({ error: { message: "Bilinmeyen bir hata oluştu", detail: error } })
+        res.status(500).json("Bilinmeyen bir hata oluştu: " + error)
     }
 }
 

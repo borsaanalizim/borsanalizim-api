@@ -13,7 +13,7 @@ async function deleteAllStocksInSectors(req, res, next) {
 
 async function addAllStocksInSectors(req, res, next) {
     try {
-        const sectors = await fileUtil.readJsonFile('storage/sector.json')
+        const sectors = await fileUtil.readJsonFile('storage/stocksInSectors.json')
         const existingSectors = await config.StockSector.find().distinct('category');
 
         // Yeni eklenecek sektörleri filtrele

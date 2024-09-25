@@ -426,6 +426,10 @@
                 "name": "DURAN DOĞAN BASIM VE AMBALAJ SANAYİ A.Ş."
             },
             {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
+            },
+            {
                 "code": "DYOBY",
                 "name": "DYO BOYA FABRİKALARI SANAYİ VE TİCARET A.Ş."
             },
@@ -986,10 +990,6 @@
                 "name": "KIRAÇ GALVANİZ TELEKOMİNİKASYON METAL MAKİNE İNŞAAT ELEKTRİK SANAYİ VE TİCARET A.Ş."
             },
             {
-                "code": "TETMT",
-                "name": "TETAMAT GIDA YATIRIMLARI A.Ş."
-            },
-            {
                 "code": "TEZOL",
                 "name": "EUROPAP TEZOL KAĞIT SANAYİ VE TİCARET A.Ş."
             },
@@ -1131,6 +1131,10 @@
                 "name": "DMR UNLU MAMULLER ÜRETİM GIDA TOPTAN PERAKENDE İHRACAT A.Ş."
             },
             {
+                "code": "DURKN",
+                "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
+            },
+            {
                 "code": "EFORC",
                 "name": "EFOR ÇAY SANAYİ TİCARET A.Ş."
             },
@@ -1253,10 +1257,6 @@
             {
                 "code": "TBORG",
                 "name": "TÜRK TUBORG BİRA VE MALT SANAYİİ A.Ş."
-            },
-            {
-                "code": "TETMT",
-                "name": "TETAMAT GIDA YATIRIMLARI A.Ş."
             },
             {
                 "code": "TUKAS",
@@ -2212,6 +2212,10 @@
                 "name": "TATLIPINAR ENERJİ ÜRETİM A.Ş."
             },
             {
+                "code": "TETMT",
+                "name": "LYDİA YEŞİL ENERJİ KAYNAKLARI A.Ş."
+            },
+            {
                 "code": "ZEDUR",
                 "name": "ZEDUR ENERJİ ELEKTRİK ÜRETİM A.Ş."
             },
@@ -2343,6 +2347,10 @@
             {
                 "code": "TATEN",
                 "name": "TATLIPINAR ENERJİ ÜRETİM A.Ş."
+            },
+            {
+                "code": "TETMT",
+                "name": "LYDİA YEŞİL ENERJİ KAYNAKLARI A.Ş."
             },
             {
                 "code": "ZEDUR",
@@ -2504,10 +2512,6 @@
                 "name": "GİMAT MAĞAZACILIK SANAYİ VE TİCARET A.Ş."
             },
             {
-                "code": "GRTRK",
-                "name": "GRAINTURK HOLDİNG A.Ş."
-            },
-            {
                 "code": "INTEM",
                 "name": "İNTEMA İNŞAAT VE TESİSAT MALZEMELERİ YATIRIM VE PAZARLAMA A.Ş."
             },
@@ -2587,10 +2591,6 @@
             {
                 "code": "GENIL",
                 "name": "GEN İLAÇ VE SAĞLIK ÜRÜNLERİ SANAYİ VE TİCARET A.Ş."
-            },
-            {
-                "code": "GRTRK",
-                "name": "GRAINTURK HOLDİNG A.Ş."
             },
             {
                 "code": "INTEM",
@@ -3019,6 +3019,10 @@
             {
                 "code": "GRNYO",
                 "name": "GARANTİ YATIRIM ORTAKLIĞI A.Ş."
+            },
+            {
+                "code": "GRTRK",
+                "name": "GRAINTURK HOLDİNG A.Ş."
             },
             {
                 "code": "GSDHO",
@@ -3625,6 +3629,10 @@
             {
                 "code": "GLYHO",
                 "name": "GLOBAL YATIRIM HOLDİNG A.Ş."
+            },
+            {
+                "code": "GRTRK",
+                "name": "GRAINTURK HOLDİNG A.Ş."
             },
             {
                 "code": "GSDHO",
