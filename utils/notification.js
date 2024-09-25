@@ -14,7 +14,7 @@ const requestData = {
     "ruleType": "",
     "bdkReview": "",
     "disclosureClass": "FR",
-    "index": "33E5FED8017C00EAE0530A4A622B2AEA",
+    "index": "",
     "market": "",
     "isLate": "",
     "subjectList": ["4028328c594bfdca01594c0af9aa0057"],
