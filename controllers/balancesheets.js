@@ -3,8 +3,13 @@ const config = require('../config/config')
 
 async function addBalanceSheets(req, res, next) {
     try {
+        const stockCode = req.query.stockCode
         const year = req.query.year
-        await balanceSheetUtil.getBalanceSheets(year)
+        if(stockCode) {
+            await balanceSheetUtil.getBalanceSheetsByStock(stockCode, year)
+        } else {
+            await balanceSheetUtil.getBalanceSheets(year)
+        }
         res.status(200).send("BORSA ANALIZIM - Balance Sheet")
     } catch (error) {
         res.status(500).json({ error: { message: "Bilinmeyen bir hata oluştu", detail: error } })

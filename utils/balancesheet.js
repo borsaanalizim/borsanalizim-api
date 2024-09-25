@@ -1,6 +1,50 @@
 const axios = require('axios');
 const config = require('../config/config');
 
+async function getBalanceSheetsByStock(stockCode, year) {
+    try {
+        const stock = await config.Stock.findOne({ code: stockCode })
+        if(!stock) return
+
+        const companyCode = stock.code;
+        const exchange = "TRY";
+        const financialGroup = stock.financialGroup;
+        const periods = [
+            { year: year, period: "3" },
+            { year: year, period: "6" },
+            { year: year, period: "9" },
+            { year: year, period: "12" }
+        ];
+
+        if(financialGroup == "UFRS_K") return
+        
+        const response = await fetchBalanceSheet(companyCode, exchange, financialGroup, periods)
+
+        const responseDataValues = response.data.value;
+
+        const balanceSheetData = periods.map((p, idx) => {
+            return responseDataValues.reduce((acc, responseItem) => {
+                acc[responseItem.itemCode] = responseItem[`value${idx + 1}`];
+                return acc;
+            }, {});
+        });
+
+        for (let i = 0; i < balanceSheetData.length; i++) {
+            const periodData = balanceSheetData[i];
+            if (periodData) {
+                await saveOrUpdateBalanceSheet(
+                    companyCode, 
+                    `${periods[i].year}/${periods[i].period}`, 
+                    periodData
+                );
+            }
+        }
+
+    } catch (error) {
+        console.error("Stock: " + stockCode + " Balance Sheet Error:", error);
+    }
+}
+
 async function getBalanceSheets(year) {
     try {
         const stocks = await config.Stock.find();
@@ -144,4 +188,4 @@ async function saveOrUpdateBalanceSheet(stockCode, period, data) {
     }
 }
 
-module.exports = { getBalanceSheets }
+module.exports = { getBalanceSheets, getBalanceSheetsByStock }
