@@ -35,7 +35,7 @@ async function createSectors(req, res, next) {
             });
         });
     } catch (error) {
-        res.status(500).send(`Hata oluştu: ${newIndexes.length}`);
+        res.status(500).send(`Hata oluştu: ${error}`);
     }
 }
 
