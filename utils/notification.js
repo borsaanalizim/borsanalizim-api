@@ -53,7 +53,7 @@ async function processDisclosureItem(item) {
     const period = determinePeriod(year, ruleTypeTerm);
     const { price, lastPrice } = await getPrices(stockCode, publishedAt);
 
-    if(!price || !lastPrice) {
+    if(!lastPrice) {
         console.log('Stock: ' + stockCode + 'Period: ' + period + ' Price: ' + price + ' Last Price: ' + lastPrice)
         return
     }
