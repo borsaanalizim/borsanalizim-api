@@ -1,8 +1,9 @@
-const path = require('path')
+const notificationUtil = require('../utils/notification')
 
 exports.get = async function (req, res, next) {
     try {
-        res.sendFile(path.join(__dirname + '/../views', 'index.html'))
+        notificationUtil.memberDisclosureQuery()
+        res.status(200).send('Bildirimler yükleniyor...')
     } catch (error) {
         res.status(500).json({ error: { message: "Bilinmeyen bir hata oluştu", detail: error } })
     }
