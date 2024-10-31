@@ -88,6 +88,10 @@
         "name": "AKFEN GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
     },
     {
+        "code": "AKFNI",
+        "name": "AKFEN İNŞAAT TURİZM VE TİCARET A.Ş."
+    },
+    {
         "code": "AKFYE",
         "name": "AKFEN YENİLENEBİLİR ENERJİ A.Ş."
     },
@@ -222,10 +226,6 @@
     {
         "code": "ARENA",
         "name": "ARENA BİLGİSAYAR SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ARNFK",
-        "name": "ARENA FİNANS FAKTORİNG A.Ş."
     },
     {
         "code": "ARSAN",
@@ -410,6 +410,10 @@
     {
         "code": "BIMAS",
         "name": "BİM BİRLEŞİK MAĞAZALAR A.Ş."
+    },
+    {
+        "code": "BINBN",
+        "name": "BİN ULAŞIM VE AKILLI ŞEHİR TEKNOLOJİLERİ A.Ş."
     },
     {
         "code": "BIOEN",
@@ -1076,7 +1080,7 @@
         "name": "GÖZDE GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
     },
     {
-        "code": "GRTRK",
+        "code": "GRTHO",
         "name": "GRAINTURK HOLDİNG A.Ş."
     },
     {
@@ -1158,6 +1162,10 @@
     {
         "code": "HEKTS",
         "name": "HEKTAŞ TİCARET T.A.Ş."
+    },
+    {
+        "code": "HEPFN",
+        "name": "HEPSİ FİNANSMAN A.Ş."
     },
     {
         "code": "HKTM",
@@ -1254,6 +1262,10 @@
     {
         "code": "IMASM",
         "name": "İMAŞ MAKİNA SANAYİ A.Ş."
+    },
+    {
+        "code": "INALR",
+        "name": "İNALLAR OTOMOTİV SANAYİ VE TİCARET A.Ş."
     },
     {
         "code": "INDES",
@@ -1600,7 +1612,7 @@
         "name": "LYDİA HOLDİNG A.Ş."
     },
     {
-        "code": "TETMT",
+        "code": "LYDYE",
         "name": "LYDİA YEŞİL ENERJİ KAYNAKLARI A.Ş."
     },
     {
@@ -2036,28 +2048,32 @@
         "name": "PRİZMA PRES MATBAACILIK YAYINCILIK SANAYİ VE TİCARET A.Ş."
     },
     {
+        "code": "QYATB, YBQ",
+        "name": "Q YATIRIM BANKASI A.Ş."
+    },
+    {
         "code": "QYHOL",
         "name": "Q YATIRIM HOLDİNG A.Ş."
     },
     {
+        "code": "FIN, QNBTR",
+        "name": "QNB BANK A.Ş."
+    },
+    {
         "code": "QNBFF",
-        "name": "QNB FİNANS FAKTORİNG A.Ş."
+        "name": "QNB FAKTORİNG A.Ş."
     },
     {
         "code": "QNBFL",
-        "name": "QNB FİNANS FİNANSAL KİRALAMA A.Ş."
+        "name": "QNB FİNANSAL KİRALAMA A.Ş."
     },
     {
         "code": "QNBVK",
-        "name": "QNB FİNANS VARLIK KİRALAMA A.Ş."
+        "name": "QNB VARLIK KİRALAMA A.Ş."
     },
     {
         "code": "FNY, QNBFI",
-        "name": "QNB FİNANS YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "FIN, QNBFB",
-        "name": "QNB FİNANSBANK A.Ş."
+        "name": "QNB YATIRIM MENKUL DEĞERLER A.Ş."
     },
     {
         "code": "QUAGR",
@@ -2344,6 +2360,14 @@
         "name": "TEMAPOL POLİMER PLASTİK VE İNŞAAT SANAYİ TİCARET A.Ş."
     },
     {
+        "code": "ARNFK",
+        "name": "TERA FİNANS FAKTORİNG A.Ş."
+    },
+    {
+        "code": "TAE, TRBNK",
+        "name": "TERA YATIRIM BANKASI A.Ş."
+    },
+    {
         "code": "TERA, TRA",
         "name": "TERA YATIRIM MENKUL DEĞERLER A.Ş."
     },
@@ -2354,6 +2378,10 @@
     {
         "code": "TGSAS",
         "name": "TGS DIŞ TİCARET A.Ş."
+    },
+    {
+        "code": "TIMUR",
+        "name": "TİMUR GAYRİMENKUL GELİŞTİRME YAPI VE YATIRIM A.Ş."
     },
     {
         "code": "TRYKI",
@@ -2406,6 +2434,10 @@
     {
         "code": "MARBL",
         "name": "TUREKS TURUNÇ MADENCİLİK İÇ VE DIŞ TİCARET A.Ş."
+    },
+    {
+        "code": "TRKFN",
+        "name": "TURK FİNANSMAN A.Ş."
     },
     {
         "code": "TRILC",

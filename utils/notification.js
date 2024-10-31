@@ -7,32 +7,31 @@ const { fetchPriceHistory } = require('./pricehistory');
 
 const nowYear = dateUtil.nowYear()
 
-const requestData = {
-    "fromDate": nowYear + "-01-01",
-    "toDate": nowYear + "-12-31",
-    "year": "",
-    "prd": "",
-    "term": "",
-    "ruleType": "",
-    "bdkReview": "",
-    "disclosureClass": "FR",
-    "index": "",
-    "market": "",
-    "isLate": "",
-    "subjectList": ["4028328c594bfdca01594c0af9aa0057"],
-    "mkkMemberOidList": [],
-    "inactiveMkkMemberOidList": [],
-    "bdkMemberOidList": [],
-    "mainSector": "",
-    "sector": "",
-    "subSector": "",
-    "memberType": "IGS",
-    "fromSrc": "N",
-    "srcCategory": "",
-    "discIndex": []
-};
-
-async function memberDisclosureQuery() {
+async function memberDisclosureQuery(mkkMemberOid) {
+    const requestData = {
+        "fromDate": nowYear + "-01-01",
+        "toDate": nowYear + "-12-31",
+        "year": "",
+        "prd": "",
+        "term": "",
+        "ruleType": "",
+        "bdkReview": "",
+        "disclosureClass": "FR",
+        "index": "",
+        "market": "",
+        "isLate": "",
+        "subjectList": ["4028328c594bfdca01594c0af9aa0057"],
+        "mkkMemberOidList": [mkkMemberOid],
+        "inactiveMkkMemberOidList": [],
+        "bdkMemberOidList": [],
+        "mainSector": "",
+        "sector": "",
+        "subSector": "",
+        "memberType": "IGS",
+        "fromSrc": "N",
+        "srcCategory": "",
+        "discIndex": []
+    };
     try {
         const response = await axios.post('https://www.kap.org.tr/tr/api/memberDisclosureQuery', requestData);
         const responseData = response.data;
@@ -56,7 +55,7 @@ async function processDisclosureItem(item) {
     const { price, lastPrice } = await getPrices(stockCode, publishedAt);
 
     if(!lastPrice) {
-        console.log('Stock: ' + stockCode + 'Period: ' + period + ' Price: ' + price + ' Last Price: ' + lastPrice)
+        console.log('Stock: ' + stockCode + ' Period: ' + period + ' Price: ' + price + ' Last Price: ' + lastPrice)
         return
     }
 

@@ -1,10 +1,14 @@
+require('dotenv').config();
 const { spawn } = require('child_process')
+
+const pythonPath = process.env.PYTHON_PATH;
 
 async function createStocks(req, res, next) {
     try {
+        console.log(pythonPath)
         await new Promise((resolve, reject) => {
             const url = 'https://www.kap.org.tr/tr/bist-sirketler';
-            const python = spawn('python3', ['storage/stocks.py', url]);
+            const python = spawn(pythonPath, ['storage/stocks.py', url]);
     
             let output = '';
             let errorOutput = '';
@@ -13,8 +17,6 @@ async function createStocks(req, res, next) {
             python.stdout.on('data', (data) => {
                 console.log("Python Output:", data.toString()); // Çıktıyı logla
                 output += data.toString();
-
-                res.status(200).send("Hisseler oluşturuldu.");
             });
     
             // Python betiğinden gelen hata çıktısını toplar
@@ -30,6 +32,7 @@ async function createStocks(req, res, next) {
                     reject(new Error(`Python betiği hata ile kapandı: ${errorOutput}`));
                 } else {
                     console.log("Python betiği başarıyla çalıştırıldı.");
+                    res.status(200).send("Hisseler oluşturuldu.");
                     resolve(output);
                 }
             });

@@ -1,10 +1,13 @@
+require('dotenv').config();
 const { spawn } = require('child_process')
+
+const pythonPath = process.env.PYTHON_PATH;
 
 async function createSectors(req, res, next) {
     try {
         await new Promise((resolve, reject) => {
             const url = 'https://www.kap.org.tr/tr/Sektorler';
-            const python = spawn('python3', ['storage/sectors.py', url]);
+            const python = spawn(pythonPath, ['storage/sectors.py', url]);
     
             let output = '';
             let errorOutput = '';

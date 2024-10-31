@@ -1,3 +1,4 @@
+const axios = require('axios');
 const config = require('../config/config')
 const stockUtil = require('../utils/stock')
 const fileUtil = require('../utils/file')
@@ -5,6 +6,7 @@ const fileUtil = require('../utils/file')
 async function addAllStocks(req, res, next) {
     try {
         const stocks = await fileUtil.readJsonFile('storage/stocks.json')
+        const responseKapMembers = await axios.get('https://www.kap.org.tr/tr/api/kapmembers/IGS/A')
 
         for (const item of stocks) {
             const code = stockUtil.getSingleStockCodeString(item.code)
@@ -36,10 +38,16 @@ async function addAllStocks(req, res, next) {
                 financialGroup = "XI_29"
             }
 
+            const responseKapMembersItem = responseKapMembers.data.find((item) => stockUtil.getSingleStockCodeString(item.stockCode) == code)
+            const mkkMemberOid = responseKapMembersItem ? responseKapMembersItem.mkkMemberOid || '' : ''
+
+            console.log('Code: ' + code + " mkkMemberOid: " + mkkMemberOid)
+    
             const newStock = new config.Stock({
                 code,
                 name,
                 financialGroup,
+                mkkMemberOid,
                 indexes: indexCategories,
                 sectors: sectors.map(sector => sector.category),
             })

@@ -15,6 +15,10 @@ const stockSchema = new Schema({
         type: String,
         required: true
     },
+    mkkMemberOid: {
+        type: String,
+        required: false
+    },
     indexes: {
         type: [String],
         required: true,

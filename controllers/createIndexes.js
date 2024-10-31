@@ -1,10 +1,13 @@
+require('dotenv').config();
 const { spawn } = require('child_process')
+
+const pythonPath = process.env.PYTHON_PATH;
 
 async function createIndexes(req, res, next) {
     try {
         await new Promise((resolve, reject) => {
             const url = 'https://www.kap.org.tr/tr/Endeksler';
-            const python = spawn('python3', ['storage/indexes.py', url]);
+            const python = spawn(pythonPath, ['storage/indexes.py', url]);
     
             let output = '';
             let errorOutput = '';

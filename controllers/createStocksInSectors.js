@@ -1,10 +1,13 @@
+require('dotenv').config();
 const { spawn } = require('child_process')
+
+const pythonPath = process.env.PYTHON_PATH;
 
 async function createStocksInSectors(req, res, next) {
     try {
         await new Promise((resolve, reject) => {
             const url = 'https://www.kap.org.tr/tr/Sektorler';
-            const python = spawn('python3', ['storage/stocksInSectors.py', url]);
+            const python = spawn(pythonPath, ['storage/stocksInSectors.py', url]);
     
             let output = '';
             let errorOutput = '';
