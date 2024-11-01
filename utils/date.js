@@ -33,9 +33,26 @@ function formatDateOfSpecial(dateString, format = 'YYYY-MM-DDTHH:mm:ssZ') {
     }
 
     if (dateString.includes("Bugün")) {
-        return moment().format(format);
+        const timeMatch = dateString.match(/(\d{2}:\d{2})/)
+        const time = timeMatch[1]
+        const isoDate = moment().set({
+            hour: parseInt(time.split(":")[0], 10),
+            minute: parseInt(time.split(":")[1], 10),
+            second: 0,
+            millisecond: 0
+        }).format(format)
+        return isoDate
     } else if (dateString.includes("Dün")) {
-        return moment().subtract(1, 'days').format(format);
+        const timeMatch = dateString.match(/(\d{2}:\d{2})/)
+        const time = timeMatch[1]
+        const date = moment().subtract(1, 'day')
+        const isoDate = date.set({
+            hour: parseInt(time.split(":")[0], 10),
+            minute: parseInt(time.split(":")[1], 10),
+            second: 0,
+            millisecond: 0
+        }).format(format)
+        return isoDate
     } else {
         return formatDate(dateString)
     }
