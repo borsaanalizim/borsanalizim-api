@@ -153,6 +153,7 @@ async function saveOrUpdateBalanceSheet(stockCode, period, data) {
             previousYearsProfitAndLoss: data['2OCE'],
             netProfitAndLossPeriod: data['2OCF'],
             operatingProfitAndLoss: data['3DF'],
+            periodProfitAndLoss: data['3L'],
             depreciationExpenses: data['4B'],
             otherExpenses: data['3CAD'],
             periodTaxIncomeAndExpense: data['3IB'],

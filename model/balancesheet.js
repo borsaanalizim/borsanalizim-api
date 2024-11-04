@@ -22,6 +22,7 @@ const balanceSheetSchema = new Schema({
             previousYearsProfitAndLoss: { type: String },
             netProfitAndLossPeriod: { type: String },
             operatingProfitAndLoss: { type: String },
+            periodProfitAndLoss: { type: String },
             depreciationExpenses: { type: String },
             otherExpenses: { type: String },
             periodTaxIncomeAndExpense: { type: String },
