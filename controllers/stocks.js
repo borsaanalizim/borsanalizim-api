@@ -12,6 +12,7 @@ async function addAllStocks(req, res, next) {
             const code = stockUtil.getSingleStockCodeString(item.code)
             if(!code) continue
             const name = item.name
+            const sector = item.sector
             var financialGroup = ""
 
             const existingStock = await config.Stock.findOne({ code })
@@ -21,18 +22,15 @@ async function addAllStocks(req, res, next) {
                 continue
             }
 
-            const [indexes, sectors] = await Promise.all([
-                config.StockIndex.find({ "stocks.code": code }, "category"),
-                config.StockSector.find({ "stocks.code": code }, "category"),
-            ]);
+            const indexCategories = await config.StockIndex.find({ "stocks.code": code }, "category")
             
             const liquidBank = "BIST LİKİT BANKA"
             const bank = "BIST BANKA"
             const insurance = "BIST SİGORTA"
 
-            const indexCategories = indexes.map(index => index.category)
+            const indexes = indexCategories.map(index => index.category)
 
-            if ([liquidBank, bank, insurance].some(item => indexCategories.includes(item))) {
+            if ([liquidBank, bank, insurance].some(item => indexes.includes(item))) {
                 financialGroup = "UFRS_K"
             } else {
                 financialGroup = "XI_29"
@@ -48,8 +46,8 @@ async function addAllStocks(req, res, next) {
                 name,
                 financialGroup,
                 mkkMemberOid,
-                indexes: indexCategories,
-                sectors: sectors.map(sector => sector.category),
+                sector,
+                indexes,
             })
 
             await newStock.save()

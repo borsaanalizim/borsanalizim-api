@@ -12,19 +12,18 @@ async function deleteAllSectors(req, res, next) {
 
 async function addAllSectors(req, res, next) {
     try {
-        const indexCategories = await fileUtil.readJsonFile('storage/sectors.json')
-        const findPromises = indexCategories.map(item => config.Sector.findOne({ mainCategory: item.mainCategory }));
+        const sectors = await fileUtil.readJsonFile('storage/sectors.json')
 
-        const existingSectors = await Promise.all(findPromises);
+        const newSectors = sectors.map(category => category);
 
-        const newSectors = indexCategories.filter(item => !existingSectors.some(sector => sector && sector.mainCategory === item.mainCategory));
+        // Mevcut tek bir belgeye kategorileri ekleyin veya belgeyi oluşturun
+        await config.Sector.findOneAndUpdate(
+            {},  // İlk belgeyi bul veya yeni belge oluştur
+            { $addToSet: { sectors: { $each: newSectors } } },  // Tekrar eden kategorileri önlemek için `$addToSet` kullanın
+            { upsert: true, new: true }  // Belge yoksa oluşturun
+        );
 
-        await Promise.all(newSectors.map(async sector => {
-            const newSectorObj = new config.Sector(sector);
-            await newSectorObj.save();
-        }));
-
-        res.status(200).send(`${newSectors.length} adet sektör kategorisi eklendi.`);
+        res.status(200).send(`${newSectors.length} adet sektör kategorisi eklendi veya güncellendi.`);
     } catch (error) {
         res.status(500).send("Bilinmeyen bir hata oluştu: " + error);
     }

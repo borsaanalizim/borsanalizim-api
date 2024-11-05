@@ -19,13 +19,13 @@ const stockSchema = new Schema({
         type: String,
         required: false
     },
+    sector: {
+        type: String,
+        required: true
+    },
     indexes: {
         type: [String],
         required: true,
-    },
-    sectors: {
-        type: [String],
-        required: true
     }
 }, { collection: 'stock' })
 
