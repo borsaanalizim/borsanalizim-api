@@ -1,138 +1,54 @@
 [
-    {
-        "mainCategory": "DİĞER",
-        "subCategories": []
-    },
-    {
-        "mainCategory": "TARIM, ORMANCILIK VE BALIKÇILIK",
-        "subCategories": [
-            "TARIM VE HAYVANCILIK AVCILIK VE İLGİLİ HİZMET FAALİYETLERİ",
-            "ORMANCILIK VE TOMRUKÇULUK",
-            "BALIKÇILIK VE SU ÜRÜNLERİ"
-        ]
-    },
-    {
-        "mainCategory": "MADENCİLİK VE TAŞ OCAKÇILIĞI",
-        "subCategories": [
-            "KÖMÜR VE LİNYİT MADENCİLİĞİ",
-            "HAM PETROL VE DOĞAL GAZ ÇIKARTILMASI",
-            "METAL CEVHERİ MADENCİLİĞİ",
-            "DİĞER MADENCİLİK VE TAŞ OCAKÇILIĞI"
-        ]
-    },
-    {
-        "mainCategory": "İMALAT",
-        "subCategories": [
-            "GIDA, İÇECEK VE TÜTÜN",
-            "TEKSTİL, GİYİM EŞYASI VE DERİ",
-            "ORMAN ÜRÜNLERİ VE MOBİLYA",
-            "KAĞIT VE KAĞIT ÜRÜNLERİ BASIM",
-            "KİMYA İLAÇ PETROL LASTİK VE PLASTİK ÜRÜNLER",
-            "TAŞ VE TOPRAĞA DAYALI",
-            "ANA METAL SANAYİ",
-            "METAL EŞYA MAKİNE ELEKTRİKLİ CİHAZLAR VE ULAŞIM ARAÇLARI",
-            "DİĞER İMALAT SANAYİİ"
-        ]
-    },
-    {
-        "mainCategory": "ELEKTRİK GAZ VE SU",
-        "subCategories": [
-            "ELEKTRİK GAZ VE BUHAR"
-        ]
-    },
-    {
-        "mainCategory": "İNŞAAT VE BAYINDIRLIK",
-        "subCategories": [
-            "İNŞAAT VE BAYINDIRLIK İŞLERİ"
-        ]
-    },
-    {
-        "mainCategory": "TOPTAN VE PERAKENDE TİCARET",
-        "subCategories": [
-            "TOPTAN TİCARET",
-            "PERAKENDE TİCARET"
-        ]
-    },
-    {
-        "mainCategory": "ULAŞTIRMA VE DEPOLAMA",
-        "subCategories": [
-            "ULAŞTIRMA VE DEPOLAMA"
-        ]
-    },
-    {
-        "mainCategory": "MALİ KURULUŞLAR",
-        "subCategories": [
-            "FİNANSMAN ŞİRKETLERİ",
-            "VARLIK YÖNETİM ŞİRKETLERİ",
-            "BANKALAR",
-            "SİGORTA ŞİRKETLERİ",
-            "FİNANSAL KİRALAMA VE FAKTORİNG ŞİRKETLERİ",
-            "HOLDİNGLER VE YATIRIM ŞİRKETLERİ",
-            "DİĞER MALİ KURULUŞLAR",
-            "ARACI KURUMLAR",
-            "GAYRİMENKUL YATIRIM ORTAKLIKLARI",
-            "MENKUL KIYMET YATIRIM ORTAKLIKLARI",
-            "GİRİŞİM SERMAYESİ YATIRIM ORTAKLIKLARI"
-        ]
-    },
-    {
-        "mainCategory": "EĞİTİM SAĞLIK SPOR VE EĞLENCE HİZMETLERİ",
-        "subCategories": [
-            "SPOR EĞLENCE BOŞ ZAMANLARI DEĞERLENDİRME HİZMETLERİ",
-            "İNSAN SAĞLIĞI VE SOSYAL HİZMETLER",
-            "YARATICI SANATLAR GÖSTERİ SANATLARI VE EĞLENCE FAALİYETLERİ",
-            "SPOR FAALİYETLERİ EĞLENCE VE OYUN FAALİYETLERİ"
-        ]
-    },
-    {
-        "mainCategory": "TEKNOLOJİ",
-        "subCategories": [
-            "BİLİŞİM",
-            "SAVUNMA"
-        ]
-    },
-    {
-        "mainCategory": "MESLEKİ, BİLİMSEL VE TEKNİK FAALİYETLER",
-        "subCategories": [
-            "HUKUK VE MUHASEBE FAALİYETLERİ",
-            "İDARE MERKEZİ FAALİYETLERİ; İDARİ DANIŞMANLIK FAALİYETLERİ",
-            "MİMARLIK VE MÜHENDİSLİK FAALİYETLERİ; TEKNİK MUAYENE VE ANALİZ",
-            "BİLİMSEL ARAŞTIRMA VE GELİŞTİRME FAALİYETLERİ",
-            "REKLAMCILIK VE PAZAR ARAŞTIRMASI",
-            "DİĞER PROFESYONEL, BİLİMSEL VE TEKNİK FAALİYETLER",
-            "VETERİNERLİK HİZMETLERİ"
-        ]
-    },
-    {
-        "mainCategory": "İDARİ VE DESTEK HİZMET FAALİYETLERİ",
-        "subCategories": [
-            "KİRALAMA VE LEASING FAALİYETLERİ",
-            "İSTİHDAM FAALİYETLERİ",
-            "SEYAHAT ACENTESİ, TUR OPERATÖRÜ VE DİĞER REZERVASYON HİZMETLERİ İLE İLGİLİ FAALİYETLER",
-            "GÜVENLİK VE SORUŞTURMA FAALİYETLERİ",
-            "BİNALAR VE ÇEVRE DÜZENLEMESİ FAALİYETLERİ",
-            "BÜRO YÖNETİMİ, BÜRO DESTEĞİ VE DİĞER ŞİRKET DESTEK FAALİYETLERİ"
-        ]
-    },
-    {
-        "mainCategory": "GAYRİMENKUL FAALİYETLERİ",
-        "subCategories": [
-            "GAYRİMENKUL FAALİYETLERİ"
-        ]
-    },
-    {
-        "mainCategory": "OTELLER VE LOKANTALAR",
-        "subCategories": [
-            "KONAKLAMA",
-            "YİYECEK VE İÇECEK HİZMETLERİ"
-        ]
-    },
-    {
-        "mainCategory": "BİLGİ VE İLETİŞİM",
-        "subCategories": [
-            "BİLGİ HİZMET FAALİYETLERİ",
-            "YAYIMCILIK",
-            "TELEKOMÜNİKASYON"
-        ]
-    }
+    "Diğer",
+    "GYO",
+    "Turizm",
+    "Elektrik - Doğalgaz Dağıtım",
+    "Boya",
+    "İnşaat Malzemeleri",
+    "Endüstriyel Makine -Teçhizat Üretim",
+    "Eğlence Hizmetleri",
+    "Dayanıklı Tüketim",
+    "Demir-Çelik Temel",
+    "Hayvancılık",
+    "Ulaştırma-Lojistik",
+    "Mobilya",
+    "Petrol",
+    "İletişim Cihazları",
+    "Perakande - Ticaret",
+    "Spor",
+    "Elektrik Enerji Ürt.Teçh/Tesis Kurulum",
+    "Aracı Kurumlar",
+    "Meşrubat / İçecek",
+    "Deri Giyim",
+    "Kırtasiye",
+    "Sağlık ve İlaç",
+    "Seramik",
+    "Fin.Kiralama ve Faktoring",
+    "Kablo",
+    "Yatırım Ortaklıkları",
+    "Otomotiv Parçası",
+    "Pazarlama",
+    "Kimyasal Ürün",
+    "Madencilik",
+    "Holdingler",
+    "Elektrik Üretim",
+    "İletişim",
+    "İnşaat- Taahhüt",
+    "Tekstil Entegre",
+    "Teknoloji",
+    "Otomotiv",
+    "Otomotiv Lastiği",
+    "Cam",
+    "Endüstriyel Tekstil",
+    "Medya",
+    "Savunma",
+    "Sigorta",
+    "Bilgisayar Toptancılığı",
+    "Havayolları ve Hizm.",
+    "Demir-Çelik Döküm",
+    "Çimento",
+    "Gıda",
+    "Tarım Kimyasalları",
+    "Bankacılık",
+    "Kağıt Ürünleri"
 ]

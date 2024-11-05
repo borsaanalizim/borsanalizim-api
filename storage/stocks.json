@@ -1,2726 +1,2877 @@
 [
     {
-        "code": "BINHO",
-        "name": "1000 YATIRIMLAR HOLDİNG A.Ş."
-    },
-    {
-        "code": "AVOD",
-        "name": "A.V.O.D. KURUTULMUŞ GIDA VE TARIM ÜRÜNLERİ SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "A1CAP, ACP",
-        "name": "A1 CAPİTAL YATIRIM MENKUL DEĞERLER A.Ş."
+        "code": "A1CAP",
+        "name": "A1 Capital",
+        "sector": "Aracı Kurumlar"
     },
     {
         "code": "ACSEL",
-        "name": "ACISELSAN ACIPAYAM SELÜLOZ SANAYİ VE TİCARET A.Ş."
+        "name": "Acıselsan Acıpayam Selüloz",
+        "sector": "Kimyasal Ürün"
     },
     {
         "code": "ADEL",
-        "name": "ADEL KALEMCİLİK TİCARET VE SANAYİ A.Ş."
+        "name": "Adel Kalemcilik",
+        "sector": "Kırtasiye"
     },
     {
         "code": "ADESE",
-        "name": "ADESE GAYRİMENKUL YATIRIM A.Ş."
+        "name": "Adese AVM",
+        "sector": "GYO"
     },
     {
         "code": "ADGYO",
-        "name": "ADRA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "AFYON",
-        "name": "AFYON ÇİMENTO SANAYİ T.A.Ş."
-    },
-    {
-        "code": "AGHOL",
-        "name": "AG ANADOLU GRUBU HOLDİNG A.Ş."
-    },
-    {
-        "code": "AGESA",
-        "name": "AGESA HAYAT VE EMEKLİLİK A.Ş."
-    },
-    {
-        "code": "AGROT",
-        "name": "AGROTECH YÜKSEK TEKNOLOJİ VE YATIRIM A.Ş."
-    },
-    {
-        "code": "AHSGY",
-        "name": "AHES GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "AHGAZ",
-        "name": "AHLATCI DOĞAL GAZ DAĞITIM ENERJİ VE YATIRIM A.Ş."
-    },
-    {
-        "code": "AKSFA",
-        "name": "AK FAKTORİNG A.Ş."
-    },
-    {
-        "code": "AKFK",
-        "name": "AK FİNANSAL KİRALAMA A.Ş."
-    },
-    {
-        "code": "AKM, AKMEN",
-        "name": "AK YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "AKBNK",
-        "name": "AKBANK T.A.Ş."
-    },
-    {
-        "code": "AKCNS",
-        "name": "AKÇANSA ÇİMENTO SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "AKDFA",
-        "name": "AKDENİZ FAKTORİNG A.Ş."
-    },
-    {
-        "code": "AKYHO",
-        "name": "AKDENİZ YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "AKENR",
-        "name": "AKENERJİ ELEKTRİK ÜRETİM A.Ş."
-    },
-    {
-        "code": "AKFGY",
-        "name": "AKFEN GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "AKFNI",
-        "name": "AKFEN İNŞAAT TURİZM VE TİCARET A.Ş."
-    },
-    {
-        "code": "AKFYE",
-        "name": "AKFEN YENİLENEBİLİR ENERJİ A.Ş."
-    },
-    {
-        "code": "ATEKS",
-        "name": "AKIN TEKSTİL A.Ş."
-    },
-    {
-        "code": "AKSGY",
-        "name": "AKİŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "AKMGY",
-        "name": "AKMERKEZ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "AKSA",
-        "name": "AKSA AKRİLİK KİMYA SANAYİİ A.Ş."
-    },
-    {
-        "code": "AKSEN",
-        "name": "AKSA ENERJİ ÜRETİM A.Ş."
-    },
-    {
-        "code": "AKGRT",
-        "name": "AKSİGORTA A.Ş."
-    },
-    {
-        "code": "AKSUE",
-        "name": "AKSU ENERJİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "AKTVK",
-        "name": "AKTİF BANK SUKUK VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "AFB, AKTIF",
-        "name": "AKTİF YATIRIM BANKASI A.Ş."
-    },
-    {
-        "code": "ALCAR",
-        "name": "ALARKO CARRIER SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ALGYO",
-        "name": "ALARKO GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "ALARK",
-        "name": "ALARKO HOLDİNG A.Ş."
-    },
-    {
-        "code": "ALBRK, ALK",
-        "name": "ALBARAKA TÜRK KATILIM BANKASI A.Ş."
-    },
-    {
-        "code": "ALCTL",
-        "name": "ALCATEL LUCENT TELETAŞ TELEKOMÜNİKASYON A.Ş."
-    },
-    {
-        "code": "ALFAS",
-        "name": "ALFA SOLAR ENERJİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ALJF",
-        "name": "ALJ FİNANSMAN A.Ş."
-    },
-    {
-        "code": "ALKIM",
-        "name": "ALKİM ALKALİ KİMYA A.Ş."
-    },
-    {
-        "code": "ALKA",
-        "name": "ALKİM KAĞIT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ALNUS, ANC",
-        "name": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "AYCES",
-        "name": "ALTIN YUNUS ÇEŞME TURİSTİK TESİSLER A.Ş."
-    },
-    {
-        "code": "ALTNY",
-        "name": "ALTINAY SAVUNMA TEKNOLOJİLERİ A.Ş."
-    },
-    {
-        "code": "ALKLC",
-        "name": "ALTINKILIÇ GIDA VE SÜT SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "ALMAD",
-        "name": "ALTINYAĞ MADENCİLİK VE ENERJİ YATIRIMLARI SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ALVES",
-        "name": "ALVES KABLO SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ANSGR",
-        "name": "ANADOLU ANONİM TÜRK SİGORTA ŞİRKETİ"
+        "name": "Adra GYO",
+        "sector": "GYO"
     },
     {
         "code": "AEFES",
-        "name": "ANADOLU EFES BİRACILIK VE MALT SANAYİİ A.Ş."
+        "name": "Anadolu Efes",
+        "sector": "Meşrubat / İçecek"
     },
     {
-        "code": "ANHYT",
-        "name": "ANADOLU HAYAT EMEKLİLİK A.Ş."
+        "code": "AFYON",
+        "name": "Afyon Çimento",
+        "sector": "Çimento"
     },
     {
-        "code": "ASUZU",
-        "name": "ANADOLU ISUZU OTOMOTİV SANAYİ VE TİCARET A.Ş."
+        "code": "AGESA",
+        "name": "Agesa Hayat ve Emeklilik",
+        "sector": "Sigorta"
     },
     {
-        "code": "ANGEN",
-        "name": "ANATOLİA TANI VE BİYOTEKNOLOJİ ÜRÜNLERİ ARAŞTIRMA GELİŞTİRME SANAYİ VE TİCARET A.Ş."
+        "code": "AGHOL",
+        "name": "Anadolu Grubu Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "ANELE",
-        "name": "ANEL ELEKTRİK PROJE TAAHHÜT VE TİCARET A.Ş."
-    },
-    {
-        "code": "ARCLK",
-        "name": "ARÇELİK A.Ş."
-    },
-    {
-        "code": "ARDYZ",
-        "name": "ARD GRUP BİLİŞİM TEKNOLOJİLERİ A.Ş."
-    },
-    {
-        "code": "ARENA",
-        "name": "ARENA BİLGİSAYAR SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ARSAN",
-        "name": "ARSAN TEKSTİL TİCARET VE SANAYİ A.Ş."
-    },
-    {
-        "code": "ARTMS",
-        "name": "ARTEMİS HALI A.Ş."
-    },
-    {
-        "code": "ARZUM",
-        "name": "ARZUM ELEKTRİKLİ EV ALETLERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ASGYO",
-        "name": "ASCE GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "ASELS",
-        "name": "ASELSAN ELEKTRONİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ASTOR",
-        "name": "ASTOR ENERJİ A.Ş."
-    },
-    {
-        "code": "ATAGY",
-        "name": "ATA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "ATA, ATAYM",
-        "name": "ATA YATIRIM MENKUL KIYMETLER A.Ş."
-    },
-    {
-        "code": "ATAKP",
-        "name": "ATAKEY PATATES GIDA SANAYİ VE TİCARET A.Ş."
+        "code": "AGROT",
+        "name": "Agrotech Yüksek Teknoloji",
+        "sector": "Diğer"
     },
     {
         "code": "AGYO",
-        "name": "ATAKULE GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "name": "Atakule GYO",
+        "sector": "GYO"
     },
     {
-        "code": "ATLFA",
-        "name": "ATILIM FAKTORİNG A.Ş."
+        "code": "AHGAZ",
+        "name": "Ahlatçı Doğalgaz",
+        "sector": "Elektrik - Doğalgaz Dağıtım"
     },
     {
-        "code": "ATSYH",
-        "name": "ATLANTİS YATIRIM HOLDİNG A.Ş."
+        "code": "AHSGY",
+        "name": "Ahes GYO",
+        "sector": "GYO"
     },
     {
-        "code": "ATLAS",
-        "name": "ATLAS MENKUL KIYMETLER YATIRIM ORTAKLIĞI A.Ş."
+        "code": "AKBNK",
+        "name": "Akbank",
+        "sector": "Bankacılık"
     },
     {
-        "code": "ATATP",
-        "name": "ATP YAZILIM VE TEKNOLOJİ A.Ş."
+        "code": "AKCNS",
+        "name": "Akçansa",
+        "sector": "Çimento"
     },
     {
-        "code": "AVGYO",
-        "name": "AVRASYA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "AKENR",
+        "name": "Akenerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "AVTUR",
-        "name": "AVRASYA PETROL VE TURİSTİK TESİSLER YATIRIMLAR A.Ş."
+        "code": "AKFGY",
+        "name": "Akfen GYO",
+        "sector": "GYO"
     },
     {
-        "code": "AVHOL",
-        "name": "AVRUPA YATIRIM HOLDİNG A.Ş."
+        "code": "AKFYE",
+        "name": "Akfen Yenilenebilir Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "AVPGY",
-        "name": "AVRUPAKENT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "AKGRT",
+        "name": "Aksigorta",
+        "sector": "Sigorta"
     },
     {
-        "code": "AYDEM",
-        "name": "AYDEM YENİLENEBİLİR ENERJİ A.Ş."
+        "code": "AKMGY",
+        "name": "Akmerkez GYO",
+        "sector": "GYO"
     },
     {
-        "code": "AYEN",
-        "name": "AYEN ENERJİ A.Ş."
+        "code": "AKSA",
+        "name": "Aksa",
+        "sector": "Endüstriyel Tekstil"
     },
     {
-        "code": "AYES",
-        "name": "AYES ÇELİK HASIR VE ÇİT SANAYİ A.Ş."
+        "code": "AKSEN",
+        "name": "Aksa Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "AYGAZ",
-        "name": "AYGAZ A.Ş."
+        "code": "AKSGY",
+        "name": "Akis GYO",
+        "sector": "GYO"
     },
     {
-        "code": "AZTEK",
-        "name": "AZTEK TEKNOLOJİ ÜRÜNLERİ TİCARET A.Ş."
+        "code": "AKSUE",
+        "name": "Aksu Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "BAGFS",
-        "name": "BAGFAŞ BANDIRMA GÜBRE FABRİKALARI A.Ş."
+        "code": "AKYHO",
+        "name": "Akdeniz Yatırım Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "BAHKM",
-        "name": "BAHADIR KİMYA SANAYİ VE TİCARET A.Ş."
+        "code": "ALARK",
+        "name": "Alarko Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "BAKAB",
-        "name": "BAK AMBALAJ SANAYİ VE TİCARET A.Ş."
+        "code": "ALBRK",
+        "name": "Albaraka Türk",
+        "sector": "Bankacılık"
     },
     {
-        "code": "BALAT",
-        "name": "BALATACILAR BALATACILIK SANAYİ VE TİCARET A.Ş."
+        "code": "ALCAR",
+        "name": "Alarko Carrier",
+        "sector": "Dayanıklı Tüketim"
     },
     {
-        "code": "BNTAS",
-        "name": "BANTAŞ BANDIRMA AMBALAJ SANAYİ VE TİCARET A.Ş."
+        "code": "ALCTL",
+        "name": "Alcatel Teletaş",
+        "sector": "İletişim Cihazları"
     },
     {
-        "code": "BANVT",
-        "name": "BANVİT BANDIRMA VİTAMİNLİ YEM SANAYİ A.Ş."
+        "code": "ALFAS",
+        "name": "Alfa Solar",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
     },
     {
-        "code": "BARMA",
-        "name": "BAREM AMBALAJ SANAYİ VE TİCARET A.Ş."
+        "code": "ALGYO",
+        "name": "Alarko GYO",
+        "sector": "GYO"
     },
     {
-        "code": "BASGZ",
-        "name": "BAŞKENT DOĞALGAZ DAĞITIM GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "ALKA",
+        "name": "Alkim Kağıt",
+        "sector": "Kağıt Ürünleri"
     },
     {
-        "code": "BASCM",
-        "name": "BAŞTAŞ BAŞKENT ÇİMENTO SANAYİ VE TİCARET A.Ş."
+        "code": "ALKIM",
+        "name": "Alkim",
+        "sector": "Kimyasal Ürün"
     },
     {
-        "code": "BEGYO",
-        "name": "BATI EGE GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "ALKLC",
+        "name": "Altınkılıç Gıda",
+        "sector": "Gıda"
     },
     {
-        "code": "BTCIM",
-        "name": "BATIÇİM BATI ANADOLU ÇİMENTO SANAYİİ A.Ş."
+        "code": "ALMAD",
+        "name": "Altınyağ Madencilik ve Enerji",
+        "sector": "Madencilik"
     },
     {
-        "code": "BSOKE",
-        "name": "BATISÖKE SÖKE ÇİMENTO SANAYİİ T.A.Ş."
+        "code": "ALTNY",
+        "name": "Altınay Savunma",
+        "sector": "Savunma"
     },
     {
-        "code": "BYDNR",
-        "name": "BAYDÖNER RESTORANLARI A.Ş."
+        "code": "ALVES",
+        "name": "Alves Kablo",
+        "sector": "Kablo"
     },
     {
-        "code": "BAYRK",
-        "name": "BAYRAK EBT TABAN SANAYİ VE TİCARET A.Ş."
+        "code": "ANELE",
+        "name": "Anel Elektrik",
+        "sector": "İnşaat Malzemeleri"
     },
     {
-        "code": "BERA",
-        "name": "BERA HOLDİNG A.Ş."
+        "code": "ANGEN",
+        "name": "Anatolia Biyoteknoloji",
+        "sector": "Sağlık ve İlaç"
     },
     {
-        "code": "BRKT",
-        "name": "BEREKET VARLIK KİRALAMA A.Ş."
+        "code": "ANHYT",
+        "name": "Anadolu Hayat Emeklilik A.Ş.",
+        "sector": "Sigorta"
     },
     {
-        "code": "BRKSN",
-        "name": "BERKOSAN YALITIM VE TECRİT MADDELERİ ÜRETİM VE TİCARET A.Ş."
-    },
-    {
-        "code": "BJKAS",
-        "name": "BEŞİKTAŞ FUTBOL YATIRIMLARI SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BEYAZ",
-        "name": "BEYAZ FİLO OTO KİRALAMA A.Ş."
-    },
-    {
-        "code": "BIENY",
-        "name": "BİEN YAPI ÜRÜNLERİ SANAYİ TURİZM VE TİCARET A.Ş."
-    },
-    {
-        "code": "BLCYT",
-        "name": "BİLİCİ YATIRIM SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BLKOM",
-        "name": "BİLKOM BİLİŞİM HİZMETLERİ A.Ş."
-    },
-    {
-        "code": "BIMAS",
-        "name": "BİM BİRLEŞİK MAĞAZALAR A.Ş."
-    },
-    {
-        "code": "BINBN",
-        "name": "BİN ULAŞIM VE AKILLI ŞEHİR TEKNOLOJİLERİ A.Ş."
-    },
-    {
-        "code": "BIOEN",
-        "name": "BİOTREND ÇEVRE VE ENERJİ YATIRIMLARI A.Ş."
-    },
-    {
-        "code": "BRKVY",
-        "name": "BİRİKİM VARLIK YÖNETİM A.Ş."
-    },
-    {
-        "code": "BRKO",
-        "name": "BİRKO BİRLEŞİK KOYUNLULULAR MENSUCAT TİCARET VE SANAYİ A.Ş."
-    },
-    {
-        "code": "BRLSM",
-        "name": "BİRLEŞİM MÜHENDİSLİK ISITMA SOĞUTMA HAVALANDIRMA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BRMEN",
-        "name": "BİRLİK MENSUCAT TİCARET VE SANAYİ İŞLETMESİ A.Ş."
-    },
-    {
-        "code": "BIZIM",
-        "name": "BİZİM TOPTAN SATIŞ MAĞAZALARI A.Ş."
-    },
-    {
-        "code": "BMSTL",
-        "name": "BMS BİRLEŞİK METAL SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BMSCH",
-        "name": "BMS ÇELİK HASIR SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BNPPI",
-        "name": "BNP PARIBAS ISSUANCE B.V."
-    },
-    {
-        "code": "BOBET",
-        "name": "BOĞAZİÇİ BETON SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BORSK",
-        "name": "BOR ŞEKER A.Ş."
-    },
-    {
-        "code": "BORLS",
-        "name": "BORLEASE OTOMOTİV A.Ş."
-    },
-    {
-        "code": "BRSAN",
-        "name": "BORUSAN BİRLEŞİK BORU FABRİKALARI SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BRYAT",
-        "name": "BORUSAN YATIRIM VE PAZARLAMA A.Ş."
-    },
-    {
-        "code": "BFREN",
-        "name": "BOSCH FREN SİSTEMLERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BOSSA",
-        "name": "BOSSA TİCARET VE SANAYİ İŞLETMELERİ T.A.Ş."
-    },
-    {
-        "code": "BRISA",
-        "name": "BRİSA BRİDGESTONE SABANCI LASTİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BURCE",
-        "name": "BURÇELİK BURSA ÇELİK DÖKÜM SANAYİİ A.Ş."
-    },
-    {
-        "code": "BURVA",
-        "name": "BURÇELİK VANA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BUCIM",
-        "name": "BURSA ÇİMENTO FABRİKASI A.Ş."
-    },
-    {
-        "code": "BVSAN",
-        "name": "BÜLBÜLOĞLU VİNÇ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "BIGCH",
-        "name": "BÜYÜK ŞEFLER GIDA TURİZM TEKSTİL DANIŞMANLIK ORGANİZASYON EĞİTİM SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "CRFSA",
-        "name": "CARREFOURSA CARREFOUR SABANCI TİCARET MERKEZİ A.Ş."
-    },
-    {
-        "code": "CASA",
-        "name": "CASA EMTİA PETROL KİMYEVİ VE TÜREVLERİ SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "CEMZY",
-        "name": "CEM ZEYTİN A.Ş."
-    },
-    {
-        "code": "CEOEM",
-        "name": "CEO EVENT MEDYA A.Ş."
-    },
-    {
-        "code": "CCOLA",
-        "name": "COCA-COLA İÇECEK A.Ş."
-    },
-    {
-        "code": "CONSE",
-        "name": "CONSUS ENERJİ İŞLETMECİLİĞİ VE HİZMETLERİ A.Ş."
-    },
-    {
-        "code": "COSMO",
-        "name": "COSMOS YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "CRDFA",
-        "name": "CREDITWEST FAKTORİNG A.Ş."
-    },
-    {
-        "code": "CVKMD",
-        "name": "CVK MADEN İŞLETMELERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "CWENE",
-        "name": "CW ENERJİ MÜHENDİSLİK TİCARET VE SANAYİ A.Ş."
-    },
-    {
-        "code": "CAGFA",
-        "name": "ÇAĞDAŞ FAKTORİNG A.Ş."
-    },
-    {
-        "code": "CLDNM",
-        "name": "ÇALIK DENİM TEKSTİL SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "CANTE",
-        "name": "ÇAN2 TERMİK A.Ş."
-    },
-    {
-        "code": "CATES",
-        "name": "ÇATES ELEKTRİK ÜRETİM A.Ş."
-    },
-    {
-        "code": "CLEBI",
-        "name": "ÇELEBİ HAVA SERVİSİ A.Ş."
-    },
-    {
-        "code": "CELHA",
-        "name": "ÇELİK HALAT VE TEL SANAYİİ A.Ş."
-    },
-    {
-        "code": "CLKMT",
-        "name": "ÇELİK MOTOR TİCARET A.Ş."
-    },
-    {
-        "code": "CEMAS",
-        "name": "ÇEMAŞ DÖKÜM SANAYİ A.Ş."
-    },
-    {
-        "code": "CEMTS",
-        "name": "ÇEMTAŞ ÇELİK MAKİNA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "CMBTN",
-        "name": "ÇİMBETON HAZIRBETON VE PREFABRİK YAPI ELEMANLARI SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "CMENT",
-        "name": "ÇİMENTAŞ İZMİR ÇİMENTO FABRİKASI T.A.Ş."
-    },
-    {
-        "code": "CIMSA",
-        "name": "ÇİMSA ÇİMENTO SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "CUSAN",
-        "name": "ÇUHADAROĞLU METAL SANAYİ VE PAZARLAMA A.Ş."
-    },
-    {
-        "code": "DYBNK",
-        "name": "D YATIRIM BANKASI A.Ş."
-    },
-    {
-        "code": "DAGI",
-        "name": "DAGİ GİYİM SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "DAGHL",
-        "name": "DAGİ YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "DAPGM",
-        "name": "DAP GAYRİMENKUL GELİŞTİRME A.Ş."
-    },
-    {
-        "code": "DARDL",
-        "name": "DARDANEL ÖNENTAŞ GIDA SANAYİ A.Ş."
-    },
-    {
-        "code": "DGATE",
-        "name": "DATAGATE BİLGİSAYAR MALZEMELERİ TİCARET A.Ş."
-    },
-    {
-        "code": "DCTTR",
-        "name": "DCT TRADİNG DIŞ TİCARET A.Ş."
-    },
-    {
-        "code": "DGRVK",
-        "name": "DEĞER VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "DMSAS",
-        "name": "DEMİSAŞ DÖKÜM EMAYE MAMÜLLERİ SANAYİ A.Ş."
-    },
-    {
-        "code": "DENGE",
-        "name": "DENGE YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "DENFA",
-        "name": "DENİZ FAKTORİNG A.Ş."
-    },
-    {
-        "code": "DNFIN",
-        "name": "DENİZ FİNANSAL KİRALAMA A.Ş."
-    },
-    {
-        "code": "DZGYO",
-        "name": "DENİZ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "DZY, DZYMK",
-        "name": "DENİZ YATIRIM MENKUL KIYMETLER A.Ş."
-    },
-    {
-        "code": "DENIZ, DNZ",
-        "name": "DENİZBANK A.Ş."
-    },
-    {
-        "code": "DERIM",
-        "name": "DERİMOD KONFEKSİYON AYAKKABI DERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "DERHL",
-        "name": "DERLÜKS YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "DESA",
-        "name": "DESA DERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "DESPC",
-        "name": "DESPEC BİLGİSAYAR PAZARLAMA VE TİCARET A.Ş."
-    },
-    {
-        "code": "DTBMK",
-        "name": "DESTEK YATIRIM BANKASI A.Ş."
-    },
-    {
-        "code": "DEVA",
-        "name": "DEVA HOLDİNG A.Ş."
-    },
-    {
-        "code": "DNISI",
-        "name": "DİNAMİK ISI MAKİNA YALITIM MALZEMELERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "DIRIT",
-        "name": "DİRİTEKS DİRİLİŞ TEKSTİL SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "DITAS",
-        "name": "DİTAŞ DOĞAN YEDEK PARÇA İMALAT VE TEKNİK A.Ş."
-    },
-    {
-        "code": "DMRGD",
-        "name": "DMR UNLU MAMULLER ÜRETİM GIDA TOPTAN PERAKENDE İHRACAT A.Ş."
-    },
-    {
-        "code": "DOCO",
-        "name": "DO & CO AKTIENGESELLSCHAFT"
-    },
-    {
-        "code": "DOFER",
-        "name": "DOFER YAPI MALZEMELERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "DOBUR",
-        "name": "DOĞAN BURDA DERGİ YAYINCILIK VE PAZARLAMA A.Ş."
-    },
-    {
-        "code": "DOHOL",
-        "name": "DOĞAN ŞİRKETLER GRUBU HOLDİNG A.Ş."
-    },
-    {
-        "code": "DTRND",
-        "name": "DOĞAN TREND OTOMOTİV TİCARET HİZMET VE TEKNOLOJİ A.Ş."
-    },
-    {
-        "code": "DGNMO",
-        "name": "DOĞANLAR MOBİLYA GRUBU İMALAT SANAYİ VE TİCARET A.Ş."
+        "code": "ANSGR",
+        "name": "Anadolu Sigorta",
+        "sector": "Sigorta"
     },
     {
         "code": "ARASE",
-        "name": "DOĞU ARAS ENERJİ YATIRIMLARI A.Ş."
+        "name": "Doğu Aras Enerji",
+        "sector": "Elektrik - Doğalgaz Dağıtım"
     },
     {
-        "code": "DOGUB",
-        "name": "DOĞUSAN BORU SANAYİ VE TİCARET A.Ş."
+        "code": "ARCLK",
+        "name": "Arçelik",
+        "sector": "Dayanıklı Tüketim"
+    },
+    {
+        "code": "ARDYZ",
+        "name": "ARD Grup Bilişim",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "ARENA",
+        "name": "Arena Bilgisayar",
+        "sector": "Bilgisayar Toptancılığı"
+    },
+    {
+        "code": "ARSAN",
+        "name": "Arsan Tekstil",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "ARTMS",
+        "name": "Artemis Halı",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "ARZUM",
+        "name": "Arzum Ev Aletleri",
+        "sector": "Dayanıklı Tüketim"
+    },
+    {
+        "code": "ASELS",
+        "name": "Aselsan",
+        "sector": "Savunma"
+    },
+    {
+        "code": "ASGYO",
+        "name": "Asce GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "ASTOR",
+        "name": "Astor Enerji",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
+    },
+    {
+        "code": "ASUZU",
+        "name": "Anadolu Isuzu",
+        "sector": "Otomotiv"
+    },
+    {
+        "code": "ATAGY",
+        "name": "Ata GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "ATAKP",
+        "name": "Atakey Patates",
+        "sector": "Gıda"
+    },
+    {
+        "code": "ATATP",
+        "name": "ATP Bilgisayar",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "ATEKS",
+        "name": "Akın Tekstil",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "ATLAS",
+        "name": "Atlas YO",
+        "sector": "Yatırım Ortaklıkları"
+    },
+    {
+        "code": "ATSYH",
+        "name": "Atlantis YO",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "AVGYO",
+        "name": "Avrasya YO",
+        "sector": "GYO"
+    },
+    {
+        "code": "AVHOL",
+        "name": "Avrupa Yatırım Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "AVOD",
+        "name": "Avod Kurutulmuş Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "AVPGY",
+        "name": "Avrupakent GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "AVTUR",
+        "name": "Avrasya Petrol&Turistik Tesis",
+        "sector": "Turizm"
+    },
+    {
+        "code": "AYCES",
+        "name": "Altınyunus Çesme",
+        "sector": "Turizm"
+    },
+    {
+        "code": "AYDEM",
+        "name": "Aydem Enerji",
+        "sector": "Elektrik Üretim"
+    },
+    {
+        "code": "AYEN",
+        "name": "Ayen Enerji",
+        "sector": "Elektrik Üretim"
+    },
+    {
+        "code": "AYES",
+        "name": "Ayes Çelik Hasır & Çit",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "AYGAZ",
+        "name": "Aygaz",
+        "sector": "Petrol"
+    },
+    {
+        "code": "AZTEK",
+        "name": "Aztek Teknoloji",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "BAGFS",
+        "name": "Bandırma Gübre Fabrikaları A.Ş",
+        "sector": "Tarım Kimyasalları"
+    },
+    {
+        "code": "BAHKM",
+        "name": "Bahadır Kimya",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "BAKAB",
+        "name": "Bak Ambalaj",
+        "sector": "Kağıt Ürünleri"
+    },
+    {
+        "code": "BALAT",
+        "name": "Balatacılar Balatacılık",
+        "sector": "Otomotiv Parçası"
+    },
+    {
+        "code": "BANVT",
+        "name": "Banvit",
+        "sector": "Hayvancılık"
+    },
+    {
+        "code": "BARMA",
+        "name": "Barem Ambalaj",
+        "sector": "Kağıt Ürünleri"
+    },
+    {
+        "code": "BASCM",
+        "name": "Baştaş Başkent Çimento Sanayi",
+        "sector": "Çimento"
+    },
+    {
+        "code": "BASGZ",
+        "name": "Başkent Doğalgaz",
+        "sector": "Elektrik - Doğalgaz Dağıtım"
+    },
+    {
+        "code": "BAYRK",
+        "name": "Bayrak EBT Taban",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "BEGYO",
+        "name": "Batı Ege GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "BERA",
+        "name": "Bera Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "BEYAZ",
+        "name": "Beyaz Filo",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "BFREN",
+        "name": "Bosch Fren",
+        "sector": "Otomotiv Parçası"
+    },
+    {
+        "code": "BIENY",
+        "name": "Bien Yapı",
+        "sector": "Seramik"
+    },
+    {
+        "code": "BIGCH",
+        "name": "BigChefs",
+        "sector": "Gıda"
+    },
+    {
+        "code": "BIMAS",
+        "name": "Bim Birleşik Mağazalar A.Ş",
+        "sector": "Perakande - Ticaret"
+    },
+    {
+        "code": "BINBN",
+        "name": "BinBin",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "BINHO",
+        "name": "1000 Yatırımlar",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "BIOEN",
+        "name": "Biotrend Enerji",
+        "sector": "Elektrik Üretim"
+    },
+    {
+        "code": "BIZIM",
+        "name": "Bizim Toptan",
+        "sector": "Perakande - Ticaret"
+    },
+    {
+        "code": "BJKAS",
+        "name": "Beşiktaş",
+        "sector": "Spor"
+    },
+    {
+        "code": "BLCYT",
+        "name": "Bilici Yatırım",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "BMSCH",
+        "name": "BMS Çelik Hasır",
+        "sector": "Demir-Çelik Döküm"
+    },
+    {
+        "code": "BMSTL",
+        "name": "BMS Birleşik Metal",
+        "sector": "Demir-Çelik Döküm"
+    },
+    {
+        "code": "BNTAS",
+        "name": "Bantaş Bandırma Ambalaj",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "BOBET",
+        "name": "Boğaziçi Beton",
+        "sector": "Çimento"
+    },
+    {
+        "code": "BORLS",
+        "name": "Borlease Otomotiv",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "BORSK",
+        "name": "Bor Şeker",
+        "sector": "Gıda"
+    },
+    {
+        "code": "BOSSA",
+        "name": "Bossa",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "BRISA",
+        "name": "Brisa",
+        "sector": "Otomotiv Lastiği"
+    },
+    {
+        "code": "BRKO",
+        "name": "Birko Mensucat",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "BRKSN",
+        "name": "Berkosan Yalıtım",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "BRKVY",
+        "name": "Birikim Varlık",
+        "sector": "Aracı Kurumlar"
+    },
+    {
+        "code": "BRLSM",
+        "name": "Birlesim Mühendislik",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "BRMEN",
+        "name": "Birlik Mensucat",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "BRSAN",
+        "name": "Borusan Birleşik Boru Fab.",
+        "sector": "Demir-Çelik Temel"
+    },
+    {
+        "code": "BRYAT",
+        "name": "Borusan Yatırım",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "BSOKE",
+        "name": "Batı Söke Çimento",
+        "sector": "Çimento"
+    },
+    {
+        "code": "BTCIM",
+        "name": "Batıçim",
+        "sector": "Çimento"
+    },
+    {
+        "code": "BUCIM",
+        "name": "Bursa Çimento",
+        "sector": "Çimento"
+    },
+    {
+        "code": "BURCE",
+        "name": "Burçelik",
+        "sector": "Demir-Çelik Döküm"
+    },
+    {
+        "code": "BURVA",
+        "name": "Burçelik Vana Sanayii",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "BVSAN",
+        "name": "Bülbüloğlu Vinç",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "BYDNR",
+        "name": "Baydöner",
+        "sector": "Gıda"
+    },
+    {
+        "code": "CANTE",
+        "name": "Çan2 Termik A.S",
+        "sector": "Elektrik Üretim"
+    },
+    {
+        "code": "CASA",
+        "name": "Casa Emtia Petrol Kim.Tür.AŞ",
+        "sector": "Perakande - Ticaret"
+    },
+    {
+        "code": "CATES",
+        "name": "Çates Elektrik",
+        "sector": "Elektrik Üretim"
+    },
+    {
+        "code": "CCOLA",
+        "name": "Coca-Cola İçecek A.Ş",
+        "sector": "Meşrubat / İçecek"
+    },
+    {
+        "code": "CELHA",
+        "name": "Çelik Halat",
+        "sector": "Demir-Çelik Temel"
+    },
+    {
+        "code": "CEMAS",
+        "name": "Çemaş Döküm",
+        "sector": "Demir-Çelik Döküm"
+    },
+    {
+        "code": "CEMTS",
+        "name": "Çemtas",
+        "sector": "Demir-Çelik Temel"
+    },
+    {
+        "code": "CEMZY",
+        "name": "Cem Zeytin",
+        "sector": "Gıda"
+    },
+    {
+        "code": "CEOEM",
+        "name": "CEO Event Medya",
+        "sector": "Medya"
+    },
+    {
+        "code": "CIMSA",
+        "name": "Çimsa",
+        "sector": "Çimento"
+    },
+    {
+        "code": "CLEBI",
+        "name": "Çelebi",
+        "sector": "Havayolları ve Hizm."
+    },
+    {
+        "code": "CMBTN",
+        "name": "Çimbeton",
+        "sector": "Çimento"
+    },
+    {
+        "code": "CMENT",
+        "name": "Çimentaş",
+        "sector": "Çimento"
+    },
+    {
+        "code": "CONSE",
+        "name": "Consus Enerji",
+        "sector": "Elektrik Üretim"
+    },
+    {
+        "code": "COSMO",
+        "name": "Cosmos Yatırım Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "CRDFA",
+        "name": "Creditwest Faktoring",
+        "sector": "Fin.Kiralama ve Faktoring"
+    },
+    {
+        "code": "CRFSA",
+        "name": "Carrefoursa",
+        "sector": "Perakande - Ticaret"
+    },
+    {
+        "code": "CUSAN",
+        "name": "Çuhadaroğlu Metal",
+        "sector": "Demir-Çelik Döküm"
+    },
+    {
+        "code": "CVKMD",
+        "name": "Cvk Maden",
+        "sector": "Madencilik"
+    },
+    {
+        "code": "CWENE",
+        "name": "Cw Enerji",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
+    },
+    {
+        "code": "DAGHL",
+        "name": "Dagi Yatırım Holding A.Ş",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "DAGI",
+        "name": "Dagi Giyim",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "DAPGM",
+        "name": "Dap Gayrimenkul",
+        "sector": "GYO"
+    },
+    {
+        "code": "DARDL",
+        "name": "Dardanel",
+        "sector": "Gıda"
+    },
+    {
+        "code": "DCTTR",
+        "name": "Dct Trading",
+        "sector": "Diğer"
+    },
+    {
+        "code": "DENGE",
+        "name": "Denge Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "DERHL",
+        "name": "Derlüks Yatırım Holding",
+        "sector": "Deri Giyim"
+    },
+    {
+        "code": "DERIM",
+        "name": "Derimod",
+        "sector": "Deri Giyim"
+    },
+    {
+        "code": "DESA",
+        "name": "Desa Deri Sanayii",
+        "sector": "Deri Giyim"
+    },
+    {
+        "code": "DESPC",
+        "name": "Despec Bilgisayar",
+        "sector": "Bilgisayar Toptancılığı"
+    },
+    {
+        "code": "DEVA",
+        "name": "Deva Holding",
+        "sector": "Sağlık ve İlaç"
+    },
+    {
+        "code": "DGATE",
+        "name": "Datagate",
+        "sector": "Bilgisayar Toptancılığı"
     },
     {
         "code": "DGGYO",
-        "name": "DOĞUŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "name": "Dogus GE GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "DGNMO",
+        "name": "Doğanlar Mobilya",
+        "sector": "Mobilya"
+    },
+    {
+        "code": "DIRIT",
+        "name": "Diriteks Diriliş Tekstil",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "DITAS",
+        "name": "Ditaş Doğan",
+        "sector": "Otomotiv Parçası"
+    },
+    {
+        "code": "DMRGD",
+        "name": "DMR Unlu Mamüller",
+        "sector": "Gıda"
+    },
+    {
+        "code": "DMSAS",
+        "name": "Demisaş",
+        "sector": "Demir-Çelik Döküm"
+    },
+    {
+        "code": "DNISI",
+        "name": "Dinamik Isı Yalıtım",
+        "sector": "İnşaat Malzemeleri"
     },
     {
         "code": "DOAS",
-        "name": "DOĞUŞ OTOMOTİV SERVİS VE TİCARET A.Ş."
+        "name": "Doğuş Otomotiv",
+        "sector": "Otomotiv"
     },
     {
-        "code": "DFKTR",
-        "name": "DORUK FAKTORİNG A.Ş."
+        "code": "DOBUR",
+        "name": "Doğan Burda",
+        "sector": "Medya"
+    },
+    {
+        "code": "DOCO",
+        "name": "DO & CO Aktiengesellschaft",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "DOFER",
+        "name": "Dofer Yapı",
+        "sector": "Demir-Çelik Temel"
+    },
+    {
+        "code": "DOGUB",
+        "name": "Doğusan",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "DOHOL",
+        "name": "Doğan Holding",
+        "sector": "Holdingler"
     },
     {
         "code": "DOKTA",
-        "name": "DÖKTAŞ DÖKÜMCÜLÜK TİCARET VE SANAYİ A.Ş."
+        "name": "Döktaş Dökümcülük",
+        "sector": "Otomotiv Parçası"
     },
     {
         "code": "DURDO",
-        "name": "DURAN DOĞAN BASIM VE AMBALAJ SANAYİ A.Ş."
+        "name": "Duran Ofset",
+        "sector": "Kağıt Ürünleri"
     },
     {
         "code": "DURKN",
-        "name": "DURUKAN ŞEKERLEME SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "DNYVA",
-        "name": "DÜNYA VARLIK YÖNETİM A.Ş."
+        "name": "Durukan Şekerleme",
+        "sector": "Gıda"
     },
     {
         "code": "DYOBY",
-        "name": "DYO BOYA FABRİKALARI SANAYİ VE TİCARET A.Ş."
+        "name": "DYO Boya",
+        "sector": "Boya"
     },
     {
-        "code": "EDATA",
-        "name": "E-DATA TEKNOLOJİ PAZARLAMA A.Ş."
+        "code": "DZGYO",
+        "name": "Deniz GYO",
+        "sector": "GYO"
     },
     {
         "code": "EBEBK",
-        "name": "EBEBEK MAĞAZACILIK A.Ş."
-    },
-    {
-        "code": "ECZYT",
-        "name": "ECZACIBAŞI YATIRIM HOLDİNG ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "EDIP",
-        "name": "EDİP GAYRİMENKUL YATIRIM SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "EFORC",
-        "name": "EFOR ÇAY SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "EGEEN",
-        "name": "EGE ENDÜSTRİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "EGGUB",
-        "name": "EGE GÜBRE SANAYİİ A.Ş."
-    },
-    {
-        "code": "EGPRO",
-        "name": "EGE PROFİL TİCARET VE SANAYİ A.Ş."
-    },
-    {
-        "code": "EGSER",
-        "name": "EGE SERAMİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "EPLAS",
-        "name": "EGEPLAST EGE PLASTİK TİCARET VE SANAYİ A.Ş."
+        "name": "Ebebek",
+        "sector": "Perakande - Ticaret"
     },
     {
         "code": "ECILC",
-        "name": "EİS ECZACIBAŞI İLAÇ SINAİ VE FİNANSAL YATIRIMLAR SANAYİ VE TİCARET A.Ş."
+        "name": "Eczacıbaşı İlaç",
+        "sector": "Sağlık ve İlaç"
     },
     {
-        "code": "EKER",
-        "name": "EKER SÜT ÜRÜNLERİ GIDA SANAYİ VE TİCARET A.Ş."
+        "code": "ECZYT",
+        "name": "Eczacıbaşı Yatırım",
+        "sector": "Holdingler"
     },
     {
-        "code": "EKIZ",
-        "name": "EKİZ KİMYA SANAYİ VE TİCARET A.Ş."
+        "code": "EDATA",
+        "name": "E-Data Teknoloji",
+        "sector": "Teknoloji"
     },
     {
-        "code": "EKOFA",
-        "name": "EKO FAKTORİNG A.Ş."
+        "code": "EDIP",
+        "name": "Edip Gayrimenkul Yat. San.",
+        "sector": "GYO"
     },
     {
-        "code": "EKOS",
-        "name": "EKOS TEKNOLOJİ VE ELEKTRİK A.Ş."
+        "code": "EFORC",
+        "name": "Efor Çay",
+        "sector": "Gıda"
     },
     {
-        "code": "EKOVR",
-        "name": "EKOVAR ÇEVRE GRUP GERİ DÖNÜŞÜM ATIK DEPOLAMA İNŞAAT TAAHHÜT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "EKSUN",
-        "name": "EKSUN GIDA TARIM SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ELITE",
-        "name": "ELİTE NATUREL ORGANİK GIDA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "EMKEL",
-        "name": "EMEK ELEKTRİK ENDÜSTRİSİ A.Ş."
-    },
-    {
-        "code": "EMNIS",
-        "name": "EMİNİŞ AMBALAJ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "EMIRV",
-        "name": "EMİR VARLIK YÖNETİM A.Ş."
-    },
-    {
-        "code": "EKTVK",
-        "name": "EMLAK KATILIM VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "EKGYO",
-        "name": "EMLAK KONUT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "EMVAR",
-        "name": "EMLAK VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "ENJSA",
-        "name": "ENERJİSA ENERJİ A.Ş."
-    },
-    {
-        "code": "ENERY",
-        "name": "ENERYA ENERJİ A.Ş."
-    },
-    {
-        "code": "ENKAI",
-        "name": "ENKA İNŞAAT VE SANAYİ A.Ş."
-    },
-    {
-        "code": "ENSRI",
-        "name": "ENSARİ DERİ GIDA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ERBOS",
-        "name": "ERBOSAN ERCİYAS BORU SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "ERCB",
-        "name": "ERCİYAS ÇELİK BORU SANAYİ A.Ş."
-    },
-    {
-        "code": "EREGL",
-        "name": "EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş."
-    },
-    {
-        "code": "ERGLI",
-        "name": "EREĞLİ TEKSTİL TURİZM SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KIMMR",
-        "name": "ERSAN ALIŞVERİŞ HİZMETLERİ VE GIDA SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "ERSU",
-        "name": "ERSU MEYVE VE GIDA SANAYİ A.Ş."
-    },
-    {
-        "code": "ESCAR",
-        "name": "ESCAR FİLO KİRALAMA HİZMETLERİ A.Ş."
-    },
-    {
-        "code": "ESCOM",
-        "name": "ESCORT TEKNOLOJİ YATIRIM A.Ş."
-    },
-    {
-        "code": "ESEN",
-        "name": "ESENBOĞA ELEKTRİK ÜRETİM A.Ş."
-    },
-    {
-        "code": "ETILR",
-        "name": "ETİLER GIDA VE TİCARİ YATIRIMLAR SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "EUKYO",
-        "name": "EURO KAPİTAL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "EUYO",
-        "name": "EURO MENKUL KIYMET YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "ETYAT",
-        "name": "EURO TREND YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "EUHOL",
-        "name": "EURO YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "TEZOL",
-        "name": "EUROPAP TEZOL KAĞIT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "EUREN",
-        "name": "EUROPEN ENDÜSTRİ İNŞAAT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "EUPWR",
-        "name": "EUROPOWER ENERJİ VE OTOMASYON TEKNOLOJİLERİ SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "EYGYO",
-        "name": "EYG GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "FADE",
-        "name": "FADE GIDA YATIRIM SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "FMIZP",
-        "name": "FEDERAL MOGUL İZMİT PİSTON VE PİM ÜRETİM TESİSLERİ A.Ş."
-    },
-    {
-        "code": "FENER",
-        "name": "FENERBAHÇE FUTBOL A.Ş."
-    },
-    {
-        "code": "FBB, FBBNK",
-        "name": "FİBABANKA A.Ş."
-    },
-    {
-        "code": "FLAP",
-        "name": "FLAP KONGRE TOPLANTI HİZMETLERİ OTOMOTİV VE TURİZM A.Ş."
-    },
-    {
-        "code": "FONET",
-        "name": "FONET BİLGİ TEKNOLOJİLERİ A.Ş."
-    },
-    {
-        "code": "FROTO",
-        "name": "FORD OTOMOTİV SANAYİ A.Ş."
-    },
-    {
-        "code": "FORMT",
-        "name": "FORMET METAL VE CAM SANAYİ A.Ş."
-    },
-    {
-        "code": "FORTE",
-        "name": "FORTE BİLGİ İLETİŞİM TEKNOLOJİLERİ VE SAVUNMA SANAYİ A.Ş."
-    },
-    {
-        "code": "FRIGO",
-        "name": "FRİGO-PAK GIDA MADDELERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "FZLGY",
-        "name": "FUZUL GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "GWIND",
-        "name": "GALATA WIND ENERJİ A.Ş."
-    },
-    {
-        "code": "GSRAY",
-        "name": "GALATASARAY SPORTİF SINAİ VE TİCARİ YATIRIMLAR A.Ş."
-    },
-    {
-        "code": "GAPIN",
-        "name": "GAP İNŞAAT YATIRIM VE DIŞ TİCARET A.Ş."
-    },
-    {
-        "code": "GARFA",
-        "name": "GARANTİ FAKTORİNG A.Ş."
-    },
-    {
-        "code": "GRNYO",
-        "name": "GARANTİ YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "GEDIK",
-        "name": "GEDİK YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "GEDZA",
-        "name": "GEDİZ AMBALAJ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "GLCVY",
-        "name": "GELECEK VARLIK YÖNETİMİ A.Ş."
-    },
-    {
-        "code": "GENIL",
-        "name": "GEN İLAÇ VE SAĞLIK ÜRÜNLERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "GENTS",
-        "name": "GENTAŞ DEKORATİF YÜZEYLER SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "GEREL",
-        "name": "GERSAN ELEKTRİK TİCARET VE SANAYİ A.Ş."
-    },
-    {
-        "code": "GZNMI",
-        "name": "GEZİNOMİ SEYAHAT TURİZM TİCARET A.Ş."
-    },
-    {
-        "code": "GIPTA",
-        "name": "GIPTA OFİS KIRTASİYE VE PROMOSYON ÜRÜNLERİ İMALAT SANAYİ A.Ş."
-    },
-    {
-        "code": "GMTAS",
-        "name": "GİMAT MAĞAZACILIK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "GESAN",
-        "name": "GİRİŞİM ELEKTRİK SANAYİ TAAHHÜT VE TİCARET A.Ş."
-    },
-    {
-        "code": "GLB, GLBMD",
-        "name": "GLOBAL MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "GLYHO",
-        "name": "GLOBAL YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "GGBVK",
-        "name": "GOLDEN GLOBAL VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "GSIPD",
-        "name": "GOLDMAN SACHS INTERNATIONAL"
-    },
-    {
-        "code": "GOODY",
-        "name": "GOODYEAR LASTİKLERİ T.A.Ş."
-    },
-    {
-        "code": "GOKNR",
-        "name": "GÖKNUR GIDA MADDELERİ ENERJİ İMALAT İTHALAT İHRACAT TİCARET VE SANAYİ A.Ş."
-    },
-    {
-        "code": "GOLTS",
-        "name": "GÖLTAŞ GÖLLER BÖLGESİ ÇİMENTO SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "GOZDE",
-        "name": "GÖZDE GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "GRTHO",
-        "name": "GRAINTURK HOLDİNG A.Ş."
-    },
-    {
-        "code": "GSDDE",
-        "name": "GSD DENİZCİLİK GAYRİMENKUL İNŞAAT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "GSDHO",
-        "name": "GSD HOLDİNG A.Ş."
-    },
-    {
-        "code": "GUBRF",
-        "name": "GÜBRE FABRİKALARI T.A.Ş."
-    },
-    {
-        "code": "GLRYH",
-        "name": "GÜLER YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "GUNDG",
-        "name": "GÜNDOĞDU GIDA SÜT ÜRÜNLERİ SANAYİ VE DIŞ TİCARET A.Ş."
-    },
-    {
-        "code": "GRSEL",
-        "name": "GÜR-SEL TURİZM TAŞIMACILIK VE SERVİS TİCARET A.Ş."
-    },
-    {
-        "code": "SAHOL",
-        "name": "HACI ÖMER SABANCI HOLDİNG A.Ş."
-    },
-    {
-        "code": "HALKF",
-        "name": "HALK FİNANSAL KİRALAMA A.Ş."
-    },
-    {
-        "code": "HLGYO",
-        "name": "HALK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "HLVKS",
-        "name": "HALK VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "HALKI, HLY",
-        "name": "HALK YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "HRKET",
-        "name": "HAREKET PROJE TAŞIMACILIĞI VE YÜK MÜHENDİSLİĞİ A.Ş."
-    },
-    {
-        "code": "HATSN",
-        "name": "HAT-SAN GEMİ İNŞAA BAKIM ONARIM DENİZ NAKLİYAT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "HATEK",
-        "name": "HATEKS HATAY TEKSTİL İŞLETMELERİ A.Ş."
-    },
-    {
-        "code": "HDFFL",
-        "name": "HEDEF ARAÇ KİRALAMA VE SERVİS A.Ş."
-    },
-    {
-        "code": "HDFGS",
-        "name": "HEDEF GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "HEDEF",
-        "name": "HEDEF HOLDİNG A.Ş."
-    },
-    {
-        "code": "HDFVK",
-        "name": "HEDEF VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "HDFYB, HYB",
-        "name": "HEDEF YATIRIM BANKASI A.Ş."
-    },
-    {
-        "code": "HEKTS",
-        "name": "HEKTAŞ TİCARET T.A.Ş."
-    },
-    {
-        "code": "HEPFN",
-        "name": "HEPSİ FİNANSMAN A.Ş."
-    },
-    {
-        "code": "HKTM",
-        "name": "HİDROPAR HAREKET KONTROL TEKNOLOJİLERİ MERKEZİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "HTTBT",
-        "name": "HİTİT BİLGİSAYAR HİZMETLERİ A.Ş."
-    },
-    {
-        "code": "HOROZ",
-        "name": "HOROZ LOJİSTİK KARGO HİZMETLERİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "HUBVC",
-        "name": "HUB GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "HUNER",
-        "name": "HUN YENİLENEBİLİR ENERJİ ÜRETİM A.Ş."
-    },
-    {
-        "code": "HUZFA",
-        "name": "HUZUR FAKTORİNG A.Ş."
-    },
-    {
-        "code": "HURGZ",
-        "name": "HÜRRİYET GAZETECİLİK VE MATBAACILIK A.Ş."
-    },
-    {
-        "code": "ENTRA",
-        "name": "IC ENTERRA YENİLENEBİLİR ENERJİ A.Ş."
-    },
-    {
-        "code": "ICB, ICBCT",
-        "name": "ICBC TURKEY BANK A.Ş."
-    },
-    {
-        "code": "ICUGS",
-        "name": "ICU GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "INGRM",
-        "name": "INGRAM MİCRO BİLİŞİM SİSTEMLERİ A.Ş."
-    },
-    {
-        "code": "INVEO",
-        "name": "INVEO YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "IAZ, INVAZ",
-        "name": "INVEST-AZ YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "INVES",
-        "name": "INVESTCO HOLDİNG A.Ş."
-    },
-    {
-        "code": "ISKPL",
-        "name": "IŞIK PLASTİK SANAYİ VE DIŞ TİCARET PAZARLAMA A.Ş."
-    },
-    {
-        "code": "IEYHO",
-        "name": "IŞIKLAR ENERJİ VE YAPI HOLDİNG A.Ş."
-    },
-    {
-        "code": "IDGYO",
-        "name": "İDEALİST GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "IHEVA",
-        "name": "İHLAS EV ALETLERİ İMALAT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "IHLGM",
-        "name": "İHLAS GAYRİMENKUL PROJE GELİŞTİRME VE TİCARET A.Ş."
-    },
-    {
-        "code": "IHGZT",
-        "name": "İHLAS GAZETECİLİK A.Ş."
-    },
-    {
-        "code": "IHAAS",
-        "name": "İHLAS HABER AJANSI A.Ş."
-    },
-    {
-        "code": "IHLAS",
-        "name": "İHLAS HOLDİNG A.Ş."
-    },
-    {
-        "code": "IHYAY",
-        "name": "İHLAS YAYIN HOLDİNG A.Ş."
-    },
-    {
-        "code": "IMASM",
-        "name": "İMAŞ MAKİNA SANAYİ A.Ş."
-    },
-    {
-        "code": "INALR",
-        "name": "İNALLAR OTOMOTİV SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "INDES",
-        "name": "İNDEKS BİLGİSAYAR SİSTEMLERİ MÜHENDİSLİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "INFO, IYF",
-        "name": "İNFO YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "INTEK",
-        "name": "İNNOSA TEKNOLOJİ A.Ş."
-    },
-    {
-        "code": "INTEM",
-        "name": "İNTEMA İNŞAAT VE TESİSAT MALZEMELERİ YATIRIM VE PAZARLAMA A.Ş."
-    },
-    {
-        "code": "IPEKE",
-        "name": "İPEK DOĞAL ENERJİ KAYNAKLARI ARAŞTIRMA VE ÜRETİM A.Ş."
-    },
-    {
-        "code": "ISDMR",
-        "name": "İSKENDERUN DEMİR VE ÇELİK A.Ş."
-    },
-    {
-        "code": "ISTFK",
-        "name": "İSTANBUL FAKTORİNG A.Ş."
-    },
-    {
-        "code": "ISFAK",
-        "name": "İŞ FAKTORİNG A.Ş."
-    },
-    {
-        "code": "ISFIN",
-        "name": "İŞ FİNANSAL KİRALAMA A.Ş."
-    },
-    {
-        "code": "ISGYO",
-        "name": "İŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "ISGSY",
-        "name": "İŞ GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "ISMEN, IYM",
-        "name": "İŞ YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "ISYAT",
-        "name": "İŞ YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "ISBIR",
-        "name": "İŞBİR HOLDİNG A.Ş."
-    },
-    {
-        "code": "ISSEN",
-        "name": "İŞBİR SENTETİK DOKUMA SANAYİ A.Ş."
-    },
-    {
-        "code": "IZINV",
-        "name": "İZ YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "IZENR",
-        "name": "İZDEMİR ENERJİ ELEKTRİK ÜRETİM A.Ş."
-    },
-    {
-        "code": "IZMDC",
-        "name": "İZMİR DEMİR ÇELİK SANAYİ A.Ş."
-    },
-    {
-        "code": "IZFAS",
-        "name": "İZMİR FIRÇA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "JANTS",
-        "name": "JANTSA JANT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KFEIN",
-        "name": "KAFEİN YAZILIM HİZMETLERİ TİCARET A.Ş."
-    },
-    {
-        "code": "KLKIM",
-        "name": "KALEKİM KİMYEVİ MADDELER SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KLSER",
-        "name": "KALESERAMİK ÇANAKKALE KALEBODUR SERAMİK SANAYİ A.Ş."
-    },
-    {
-        "code": "KLVKS",
-        "name": "KALKINMA YATIRIM VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "KAPTESTAS001, TRAKAPTEST01",
-        "name": "KAP TEST A.Ş."
-    },
-    {
-        "code": "KAPLM",
-        "name": "KAPLAMİN AMBALAJ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KRDMA, KRDMB, KRDMD",
-        "name": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KAREL",
-        "name": "KAREL ELEKTRONİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KARSN",
-        "name": "KARSAN OTOMOTİV SANAYİİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KRTEK",
-        "name": "KARSU TEKSTİL SANAYİİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KARYE",
-        "name": "KARTAL YENİLENEBİLİR ENERJİ ÜRETİM A.Ş."
-    },
-    {
-        "code": "KARTN",
-        "name": "KARTONSAN KARTON SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KATVK",
-        "name": "KATILIM VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "KTLEV",
-        "name": "KATILIMEVİM TASARRUF FİNANSMAN A.Ş."
-    },
-    {
-        "code": "KATMR",
-        "name": "KATMERCİLER ARAÇ ÜSTÜ EKİPMAN SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KAYSE",
-        "name": "KAYSERİ ŞEKER FABRİKASI A.Ş."
-    },
-    {
-        "code": "KNTFA",
-        "name": "KENT FİNANS FAKTORİNG A.Ş."
-    },
-    {
-        "code": "KENT",
-        "name": "KENT GIDA MADDELERİ SANAYİİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KERVT",
-        "name": "KEREVİTAŞ GIDA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KRVGD",
-        "name": "KERVAN GIDA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KERVN",
-        "name": "KERVANSARAY YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "TCKRC",
-        "name": "KIRAÇ GALVANİZ TELEKOMİNİKASYON METAL MAKİNE İNŞAAT ELEKTRİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KZBGY",
-        "name": "KIZILBÜK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "KLGYO",
-        "name": "KİLER GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "KLRHO",
-        "name": "KİLER HOLDİNG A.Ş."
-    },
-    {
-        "code": "KMPUR",
-        "name": "KİMTEKS POLİÜRETAN SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KLMSN",
-        "name": "KLİMASAN KLİMA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KCAER",
-        "name": "KOCAER ÇELİK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KFKTF",
-        "name": "KOÇ FIAT KREDİ FİNANSMAN A.Ş."
-    },
-    {
-        "code": "KOCFN",
-        "name": "KOÇ FİNANSMAN A.Ş."
-    },
-    {
-        "code": "KCHOL",
-        "name": "KOÇ HOLDİNG A.Ş."
-    },
-    {
-        "code": "KOCMT",
-        "name": "KOÇ METALURJİ A.Ş."
-    },
-    {
-        "code": "KLSYN",
-        "name": "KOLEKSİYON MOBİLYA SANAYİ A.Ş."
-    },
-    {
-        "code": "KNFRT",
-        "name": "KONFRUT GIDA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KONTR",
-        "name": "KONTROLMATİK TEKNOLOJİ ENERJİ VE MÜHENDİSLİK A.Ş."
-    },
-    {
-        "code": "KONYA",
-        "name": "KONYA ÇİMENTO SANAYİİ A.Ş."
-    },
-    {
-        "code": "KONKA",
-        "name": "KONYA KAĞIT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KGYO",
-        "name": "KORAY GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "KORDS",
-        "name": "KORDSA TEKNİK TEKSTİL A.Ş."
-    },
-    {
-        "code": "KRPLS",
-        "name": "KOROPLAST TEMİZLİK AMBALAJ ÜRÜNLERİ SANAYİ VE DIŞ TİCARET A.Ş."
-    },
-    {
-        "code": "KORTS",
-        "name": "KORTEKS MENSUCAT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KOTON",
-        "name": "KOTON MAĞAZACILIK TEKSTİL SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KOZAL",
-        "name": "KOZA ALTIN İŞLETMELERİ A.Ş."
-    },
-    {
-        "code": "KOZAA",
-        "name": "KOZA ANADOLU METAL MADENCİLİK İŞLETMELERİ A.Ş."
-    },
-    {
-        "code": "KOPOL",
-        "name": "KOZA POLYESTER SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "KRGYO",
-        "name": "KÖRFEZ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "KRSTL",
-        "name": "KRİSTAL KOLA VE MEŞRUBAT SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "KRONT",
-        "name": "KRON TEKNOLOJİ A.Ş."
-    },
-    {
-        "code": "KTKVK",
-        "name": "KT KİRA SERTİFİKALARI VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "KSTUR",
-        "name": "KUŞTUR KUŞADASI TURİZM ENDÜSTRİSİ A.Ş."
-    },
-    {
-        "code": "KUVVA",
-        "name": "KUVVA GIDA TİCARET VE SANAYİ YATIRIMLARI A.Ş."
-    },
-    {
-        "code": "KUYAS",
-        "name": "KUYAŞ YATIRIM A.Ş."
-    },
-    {
-        "code": "KBORU",
-        "name": "KUZEY BORU A.Ş."
-    },
-    {
-        "code": "KZGYO",
-        "name": "KUZUGRUP GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "KUTPO",
-        "name": "KÜTAHYA PORSELEN SANAYİ A.Ş."
-    },
-    {
-        "code": "KTSKR",
-        "name": "KÜTAHYA ŞEKER FABRİKASI A.Ş."
-    },
-    {
-        "code": "LIDER",
-        "name": "LDR TURİZM A.Ş."
-    },
-    {
-        "code": "LIDFA",
-        "name": "LİDER FAKTORİNG A.Ş."
-    },
-    {
-        "code": "LILAK",
-        "name": "LİLA KAĞIT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "LMKDC",
-        "name": "LİMAK DOĞU ANADOLU ÇİMENTO SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "LINK",
-        "name": "LİNK BİLGİSAYAR SİSTEMLERİ YAZILIMI VE DONANIMI SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "LOGO",
-        "name": "LOGO YAZILIM SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "LKMNH",
-        "name": "LOKMAN HEKİM ENGÜRÜSAĞ SAĞLIK TURİZM EĞİTİM HİZMETLERİ VE İNŞAAT TAAHHÜT A.Ş."
-    },
-    {
-        "code": "LRSHO",
-        "name": "LORAS HOLDİNG A.Ş."
-    },
-    {
-        "code": "LUKSK",
-        "name": "LÜKS KADİFE TİCARET VE SANAYİİ A.Ş."
-    },
-    {
-        "code": "LYDHO",
-        "name": "LYDİA HOLDİNG A.Ş."
-    },
-    {
-        "code": "LYDYE",
-        "name": "LYDİA YEŞİL ENERJİ KAYNAKLARI A.Ş."
-    },
-    {
-        "code": "MACKO",
-        "name": "MACKOLİK İNTERNET HİZMETLERİ TİCARET A.Ş."
-    },
-    {
-        "code": "MAKIM",
-        "name": "MAKİM MAKİNA TEKNOLOJİLERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MAKTK",
-        "name": "MAKİNA TAKIM ENDÜSTRİSİ A.Ş."
-    },
-    {
-        "code": "MANAS",
-        "name": "MANAS ENERJİ YÖNETİMİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MRBAS, MRS",
-        "name": "MARBAŞ MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "MAGEN",
-        "name": "MARGÜN ENERJİ ÜRETİM SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MRMAG",
-        "name": "MARKA MAĞAZACILIK A.Ş."
-    },
-    {
-        "code": "MARKA",
-        "name": "MARKA YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "MAALT",
-        "name": "MARMARİS ALTINYUNUS TURİSTİK TESİSLER A.Ş."
-    },
-    {
-        "code": "MRSHL",
-        "name": "MARSHALL BOYA VE VERNİK SANAYİİ A.Ş."
-    },
-    {
-        "code": "MRGYO",
-        "name": "MARTI GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "MARTI",
-        "name": "MARTI OTEL İŞLETMELERİ A.Ş."
-    },
-    {
-        "code": "MTRKS",
-        "name": "MATRİKS FİNANSAL TEKNOLOJİLER A.Ş."
-    },
-    {
-        "code": "MAVI",
-        "name": "MAVİ GİYİM SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MZHLD",
-        "name": "MAZHAR ZORLU HOLDİNG A.Ş."
-    },
-    {
-        "code": "MEDTR",
-        "name": "MEDİTERA TIBBİ MALZEME SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MEGMT",
-        "name": "MEGA METAL SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MEGAP",
-        "name": "MEGA POLİETİLEN KÖPÜK SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MEKAG",
-        "name": "MEKA GLOBAL MAKİNE İMALAT SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MEKMD, MSA",
-        "name": "MEKSA YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "MNDRS",
-        "name": "MENDERES TEKSTİL SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MEPET",
-        "name": "MEPET METRO PETROL VE TESİSLERİ SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "MERCN",
-        "name": "MERCAN KİMYA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MRBKF",
-        "name": "MERCEDES BENZ KAMYON FİNANSMAN A.Ş."
-    },
-    {
-        "code": "MBFTR",
-        "name": "MERCEDES-BENZ FİNANSMAN TÜRK A.Ş."
-    },
-    {
-        "code": "MERIT",
-        "name": "MERİT TURİZM YATIRIM VE İŞLETME A.Ş."
-    },
-    {
-        "code": "MERKO",
-        "name": "MERKO GIDA SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "METUR",
-        "name": "METEMTUR YATIRIM ENERJİ TURİZM VE İNŞAAT A.Ş."
-    },
-    {
-        "code": "METRO",
-        "name": "METRO TİCARİ VE MALİ YATIRIMLAR HOLDİNG A.Ş."
-    },
-    {
-        "code": "MTRYO",
-        "name": "METRO YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "MHRGY",
-        "name": "MHR GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "MIATK",
-        "name": "MİA TEKNOLOJİ A.Ş."
-    },
-    {
-        "code": "MGROS",
-        "name": "MİGROS TİCARET A.Ş."
-    },
-    {
-        "code": "MSGYO",
-        "name": "MİSTRAL GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "MPARK",
-        "name": "MLP SAĞLIK HİZMETLERİ A.Ş."
-    },
-    {
-        "code": "MMCAS",
-        "name": "MMC SANAYİ VE TİCARİ YATIRIMLAR A.Ş."
-    },
-    {
-        "code": "MOBTL",
-        "name": "MOBİLTEL İLETİŞİM HİZMETLERİ SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "MOGAN",
-        "name": "MOGAN ENERJİ YATIRIM HOLDİNG A.Ş."
-    },
-    {
-        "code": "MNDTR",
-        "name": "MONDİ TURKEY OLUKLU MUKAVVA KAĞIT VE AMBALAJ SANAYİ A.Ş."
+        "code": "EGEEN",
+        "name": "Ege Endüstri",
+        "sector": "Otomotiv Parçası"
     },
     {
         "code": "EGEPO",
-        "name": "NASMED ÖZEL SAĞLIK HİZMETLERİ TİCARET A.Ş."
+        "name": "Egepol Hastanesi",
+        "sector": "Sağlık ve İlaç"
     },
     {
-        "code": "NATEN",
-        "name": "NATUREL YENİLENEBİLİR ENERJİ TİCARET A.Ş."
+        "code": "EGGUB",
+        "name": "Ege Gübre",
+        "sector": "Tarım Kimyasalları"
     },
     {
-        "code": "NTGAZ",
-        "name": "NATURELGAZ SANAYİ VE TİCARET A.Ş."
+        "code": "EGPRO",
+        "name": "Ege Profil",
+        "sector": "İnşaat Malzemeleri"
     },
     {
-        "code": "NTHOL",
-        "name": "NET HOLDİNG A.Ş."
+        "code": "EGSER",
+        "name": "Ege Seramik",
+        "sector": "Seramik"
     },
     {
-        "code": "NETAS",
-        "name": "NETAŞ TELEKOMÜNİKASYON A.Ş."
+        "code": "EKGYO",
+        "name": "Emlak Konut GYO",
+        "sector": "GYO"
     },
     {
-        "code": "NIBAS",
-        "name": "NİĞBAŞ NİĞDE BETON SANAYİ VE TİCARET A.Ş."
+        "code": "EKIZ",
+        "name": "Ekiz Yağ ve Sabun",
+        "sector": "Gıda"
     },
     {
-        "code": "NUHCM",
-        "name": "NUH ÇİMENTO SANAYİ A.Ş."
+        "code": "EKOS",
+        "name": "Ekos Teknoloji",
+        "sector": "Endüstriyel Makine -Teçhizat Üretim"
     },
     {
-        "code": "NUGYO",
-        "name": "NUROL GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "EKSUN",
+        "name": "Eksun Gıda",
+        "sector": "Gıda"
     },
     {
-        "code": "NRHOL",
-        "name": "NUROL HOLDİNG A.Ş."
+        "code": "ELITE",
+        "name": "Elite Organik Gıda",
+        "sector": "Gıda"
     },
     {
-        "code": "NRLIN",
-        "name": "NUROL İNŞAAT VE TİCARET A.Ş."
+        "code": "EMKEL",
+        "name": "Emek Elektrik",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
     },
     {
-        "code": "NURVK",
-        "name": "NUROL VARLIK KİRALAMA A.Ş."
+        "code": "EMNIS",
+        "name": "Eminiş Ambalaj",
+        "sector": "Boya"
     },
     {
-        "code": "NRBNK, NYB",
-        "name": "NUROL YATIRIM BANKASI A.Ş."
+        "code": "ENERY",
+        "name": "Enerya Enerji",
+        "sector": "Elektrik - Doğalgaz Dağıtım"
     },
     {
-        "code": "OBAMS",
-        "name": "OBA MAKARNACILIK SANAYİ VE TİCARET A.Ş."
+        "code": "ENJSA",
+        "name": "Enerjisa Enerji",
+        "sector": "Elektrik - Doğalgaz Dağıtım"
     },
     {
-        "code": "OBASE",
-        "name": "OBASE BİLGİSAYAR VE DANIŞMANLIK HİZMETLERİ TİCARET A.Ş."
+        "code": "ENKAI",
+        "name": "Enka İnşaat",
+        "sector": "İnşaat- Taahhüt"
     },
     {
-        "code": "ODAS",
-        "name": "ODAŞ ELEKTRİK ÜRETİM SANAYİ TİCARET A.Ş."
+        "code": "ENSRI",
+        "name": "Ensari Deri",
+        "sector": "Deri Giyim"
     },
     {
-        "code": "ODINE",
-        "name": "ODİNE SOLUTİONS TEKNOLOJİ TİCARET VE SANAYİ A.Ş."
+        "code": "ENTRA",
+        "name": "Ic Enterra Yenilenebilir",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "OFSYM",
-        "name": "OFİS YEM GIDA SANAYİ TİCARET A.Ş."
+        "code": "EPLAS",
+        "name": "Egeplast",
+        "sector": "İnşaat Malzemeleri"
     },
     {
-        "code": "ONCSM",
-        "name": "ONCOSEM ONKOLOJİK SİSTEMLER SANAYİ VE TİCARET A.Ş."
+        "code": "ERBOS",
+        "name": "Erbosan",
+        "sector": "Demir-Çelik Döküm"
     },
     {
-        "code": "ONRYT",
-        "name": "ONUR YÜKSEK TEKNOLOJİ A.Ş."
+        "code": "ERCB",
+        "name": "Erciyas Çelik Boru",
+        "sector": "Demir-Çelik Temel"
     },
     {
-        "code": "OPET",
-        "name": "OPET PETROLCÜLÜK A.Ş."
+        "code": "EREGL",
+        "name": "Ereğli Demir Çelik",
+        "sector": "Demir-Çelik Temel"
     },
     {
-        "code": "OPTMA",
-        "name": "OPTİMA FAKTORİNG A.Ş."
+        "code": "ERSU",
+        "name": "Ersu Gıda",
+        "sector": "Meşrubat / İçecek"
     },
     {
-        "code": "ORCAY",
-        "name": "ORÇAY ORTAKÖY ÇAY SANAYİ VE TİCARET A.Ş."
+        "code": "ESCAR",
+        "name": "Escar Filo",
+        "sector": "Ulaştırma-Lojistik"
     },
     {
-        "code": "ORFIN",
-        "name": "ORFİN FİNANSMAN A.Ş."
+        "code": "ESCOM",
+        "name": "Escort Computer",
+        "sector": "Teknoloji"
     },
     {
-        "code": "ORGE",
-        "name": "ORGE ENERJİ ELEKTRİK TAAHHÜT A.Ş."
+        "code": "ESEN",
+        "name": "Esenboğa Elektrik",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "ORMA",
-        "name": "ORMA ORMAN MAHSÜLLERİ İNTEGRE SANAYİ VE TİCARET A.Ş."
+        "code": "ETILR",
+        "name": "Etiler İnci Büfe",
+        "sector": "Gıda"
     },
     {
-        "code": "OMD, OSMEN",
-        "name": "OSMANLI YATIRIM MENKUL DEĞERLER A.Ş."
+        "code": "ETYAT",
+        "name": "Euro Trend Yatırım",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "OSTIM",
-        "name": "OSTİM ENDÜSTRİYEL YATIRIMLAR VE İŞLETME A.Ş."
+        "code": "EUHOL",
+        "name": "Euro Yatırım",
+        "sector": "Holdingler"
     },
     {
-        "code": "OTKAR",
-        "name": "OTOKAR OTOMOTİV VE SAVUNMA SANAYİ A.Ş."
+        "code": "EUKYO",
+        "name": "Euro Kapital Yatırım Ortaklığı",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "OTOKC",
-        "name": "OTOKOÇ OTOMOTİV TİCARET VE SANAYİ A.Ş."
+        "code": "EUPWR",
+        "name": "Europower Enerji",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
     },
     {
-        "code": "OTTO",
-        "name": "OTTO HOLDİNG A.Ş."
+        "code": "EUREN",
+        "name": "Europen Endüstri",
+        "sector": "Demir-Çelik Döküm"
     },
     {
-        "code": "OYAKC",
-        "name": "OYAK ÇİMENTO FABRİKALARI A.Ş."
+        "code": "EUYO",
+        "name": "Euro Menkul",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "OYA, OYYAT",
-        "name": "OYAK YATIRIM MENKUL DEĞERLER A.Ş."
+        "code": "EYGYO",
+        "name": "EYG Gayrimenkul",
+        "sector": "GYO"
     },
     {
-        "code": "OYAYO",
-        "name": "OYAK YATIRIM ORTAKLIĞI A.Ş."
+        "code": "FADE",
+        "name": "Fade Gıda Yatırım",
+        "sector": "Gıda"
     },
     {
-        "code": "OYLUM",
-        "name": "OYLUM SINAİ YATIRIMLAR A.Ş."
+        "code": "FENER",
+        "name": "Fenerbahce Futbol A.Ş.",
+        "sector": "Spor"
     },
     {
-        "code": "OZKGY",
-        "name": "ÖZAK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "FLAP",
+        "name": "Flap Kongre Hiz.Oto.Tur.A.Ş",
+        "sector": "Diğer"
     },
     {
-        "code": "OZATD",
-        "name": "ÖZATA DENİZCİLİK SANAYİ VE TİCARET A.Ş."
+        "code": "FMIZP",
+        "name": "F-M İzmit Piston",
+        "sector": "Otomotiv Parçası"
     },
     {
-        "code": "OZGYO",
-        "name": "ÖZDERİCİ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "FONET",
+        "name": "Fonet Bilgi Teknolojileri",
+        "sector": "Teknoloji"
     },
     {
-        "code": "OZRDN",
-        "name": "ÖZERDEN AMBALAJ SANAYİ A.Ş."
+        "code": "FORMT",
+        "name": "Formet Metal ve Cam Sanayii",
+        "sector": "İnşaat Malzemeleri"
     },
     {
-        "code": "OZSUB",
-        "name": "ÖZSU BALIK ÜRETİM A.Ş."
+        "code": "FORTE",
+        "name": "Forte Bilgi İletişim",
+        "sector": "Teknoloji"
     },
     {
-        "code": "OZYSR",
-        "name": "ÖZYAŞAR TEL VE GALVANİZLEME SANAYİ A.Ş."
+        "code": "FRIGO",
+        "name": "Frigo Pak Gıda",
+        "sector": "Gıda"
     },
     {
-        "code": "PAMEL",
-        "name": "PAMEL YENİLENEBİLİR ELEKTRİK ÜRETİM A.Ş."
+        "code": "FROTO",
+        "name": "Ford Otosan",
+        "sector": "Otomotiv"
     },
     {
-        "code": "PNLSN",
-        "name": "PANELSAN ÇATI CEPHE SİSTEMLERİ SANAYİ VE TİCARET A.Ş."
+        "code": "FZLGY",
+        "name": "Fuzul Gayrimenkul",
+        "sector": "GYO"
     },
     {
-        "code": "PAGYO",
-        "name": "PANORA GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "GARAN",
+        "name": "Garanti Bankası",
+        "sector": "Bankacılık"
     },
     {
-        "code": "PAPIL",
-        "name": "PAPİLON SAVUNMA TEKNOLOJİ VE TİCARET A.Ş."
+        "code": "GARFA",
+        "name": "Garanti BBVA Faktoring",
+        "sector": "Fin.Kiralama ve Faktoring"
     },
     {
-        "code": "PRFFK",
-        "name": "PARAFİNANS FAKTORİNG A.Ş."
+        "code": "GEDIK",
+        "name": "Gedik Yatırım",
+        "sector": "Aracı Kurumlar"
     },
     {
-        "code": "PRDGS",
-        "name": "PARDUS GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
+        "code": "GEDZA",
+        "name": "Gediz Ambalaj Sanayi",
+        "sector": "Kimyasal Ürün"
     },
     {
-        "code": "PRKME",
-        "name": "PARK ELEKTRİK ÜRETİM MADENCİLİK SANAYİ VE TİCARET A.Ş."
+        "code": "GENIL",
+        "name": "Gen İlaç",
+        "sector": "Sağlık ve İlaç"
     },
     {
-        "code": "PARSN",
-        "name": "PARSAN MAKİNA PARÇALARI SANAYİİ A.Ş."
+        "code": "GENTS",
+        "name": "Gentaş",
+        "sector": "Mobilya"
     },
     {
-        "code": "PBT, PBTR",
-        "name": "PASHA YATIRIM BANKASI A.Ş."
+        "code": "GEREL",
+        "name": "Gersan Elektrik",
+        "sector": "Kablo"
     },
     {
-        "code": "PASEU",
-        "name": "PASİFİK EURASİA LOJİSTİK DIŞ TİCARET A.Ş."
+        "code": "GESAN",
+        "name": "Girişim Elektrik",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
     },
     {
-        "code": "PSGYO",
-        "name": "PASİFİK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "GIPTA",
+        "name": "Gıpta",
+        "sector": "Kırtasiye"
     },
     {
-        "code": "PATEK",
-        "name": "PASİFİK TEKNOLOJİ A.Ş."
+        "code": "GLBMD",
+        "name": "Global Menkul Değerler",
+        "sector": "Aracı Kurumlar"
     },
     {
-        "code": "PCILT",
-        "name": "PC İLETİŞİM VE MEDYA HİZMETLERİ SANAYİ TİCARET A.Ş."
+        "code": "GLCVY",
+        "name": "Gelecek Varlık Yön.",
+        "sector": "Aracı Kurumlar"
     },
     {
-        "code": "PGSUS",
-        "name": "PEGASUS HAVA TAŞIMACILIĞI A.Ş."
+        "code": "GLRYH",
+        "name": "Güler Yatırım Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "PEKGY",
-        "name": "PEKER GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "GLYHO",
+        "name": "Global Yatırım Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "PENGD",
-        "name": "PENGUEN GIDA SANAYİ A.Ş."
+        "code": "GMTAS",
+        "name": "Gimat Mağazacılık",
+        "sector": "Perakande - Ticaret"
     },
     {
-        "code": "PENTA",
-        "name": "PENTA TEKNOLOJİ ÜRÜNLERİ DAĞITIM TİCARET A.Ş."
+        "code": "GOKNR",
+        "name": "Göknur Gıda",
+        "sector": "Gıda"
     },
     {
-        "code": "PEHOL",
-        "name": "PERA YATIRIM HOLDİNG A.Ş."
+        "code": "GOLTS",
+        "name": "Göltaş Çimento",
+        "sector": "Çimento"
     },
     {
-        "code": "PSDTC",
-        "name": "PERGAMON STATUS DIŞ TİCARET A.Ş."
+        "code": "GOODY",
+        "name": "Goodyear",
+        "sector": "Otomotiv Lastiği"
     },
     {
-        "code": "PETKM",
-        "name": "PETKİM PETROKİMYA HOLDİNG A.Ş."
+        "code": "GOZDE",
+        "name": "Gözde Girisim Sermayesi",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "PKENT",
-        "name": "PETROKENT TURİZM A.Ş."
+        "code": "GRNYO",
+        "name": "Garanti YO",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "PETUN",
-        "name": "PINAR ENTEGRE ET VE UN SANAYİİ A.Ş."
+        "code": "GRSEL",
+        "name": "Gürsel Taşımacılık",
+        "sector": "Ulaştırma-Lojistik"
     },
     {
-        "code": "PINSU",
-        "name": "PINAR SU VE İÇECEK SANAYİ VE TİCARET A.Ş."
+        "code": "GRTHO",
+        "name": "GrainTurk Tarım",
+        "sector": "Perakande - Ticaret"
     },
     {
-        "code": "PNSUT",
-        "name": "PINAR SÜT MAMÜLLERİ SANAYİİ A.Ş."
+        "code": "GSDDE",
+        "name": "GSD Denizcilik Gayrimenkul İnş",
+        "sector": "Ulaştırma-Lojistik"
     },
     {
-        "code": "PKART",
-        "name": "PLASTİKKART AKILLI KART İLETİŞİM SİSTEMLERİ SANAYİ VE TİCARET A.Ş."
+        "code": "GSDHO",
+        "name": "GSD Holding A.Ş.",
+        "sector": "Holdingler"
     },
     {
-        "code": "PLTUR",
-        "name": "PLATFORM TURİZM TAŞIMACILIK GIDA İNŞAAT TEMİZLİK HİZMETLERİ SANAYİ VE TİCARET A.Ş."
+        "code": "GSRAY",
+        "name": "Galatasaray Sportif A.Ş",
+        "sector": "Spor"
     },
     {
-        "code": "POLHO",
-        "name": "POLİSAN HOLDİNG A.Ş."
+        "code": "GUBRF",
+        "name": "Gübre Fabrikaları",
+        "sector": "Tarım Kimyasalları"
     },
     {
-        "code": "POLTK",
-        "name": "POLİTEKNİK METAL SANAYİ VE TİCARET A.Ş."
+        "code": "GUNDG",
+        "name": "Gündoğdu Gıda",
+        "sector": "Gıda"
     },
     {
-        "code": "PRZMA",
-        "name": "PRİZMA PRES MATBAACILIK YAYINCILIK SANAYİ VE TİCARET A.Ş."
+        "code": "GWIND",
+        "name": "Galata Wind Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "QYATB, YBQ",
-        "name": "Q YATIRIM BANKASI A.Ş."
+        "code": "GZNMI",
+        "name": "Gezinomi Seyahat",
+        "sector": "Turizm"
     },
     {
-        "code": "QYHOL",
-        "name": "Q YATIRIM HOLDİNG A.Ş."
+        "code": "HALKB",
+        "name": "Halkbank",
+        "sector": "Bankacılık"
     },
     {
-        "code": "FIN, QNBTR",
-        "name": "QNB BANK A.Ş."
+        "code": "HATEK",
+        "name": "Hateks Hatay Tekstil",
+        "sector": "Tekstil Entegre"
     },
     {
-        "code": "QNBFF",
-        "name": "QNB FAKTORİNG A.Ş."
+        "code": "HATSN",
+        "name": "Hat-San",
+        "sector": "Ulaştırma-Lojistik"
     },
     {
-        "code": "QNBFL",
-        "name": "QNB FİNANSAL KİRALAMA A.Ş."
+        "code": "HDFGS",
+        "name": "Hedef Girişim Sermayesi",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "QNBVK",
-        "name": "QNB VARLIK KİRALAMA A.Ş."
+        "code": "HEDEF",
+        "name": "Hedef Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "FNY, QNBFI",
-        "name": "QNB YATIRIM MENKUL DEĞERLER A.Ş."
+        "code": "HEKTS",
+        "name": "Hektaş",
+        "sector": "Tarım Kimyasalları"
     },
     {
-        "code": "QUAGR",
-        "name": "QUA GRANITE HAYAL YAPI VE ÜRÜNLERİ SANAYİ TİCARET A.Ş."
+        "code": "HKTM",
+        "name": "Hidropar",
+        "sector": "Endüstriyel Makine -Teçhizat Üretim"
     },
     {
-        "code": "QUFIN",
-        "name": "QUICK FİNANSMAN A.Ş."
+        "code": "HLGYO",
+        "name": "Halk GYO",
+        "sector": "GYO"
     },
     {
-        "code": "RNPOL",
-        "name": "RAİNBOW POLİKARBONAT SANAYİ TİCARET A.Ş."
+        "code": "HOROZ",
+        "name": "Horoz Lojistik",
+        "sector": "Ulaştırma-Lojistik"
     },
     {
-        "code": "RALYH",
-        "name": "RAL YATIRIM HOLDİNG A.Ş."
+        "code": "HRKET",
+        "name": "Hareket Proje",
+        "sector": "Endüstriyel Makine -Teçhizat Üretim"
     },
     {
-        "code": "RAYSG",
-        "name": "RAY SİGORTA A.Ş."
+        "code": "HTTBT",
+        "name": "Hitit Bilgisayar",
+        "sector": "Bilgisayar Toptancılığı"
     },
     {
-        "code": "REEDR",
-        "name": "REEDER TEKNOLOJİ SANAYİ VE TİCARET A.Ş."
+        "code": "HUBVC",
+        "name": "Hub Girişim Ser. Y.O.",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "RYGYO",
-        "name": "REYSAŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "HUNER",
+        "name": "Hun Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "RYSAS",
-        "name": "REYSAŞ TAŞIMACILIK VE LOJİSTİK TİCARET A.Ş."
+        "code": "HURGZ",
+        "name": "Hürriyet",
+        "sector": "Medya"
     },
     {
-        "code": "RODRG",
-        "name": "RODRİGO TEKSTİL SANAYİ VE TİCARET A.Ş."
+        "code": "ICBCT",
+        "name": "ICBC Turkey Bank",
+        "sector": "Bankacılık"
     },
     {
-        "code": "ROYAL",
-        "name": "ROYAL HALI İPLİK TEKSTİL MOBİLYA SANAYİ VE TİCARET A.Ş."
+        "code": "ICUGS",
+        "name": "Icu Girişim Ser. Y.O.",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "RGYAS",
-        "name": "RÖNESANS GAYRİMENKUL YATIRIM A.Ş."
+        "code": "IDGYO",
+        "name": "İdealist GYO",
+        "sector": "GYO"
     },
     {
-        "code": "RTALB",
-        "name": "RTA LABORATUVARLARI BİYOLOJİK ÜRÜNLER İLAÇ VE MAKİNE SANAYİ TİCARET A.Ş."
+        "code": "IEYHO",
+        "name": "Işıklar Enerji ve Yapı Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "RUBNS",
-        "name": "RUBENİS TEKSTİL SANAYİ TİCARET A.Ş."
+        "code": "IHAAS",
+        "name": "İhlas Haber Ajansı",
+        "sector": "Medya"
     },
     {
-        "code": "SAFKR",
-        "name": "SAFKAR EGE SOĞUTMACILIK KLİMA SOĞUK HAVA TESİSLERİ İHRACAT İTHALAT SANAYİ VE TİCARET A.Ş."
+        "code": "IHEVA",
+        "name": "İhlas Ev Aletleri",
+        "sector": "Dayanıklı Tüketim"
     },
     {
-        "code": "SANEL",
-        "name": "SAN-EL MÜHENDİSLİK ELEKTRİK TAAHHÜT SANAYİ VE TİCARET A.Ş."
+        "code": "IHGZT",
+        "name": "İhlas Gazetecilik",
+        "sector": "Medya"
     },
     {
-        "code": "SNICA",
-        "name": "SANİCA ISI SANAYİ A.Ş."
+        "code": "IHLAS",
+        "name": "İhlas Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "SANFM",
-        "name": "SANİFOAM ENDÜSTRİ VE TÜKETİM ÜRÜNLERİ SANAYİ TİCARET A.Ş."
+        "code": "IHLGM",
+        "name": "İhlas Gayrimenkul",
+        "sector": "GYO"
     },
     {
-        "code": "SANKO",
-        "name": "SANKO PAZARLAMA İTHALAT İHRACAT A.Ş."
+        "code": "IHYAY",
+        "name": "İhlas Yayın Holding",
+        "sector": "Medya"
     },
     {
-        "code": "SAMAT",
-        "name": "SARAY MATBAACILIK KAĞITÇILIK KIRTASİYECİLİK TİCARET VE SANAYİ A.Ş."
+        "code": "IMASM",
+        "name": "İmaş Makine",
+        "sector": "Endüstriyel Makine -Teçhizat Üretim"
     },
     {
-        "code": "SARKY",
-        "name": "SARKUYSAN ELEKTROLİTİK BAKIR SANAYİ VE TİCARET A.Ş."
+        "code": "INDES",
+        "name": "İndeks Bilgisayar",
+        "sector": "Bilgisayar Toptancılığı"
     },
     {
-        "code": "SARTN",
-        "name": "SARTEN AMBALAJ SANAYİ VE TİCARET A.Ş."
+        "code": "INFO",
+        "name": "İnfo Yatırım",
+        "sector": "Aracı Kurumlar"
     },
     {
-        "code": "SASA",
-        "name": "SASA POLYESTER SANAYİ A.Ş."
+        "code": "INGRM",
+        "name": "İngram Bilişim",
+        "sector": "Bilgisayar Toptancılığı"
     },
     {
-        "code": "SAYAS",
-        "name": "SAY YENİLENEBİLİR ENERJİ EKİPMANLARI SANAYİ VE TİCARET A.Ş."
+        "code": "INTEK",
+        "name": "Innosa Teknoloji",
+        "sector": "Teknoloji"
     },
     {
-        "code": "SDTTR",
-        "name": "SDT UZAY VE SAVUNMA TEKNOLOJİLERİ A.Ş."
+        "code": "INTEM",
+        "name": "İntema",
+        "sector": "İnşaat Malzemeleri"
     },
     {
-        "code": "SEGMN",
-        "name": "SEĞMEN KARDEŞLER GIDA ÜRETİM VE AMBALAJ SANAYİ A.Ş."
+        "code": "INVEO",
+        "name": "İnveo Yatırım Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "SEKUR",
-        "name": "SEKURO PLASTİK AMBALAJ SANAYİ A.Ş."
+        "code": "INVES",
+        "name": "Investco Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "SELEC",
-        "name": "SELÇUK ECZA DEPOSU TİCARET VE SANAYİ A.Ş."
+        "code": "IPEKE",
+        "name": "İpek Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "SELGD",
-        "name": "SELÇUK GIDA ENDÜSTRİ İHRACAT İTHALAT A.Ş."
+        "code": "ISATR",
+        "name": "İş Bankası (A)",
+        "sector": "Bankacılık"
     },
     {
-        "code": "SELVA",
-        "name": "SELVA GIDA SANAYİ A.Ş."
+        "code": "ISBIR",
+        "name": "İşbir Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "SNKRN",
-        "name": "SENKRON SİBER GÜVENLİK YAZILIM VE BİLİŞİM ÇÖZÜMLERİ A.Ş."
+        "code": "ISBTR",
+        "name": "İş Bankası (B)",
+        "sector": "Bankacılık"
     },
     {
-        "code": "SRVGY",
-        "name": "SERVET GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "ISCTR",
+        "name": "İş Bankası (C)",
+        "sector": "Bankacılık"
     },
     {
-        "code": "KHSTR",
-        "name": "SETUR SERVİS TURİSTİK A.Ş."
+        "code": "ISDMR",
+        "name": "İskenderun Demir Çelik",
+        "sector": "Demir-Çelik Temel"
     },
     {
-        "code": "SEYKM",
-        "name": "SEYİTLER KİMYA SANAYİ A.Ş."
+        "code": "ISFIN",
+        "name": "İş Finansal Kiralama",
+        "sector": "Fin.Kiralama ve Faktoring"
     },
     {
-        "code": "SHTRP",
-        "name": "SHELL & TURCAS PETROL A.Ş."
+        "code": "ISGSY",
+        "name": "İş Girişim",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "SILVR",
-        "name": "SİLVERLİNE ENDÜSTRİ VE TİCARET A.Ş."
+        "code": "ISGYO",
+        "name": "İş GYO",
+        "sector": "GYO"
     },
     {
-        "code": "SNGYO",
-        "name": "SİNPAŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "ISKPL",
+        "name": "Işıklar Plastik",
+        "sector": "Kimyasal Ürün"
     },
     {
-        "code": "SKYLP",
-        "name": "SKYALP FİNANSAL TEKNOLOJİLER VE DANIŞMANLIK A.Ş."
+        "code": "ISKUR",
+        "name": "İş Bankası Kurucu",
+        "sector": "Bankacılık"
     },
     {
-        "code": "SMRTG",
-        "name": "SMART GÜNEŞ ENERJİSİ TEKNOLOJİLERİ ARAŞTIRMA GELİŞTİRME ÜRETİM SANAYİ VE TİCARET A.Ş."
+        "code": "ISMEN",
+        "name": "İş Yatırım",
+        "sector": "Aracı Kurumlar"
     },
     {
-        "code": "SMART",
-        "name": "SMARTİKS YAZILIM A.Ş."
+        "code": "ISSEN",
+        "name": "İşbir Sentetik",
+        "sector": "Tekstil Entegre"
     },
     {
-        "code": "SODSN",
-        "name": "SODAŞ SODYUM SANAYİİ A.Ş."
+        "code": "ISYAT",
+        "name": "İs YO",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
-        "code": "SOKE",
-        "name": "SÖKE DEĞİRMENCİLİK SANAYİ VE TİCARET A.Ş."
+        "code": "IZENR",
+        "name": "İzdemir Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "SKTAS",
-        "name": "SÖKTAŞ TEKSTİL SANAYİ VE TİCARET A.Ş."
+        "code": "IZFAS",
+        "name": "İzmir Fırça",
+        "sector": "Boya"
     },
     {
-        "code": "SONME",
-        "name": "SÖNMEZ FİLAMENT SENTETİK İPLİK VE ELYAF SANAYİ A.Ş."
+        "code": "IZINV",
+        "name": "İz Yatırım Holding",
+        "sector": "Gıda"
     },
     {
-        "code": "SNPAM",
-        "name": "SÖNMEZ PAMUKLU SANAYİİ A.Ş."
+        "code": "IZMDC",
+        "name": "İzmir Demir Çelik",
+        "sector": "Demir-Çelik Temel"
     },
     {
-        "code": "SUMAS",
-        "name": "SUMAŞ SUNİ TAHTA VE MOBİLYA SANAYİİ A.Ş."
+        "code": "JANTS",
+        "name": "Jantsa Jant",
+        "sector": "Otomotiv Parçası"
     },
     {
-        "code": "SUNTK",
-        "name": "SUN TEKSTİL SANAYİ VE TİCARET A.Ş."
+        "code": "KAPLM",
+        "name": "Kaplamin",
+        "sector": "Kağıt Ürünleri"
     },
     {
-        "code": "SURGY",
-        "name": "SUR TATİL EVLERİ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "KAREL",
+        "name": "Karel Elektronik",
+        "sector": "İletişim Cihazları"
     },
     {
-        "code": "SUWEN",
-        "name": "SUWEN TEKSTİL SANAYİ PAZARLAMA A.Ş."
+        "code": "KARSN",
+        "name": "Karsan Otomotiv",
+        "sector": "Otomotiv"
     },
     {
-        "code": "SMRFA",
-        "name": "SÜMER FAKTORİNG A.Ş."
+        "code": "KARTN",
+        "name": "Kartonsan",
+        "sector": "Kağıt Ürünleri"
     },
     {
-        "code": "SMRVA",
-        "name": "SÜMER VARLIK YÖNETİM A.Ş."
+        "code": "KARYE",
+        "name": "Kartal Yenilenebili Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "SEKFA",
-        "name": "ŞEKER FAKTORİNG A.Ş."
+        "code": "KATMR",
+        "name": "Katmerciler Araç Üstü Ekipman",
+        "sector": "Otomotiv Parçası"
     },
     {
-        "code": "SEKFK",
-        "name": "ŞEKER FİNANSAL KİRALAMA A.Ş."
+        "code": "KAYSE",
+        "name": "Kayseri Şeker",
+        "sector": "Gıda"
     },
     {
-        "code": "SEGYO",
-        "name": "ŞEKER GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "KBORU",
+        "name": "Kuzey Boru",
+        "sector": "İnşaat Malzemeleri"
     },
     {
-        "code": "SKY, SKYMD",
-        "name": "ŞEKER YATIRIM MENKUL DEĞERLER A.Ş."
+        "code": "KCAER",
+        "name": "Kocaer Çelik Sanayi",
+        "sector": "Demir-Çelik Temel"
     },
     {
-        "code": "SEK, SKBNK",
-        "name": "ŞEKERBANK T.A.Ş."
+        "code": "KCHOL",
+        "name": "Koç Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "SOKM",
-        "name": "ŞOK MARKETLER TİCARET A.Ş."
+        "code": "KENT",
+        "name": "Kent Gıda",
+        "sector": "Gıda"
     },
     {
-        "code": "DRPHN",
-        "name": "T.C. HAZİNE VE MALİYE BAKANLIĞI DARPHANE VE DAMGA MATBAASI GENEL MÜDÜRLÜĞÜ"
+        "code": "KERVN",
+        "name": "Kervansaray Yat. Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "TOKI",
-        "name": "T.C. TOPLU KONUT İDARESİ BAŞKANLIĞI"
+        "code": "KERVT",
+        "name": "Kerevitaş",
+        "sector": "Gıda"
     },
     {
-        "code": "TABGD",
-        "name": "TAB GIDA SANAYİ VE TİCARET A.Ş."
+        "code": "KFEIN",
+        "name": "Kafein Yazılım",
+        "sector": "Teknoloji"
     },
     {
-        "code": "TAC, TCRYT",
-        "name": "TACİRLER YATIRIM MENKUL DEĞERLER A.Ş."
+        "code": "KGYO",
+        "name": "Koray GYO",
+        "sector": "GYO"
     },
     {
-        "code": "TAMFA",
-        "name": "TAM FİNANS FAKTORİNG A.Ş."
+        "code": "KIMMR",
+        "name": "Ersan Alışveriş Hizmetleri",
+        "sector": "Perakande - Ticaret"
     },
     {
-        "code": "TNZTP",
-        "name": "TAPDİ OKSİJEN ÖZEL SAĞLIK VE EĞİTİM HİZMETLERİ SANAYİ TİCARET A.Ş."
+        "code": "KLGYO",
+        "name": "Kiler GYO",
+        "sector": "GYO"
     },
     {
-        "code": "TARKM",
-        "name": "TARKİM BİTKİ KORUMA SANAYİ VE TİCARET A.Ş."
+        "code": "KLKIM",
+        "name": "Kalekim Kimyevi Maddeler",
+        "sector": "Seramik"
     },
     {
-        "code": "TATGD",
-        "name": "TAT GIDA SANAYİ A.Ş."
+        "code": "KLMSN",
+        "name": "Klimasan",
+        "sector": "Dayanıklı Tüketim"
     },
     {
-        "code": "TATEN",
-        "name": "TATLIPINAR ENERJİ ÜRETİM A.Ş."
+        "code": "KLNMA",
+        "name": "T. Kalkınma Bankası",
+        "sector": "Bankacılık"
     },
     {
-        "code": "TAVHL",
-        "name": "TAV HAVALİMANLARI HOLDİNG A.Ş."
+        "code": "KLRHO",
+        "name": "Kiler Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "TEBCE",
-        "name": "TEB FİNANSMAN A.Ş."
+        "code": "KLSER",
+        "name": "Kaleseramik",
+        "sector": "Seramik"
     },
     {
-        "code": "TEKTU",
-        "name": "TEK-ART İNŞAAT TİCARET TURİZM SANAYİ VE YATIRIMLAR A.Ş."
+        "code": "KLSYN",
+        "name": "Koleksiyon Mobilya",
+        "sector": "Mobilya"
     },
     {
-        "code": "TKFEN",
-        "name": "TEKFEN HOLDİNG A.Ş."
+        "code": "KMPUR",
+        "name": "Kimteks Poliüretan",
+        "sector": "Kimyasal Ürün"
     },
     {
-        "code": "TKNSA",
-        "name": "TEKNOSA İÇ VE DIŞ TİCARET A.Ş."
+        "code": "KNFRT",
+        "name": "Konfrut Gıda",
+        "sector": "Meşrubat / İçecek"
     },
     {
-        "code": "TMPOL",
-        "name": "TEMAPOL POLİMER PLASTİK VE İNŞAAT SANAYİ TİCARET A.Ş."
+        "code": "KOCMT",
+        "name": "Koç Metalurji",
+        "sector": "Demir-Çelik Temel"
     },
     {
-        "code": "ARNFK",
-        "name": "TERA FİNANS FAKTORİNG A.Ş."
+        "code": "KONKA",
+        "name": "Konya Kağıt",
+        "sector": "Kağıt Ürünleri"
     },
     {
-        "code": "TAE, TRBNK",
-        "name": "TERA YATIRIM BANKASI A.Ş."
+        "code": "KONTR",
+        "name": "Kontrolmatik Teknoloji",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
     },
     {
-        "code": "TERA, TRA",
-        "name": "TERA YATIRIM MENKUL DEĞERLER A.Ş."
+        "code": "KONYA",
+        "name": "Konya Çimento",
+        "sector": "Çimento"
     },
     {
-        "code": "TFNVK",
-        "name": "TF VARLIK KİRALAMA A.Ş."
+        "code": "KOPOL",
+        "name": "Koza Polyester",
+        "sector": "Endüstriyel Tekstil"
     },
     {
-        "code": "TGSAS",
-        "name": "TGS DIŞ TİCARET A.Ş."
+        "code": "KORDS",
+        "name": "Kordsa Teknik Tekstil",
+        "sector": "Endüstriyel Tekstil"
     },
     {
-        "code": "TIMUR",
-        "name": "TİMUR GAYRİMENKUL GELİŞTİRME YAPI VE YATIRIM A.Ş."
+        "code": "KOTON",
+        "name": "Koton",
+        "sector": "Tekstil Entegre"
     },
     {
-        "code": "TRYKI",
-        "name": "TİRYAKİ AGRO GIDA SANAYİ VE TİCARET A.Ş."
+        "code": "KOZAA",
+        "name": "Koza Anadolu Metal",
+        "sector": "Madencilik"
     },
     {
-        "code": "TOASO",
-        "name": "TOFAŞ TÜRK OTOMOBİL FABRİKASI A.Ş."
+        "code": "KOZAL",
+        "name": "Koza Altın",
+        "sector": "Madencilik"
     },
     {
-        "code": "TRGYO",
-        "name": "TORUNLAR GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "KRDMA",
+        "name": "Kardemir (A)",
+        "sector": "Demir-Çelik Temel"
     },
     {
-        "code": "TLMAN",
-        "name": "TRABZON LİMAN İŞLETMECİLİĞİ A.Ş."
+        "code": "KRDMB",
+        "name": "Kardemir (B)",
+        "sector": "Demir-Çelik Temel"
     },
     {
-        "code": "TSPOR",
-        "name": "TRABZONSPOR SPORTİF YATIRIM VE FUTBOL İŞLETMECİLİĞİ TİCARET A.Ş."
+        "code": "KRDMD",
+        "name": "Kardemir (D)",
+        "sector": "Demir-Çelik Temel"
     },
     {
-        "code": "TDGYO",
-        "name": "TREND GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "KRGYO",
+        "name": "Korfez GYO",
+        "sector": "GYO"
     },
     {
-        "code": "TRMEN, TVM",
-        "name": "TRIVE YATIRIM MENKUL DEĞERLER A.Ş."
+        "code": "KRONT",
+        "name": "Kron Telekomünikasyon",
+        "sector": "İletişim"
     },
     {
-        "code": "TSGYO",
-        "name": "TSKB GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
+        "code": "KRPLS",
+        "name": "Koroplast Temizlik Ambalaj",
+        "sector": "Kağıt Ürünleri"
     },
     {
-        "code": "TUCLK",
-        "name": "TUĞÇELİK ALÜMİNYUM VE METAL MAMÜLLERİ SANAYİ VE TİCARET A.Ş."
+        "code": "KRSTL",
+        "name": "Kristal Kola",
+        "sector": "Meşrubat / İçecek"
     },
     {
-        "code": "TUKAS",
-        "name": "TUKAŞ GIDA SANAYİ VE TİCARET A.Ş."
+        "code": "KRTEK",
+        "name": "Karsu Tekstil",
+        "sector": "Tekstil Entegre"
     },
     {
-        "code": "TRCAS",
-        "name": "TURCAS PETROL A.Ş."
+        "code": "KRVGD",
+        "name": "Kervan Gıda",
+        "sector": "Gıda"
     },
     {
-        "code": "TUREX",
-        "name": "TUREKS TURİZM TAŞIMACILIK A.Ş."
+        "code": "KSTUR",
+        "name": "Kuştur Turizm",
+        "sector": "Turizm"
+    },
+    {
+        "code": "KTLEV",
+        "name": "Katılımevim",
+        "sector": "Diğer"
+    },
+    {
+        "code": "KTSKR",
+        "name": "Kütahya Şeker",
+        "sector": "Gıda"
+    },
+    {
+        "code": "KUTPO",
+        "name": "Kütahya Porselen",
+        "sector": "Seramik"
+    },
+    {
+        "code": "KUVVA",
+        "name": "Kuvva Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "KUYAS",
+        "name": "Kuyas Yatırım AŞ",
+        "sector": "İnşaat- Taahhüt"
+    },
+    {
+        "code": "KZBGY",
+        "name": "Kızılbük GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "KZGYO",
+        "name": "Kuzugrup GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "LIDER",
+        "name": "Lider Turizm",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "LIDFA",
+        "name": "Lider Faktoring",
+        "sector": "Fin.Kiralama ve Faktoring"
+    },
+    {
+        "code": "LILAK",
+        "name": "Lila Kağıt",
+        "sector": "Kağıt Ürünleri"
+    },
+    {
+        "code": "LINK",
+        "name": "Link Bilgisayar",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "LKMNH",
+        "name": "Lokman Hekim Engurusag",
+        "sector": "Sağlık ve İlaç"
+    },
+    {
+        "code": "LMKDC",
+        "name": "Limak Doğu Anadolu Çimento",
+        "sector": "Çimento"
+    },
+    {
+        "code": "LOGO",
+        "name": "Logo Yazılım",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "LRSHO",
+        "name": "Loras Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "LUKSK",
+        "name": "Lüks Kadife",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "LYDHO",
+        "name": "Lydia Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "LYDYE",
+        "name": "Tetamat Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "MAALT",
+        "name": "Marmaris Altınyunus",
+        "sector": "Turizm"
+    },
+    {
+        "code": "MACKO",
+        "name": "Maçkolik",
+        "sector": "Eğlence Hizmetleri"
+    },
+    {
+        "code": "MAGEN",
+        "name": "Margün Enerji",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
+    },
+    {
+        "code": "MAKIM",
+        "name": "Makim Makina",
+        "sector": "Endüstriyel Makine -Teçhizat Üretim"
+    },
+    {
+        "code": "MAKTK",
+        "name": "Makina Takım",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "MANAS",
+        "name": "Manas Enerji Yönetimi",
+        "sector": "Teknoloji"
     },
     {
         "code": "MARBL",
-        "name": "TUREKS TURUNÇ MADENCİLİK İÇ VE DIŞ TİCARET A.Ş."
+        "name": "Tureks Turunç",
+        "sector": "Madencilik"
     },
     {
-        "code": "TRKFN",
-        "name": "TURK FİNANSMAN A.Ş."
+        "code": "MARKA",
+        "name": "Marka Yatırım Holding",
+        "sector": "Holdingler"
     },
     {
-        "code": "TRILC",
-        "name": "TURK İLAÇ VE SERUM SANAYİ A.Ş."
+        "code": "MARTI",
+        "name": "Martı Otel İşletmeleri",
+        "sector": "Turizm"
     },
     {
-        "code": "FNCLL",
-        "name": "TURKCELL FİNANSMAN A.Ş."
+        "code": "MAVI",
+        "name": "Mavi Giyim Sanayi Tic.A.S",
+        "sector": "Tekstil Entegre"
     },
     {
-        "code": "TCELL",
-        "name": "TURKCELL İLETİŞİM HİZMETLERİ A.Ş."
+        "code": "MEDTR",
+        "name": "Meditera Tıbbi Malzeme",
+        "sector": "Sağlık ve İlaç"
     },
     {
-        "code": "TBA, TRKSH",
-        "name": "TURKISH BANK A.Ş."
+        "code": "MEGAP",
+        "name": "Mega Polietilen Köpük",
+        "sector": "Tekstil Entegre"
     },
     {
-        "code": "TMSN",
-        "name": "TÜMOSAN MOTOR VE TRAKTÖR SANAYİ A.Ş."
+        "code": "MEGMT",
+        "name": "Mega Metal",
+        "sector": "İnşaat Malzemeleri"
     },
     {
-        "code": "TUPRS",
-        "name": "TÜPRAŞ-TÜRKİYE PETROL RAFİNERİLERİ A.Ş."
+        "code": "MEKAG",
+        "name": "Meka Beton",
+        "sector": "İnşaat Malzemeleri"
     },
     {
-        "code": "THYAO",
-        "name": "TÜRK HAVA YOLLARI A.O."
+        "code": "MEPET",
+        "name": "Metro Petrol ve Tesisleri",
+        "sector": "Petrol"
+    },
+    {
+        "code": "MERCN",
+        "name": "Mercan Kimya",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "MERIT",
+        "name": "Merit Turizm Yatırım",
+        "sector": "Turizm"
+    },
+    {
+        "code": "MERKO",
+        "name": "Merko Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "METRO",
+        "name": "Metro Tic. Mali Yat.",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "METUR",
+        "name": "Metemtur Yatırım Tur.Enj.",
+        "sector": "Turizm"
+    },
+    {
+        "code": "MGROS",
+        "name": "Migros",
+        "sector": "Perakande - Ticaret"
+    },
+    {
+        "code": "MHRGY",
+        "name": "Mhr GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "MIATK",
+        "name": "Mia Teknoloji",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "MMCAS",
+        "name": "MMC San.ve Tic. Yatırımlar A.Ş",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "MNDRS",
+        "name": "Menderes Tekstil",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "MNDTR",
+        "name": "Mondi Tire",
+        "sector": "Kağıt Ürünleri"
+    },
+    {
+        "code": "MOBTL",
+        "name": "Mobitel İletişim",
+        "sector": "İletişim"
+    },
+    {
+        "code": "MOGAN",
+        "name": "Mogan Enerji",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
+    },
+    {
+        "code": "MPARK",
+        "name": "MLP Sağlık Hizmetleri",
+        "sector": "Sağlık ve İlaç"
+    },
+    {
+        "code": "MRGYO",
+        "name": "Martı GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "MRSHL",
+        "name": "Marshall",
+        "sector": "Boya"
+    },
+    {
+        "code": "MSGYO",
+        "name": "Mistral GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "MTRKS",
+        "name": "Matriks Bilgi Dağıtım",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "MTRYO",
+        "name": "Metro YO",
+        "sector": "Yatırım Ortaklıkları"
+    },
+    {
+        "code": "MZHLD",
+        "name": "Mazhar Zorlu Holding",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "NATEN",
+        "name": "Naturel Yenilenebilir Enerji",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
+    },
+    {
+        "code": "NETAS",
+        "name": "Netaş",
+        "sector": "İletişim Cihazları"
+    },
+    {
+        "code": "NIBAS",
+        "name": "Niğde Beton Sanayi",
+        "sector": "Çimento"
+    },
+    {
+        "code": "NTGAZ",
+        "name": "Naturel Gaz",
+        "sector": "Petrol"
+    },
+    {
+        "code": "NTHOL",
+        "name": "Net Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "NUGYO",
+        "name": "Nurol GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "NUHCM",
+        "name": "Nuh Çimento",
+        "sector": "Çimento"
+    },
+    {
+        "code": "OBAMS",
+        "name": "Oba Makarnacılık",
+        "sector": "Gıda"
+    },
+    {
+        "code": "OBASE",
+        "name": "Obase Bilgisayar Danışmanlık",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "ODAS",
+        "name": "Odaş Elektrik Üretim",
+        "sector": "Elektrik Üretim"
+    },
+    {
+        "code": "ODINE",
+        "name": "Odine Solutions",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "OFSYM",
+        "name": "Ofis Yem",
+        "sector": "Gıda"
+    },
+    {
+        "code": "ONCSM",
+        "name": "Oncosem",
+        "sector": "Sağlık ve İlaç"
+    },
+    {
+        "code": "ONRYT",
+        "name": "Onur Yüksek Teknoloji",
+        "sector": "Savunma"
+    },
+    {
+        "code": "ORCAY",
+        "name": "Ortaköy Çay Sanayi",
+        "sector": "Meşrubat / İçecek"
+    },
+    {
+        "code": "ORGE",
+        "name": "ORGE Enerji Elektrik",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
+    },
+    {
+        "code": "ORMA",
+        "name": "Orma Orman Mahsulleri",
+        "sector": "Kağıt Ürünleri"
+    },
+    {
+        "code": "OSMEN",
+        "name": "Osmanlı Menkul Değ.",
+        "sector": "Aracı Kurumlar"
+    },
+    {
+        "code": "OSTIM",
+        "name": "Ostim Endüst. Yatırımlar",
+        "sector": "Diğer"
+    },
+    {
+        "code": "OTKAR",
+        "name": "Otokar",
+        "sector": "Otomotiv"
+    },
+    {
+        "code": "OTTO",
+        "name": "Otto Holding",
+        "sector": "Gıda"
+    },
+    {
+        "code": "OYAKC",
+        "name": "Oyak Çimento",
+        "sector": "Çimento"
+    },
+    {
+        "code": "OYAYO",
+        "name": "Oyak Yatırım Ortaklığı",
+        "sector": "Yatırım Ortaklıkları"
+    },
+    {
+        "code": "OYLUM",
+        "name": "Oylum Sınai Yatırımlar",
+        "sector": "Gıda"
+    },
+    {
+        "code": "OYYAT",
+        "name": "Oyak Yatırım",
+        "sector": "Aracı Kurumlar"
+    },
+    {
+        "code": "OZATD",
+        "name": "Özata Denizcilik",
+        "sector": "Endüstriyel Makine -Teçhizat Üretim"
+    },
+    {
+        "code": "OZGYO",
+        "name": "Özderici GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "OZKGY",
+        "name": "Özak GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "OZRDN",
+        "name": "Özerden Plastik",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "OZSUB",
+        "name": "Özsu Balık",
+        "sector": "Hayvancılık"
+    },
+    {
+        "code": "OZYSR",
+        "name": "Özyaşar Tel",
+        "sector": "Demir-Çelik Temel"
+    },
+    {
+        "code": "PAGYO",
+        "name": "Panora GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "PAMEL",
+        "name": "Pamel Yenilenebilir Elekt.",
+        "sector": "Elektrik Üretim"
+    },
+    {
+        "code": "PAPIL",
+        "name": "Papilon Savunma",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "PARSN",
+        "name": "Parsan",
+        "sector": "Otomotiv Parçası"
+    },
+    {
+        "code": "PASEU",
+        "name": "Pasifik Eurasia",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "PATEK",
+        "name": "Pasifik Teknoloji",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "PCILT",
+        "name": "PC İletişim ve Medya",
+        "sector": "Medya"
+    },
+    {
+        "code": "PEHOL",
+        "name": "Pera Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "PEKGY",
+        "name": "Peker GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "PENGD",
+        "name": "Penguen Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "PENTA",
+        "name": "Penta Teknoloji",
+        "sector": "Bilgisayar Toptancılığı"
+    },
+    {
+        "code": "PETKM",
+        "name": "Petkim",
+        "sector": "Petrol"
+    },
+    {
+        "code": "PETUN",
+        "name": "Pınar Et ve Un",
+        "sector": "Gıda"
+    },
+    {
+        "code": "PGSUS",
+        "name": "Pegasus Hava Taşımacılığı",
+        "sector": "Havayolları ve Hizm."
+    },
+    {
+        "code": "PINSU",
+        "name": "Pınar Su",
+        "sector": "Meşrubat / İçecek"
+    },
+    {
+        "code": "PKART",
+        "name": "Plastikkart A.Ş",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "PKENT",
+        "name": "Petrokent",
+        "sector": "Turizm"
+    },
+    {
+        "code": "PLTUR",
+        "name": "Platform Turizm",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "PNLSN",
+        "name": "Panelsan Çatı Cephe",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "PNSUT",
+        "name": "Pınar Süt",
+        "sector": "Meşrubat / İçecek"
+    },
+    {
+        "code": "POLHO",
+        "name": "Polisan Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "POLTK",
+        "name": "Politeknik Metal",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "PRDGS",
+        "name": "Pardus Girişim",
+        "sector": "Yatırım Ortaklıkları"
     },
     {
         "code": "PRKAB",
-        "name": "TÜRK PRYSMİAN KABLO VE SİSTEMLERİ A.Ş."
+        "name": "Prysmian Kablo",
+        "sector": "Kablo"
     },
     {
-        "code": "TTKOM",
-        "name": "TÜRK TELEKOMÜNİKASYON A.Ş."
+        "code": "PRKME",
+        "name": "Park Elek. Madencilik",
+        "sector": "Madencilik"
     },
     {
-        "code": "TTRAK",
-        "name": "TÜRK TRAKTÖR VE ZİRAAT MAKİNELERİ A.Ş."
+        "code": "PRZMA",
+        "name": "Prizma Pres Matbaacılık",
+        "sector": "Kağıt Ürünleri"
     },
     {
-        "code": "TBORG",
-        "name": "TÜRK TUBORG BİRA VE MALT SANAYİİ A.Ş."
+        "code": "PSDTC",
+        "name": "Pergamon Status",
+        "sector": "Perakande - Ticaret"
     },
     {
-        "code": "TURGG",
-        "name": "TÜRKER PROJE GAYRİMENKUL VE YATIRIM GELİŞTİRME A.Ş."
+        "code": "PSGYO",
+        "name": "Pasifik GYO",
+        "sector": "GYO"
     },
     {
-        "code": "GARAN, TGB",
-        "name": "TÜRKİYE GARANTİ BANKASI A.Ş."
+        "code": "QNBFB",
+        "name": "QNB Finansbank",
+        "sector": "Bankacılık"
     },
     {
-        "code": "HALKB, THL",
-        "name": "TÜRKİYE HALK BANKASI A.Ş."
+        "code": "QNBFL",
+        "name": "QNB Finans Fin. Kir.",
+        "sector": "Fin.Kiralama ve Faktoring"
     },
     {
-        "code": "EXIMB, THR",
-        "name": "TÜRKİYE İHRACAT KREDİ BANKASI A.Ş."
+        "code": "QUAGR",
+        "name": "QUA Granite",
+        "sector": "İnşaat Malzemeleri"
     },
     {
-        "code": "ISATR, ISBTR, ISCTR, ISKUR, TIB",
-        "name": "TÜRKİYE İŞ BANKASI A.Ş."
+        "code": "RALYH",
+        "name": "Ral Yatırım Holding",
+        "sector": "Tekstil Entegre"
     },
     {
-        "code": "KLN, KLNMA",
-        "name": "TÜRKİYE KALKINMA VE YATIRIM BANKASI A.Ş."
+        "code": "RAYSG",
+        "name": "Ray Sigorta",
+        "sector": "Sigorta"
     },
     {
-        "code": "TSK, TSKB",
-        "name": "TÜRKİYE SINAİ KALKINMA BANKASI A.Ş."
+        "code": "REEDR",
+        "name": "Reeder",
+        "sector": "İletişim Cihazları"
     },
     {
-        "code": "TURSG",
-        "name": "TÜRKİYE SİGORTA A.Ş."
+        "code": "RGYAS",
+        "name": "Rönesans GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "RNPOL",
+        "name": "Rainbow Polikarbonat",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "RODRG",
+        "name": "Rodrigo Tekstil",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "ROYAL",
+        "name": "Royal Halı",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "RTALB",
+        "name": "RTA laboratuvarlari",
+        "sector": "Sağlık ve İlaç"
+    },
+    {
+        "code": "RUBNS",
+        "name": "Rubenis Tekstil",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "RYGYO",
+        "name": "Reysaş GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "RYSAS",
+        "name": "Reysaş Taşımacılık",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "SAFKR",
+        "name": "Safkar Ege Soğutmacılık",
+        "sector": "Dayanıklı Tüketim"
+    },
+    {
+        "code": "SAHOL",
+        "name": "Sabancı Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "SAMAT",
+        "name": "Saray Matbaacılık",
+        "sector": "Kağıt Ürünleri"
+    },
+    {
+        "code": "SANEL",
+        "name": "San-El Muhendislik",
+        "sector": "Endüstriyel Makine -Teçhizat Üretim"
+    },
+    {
+        "code": "SANFM",
+        "name": "Sanifoam Sünger Sanayi",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "SANKO",
+        "name": "Sanko Pazarlama",
+        "sector": "Pazarlama"
+    },
+    {
+        "code": "SARKY",
+        "name": "Sarkuysan",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "SASA",
+        "name": "Sasa Polyester Sanayi A.Ş.",
+        "sector": "Endüstriyel Tekstil"
+    },
+    {
+        "code": "SAYAS",
+        "name": "Say Yenilenebilir Enerji",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
+    },
+    {
+        "code": "SDTTR",
+        "name": "SDT Uzay",
+        "sector": "Savunma"
+    },
+    {
+        "code": "SEGMN",
+        "name": "Seğmen Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "SEGYO",
+        "name": "Şeker GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "SEKFK",
+        "name": "Şeker Finansal Kiralama A.Ş",
+        "sector": "Fin.Kiralama ve Faktoring"
+    },
+    {
+        "code": "SEKUR",
+        "name": "Sekuro Plastik",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "SELEC",
+        "name": "Selçuk Ecza Deposu",
+        "sector": "Sağlık ve İlaç"
+    },
+    {
+        "code": "SELGD",
+        "name": "Selçuk Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "SELVA",
+        "name": "Selva Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "SEYKM",
+        "name": "Seyitler Kimya",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "SILVR",
+        "name": "Silverline",
+        "sector": "Endüstriyel Makine -Teçhizat Üretim"
     },
     {
         "code": "SISE",
-        "name": "TÜRKİYE ŞİŞE VE CAM FABRİKALARI A.Ş."
+        "name": "Şişecam",
+        "sector": "Cam"
     },
     {
-        "code": "TVB, VAKBN",
-        "name": "TÜRKİYE VAKIFLAR BANKASI T.A.O."
+        "code": "SKBNK",
+        "name": "Şekerbank",
+        "sector": "Bankacılık"
     },
     {
-        "code": "TV8TV",
-        "name": "TV8 TV YAYINCILIK A.Ş."
+        "code": "SKTAS",
+        "name": "Söktaş",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "SKYLP",
+        "name": "Skyalp Fin. Tek.ve Danışmanlık",
+        "sector": "Diğer"
+    },
+    {
+        "code": "SKYMD",
+        "name": "Şeker Yatırım",
+        "sector": "Aracı Kurumlar"
+    },
+    {
+        "code": "SMART",
+        "name": "Smartiks Yazılım",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "SMRTG",
+        "name": "Smart Güneş Enerjisi",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
+    },
+    {
+        "code": "SNGYO",
+        "name": "Sinpas GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "SNICA",
+        "name": "Sanica Isı Sanayi",
+        "sector": "Dayanıklı Tüketim"
+    },
+    {
+        "code": "SNKRN",
+        "name": "Senkron Güvenlik",
+        "sector": "Teknoloji"
+    },
+    {
+        "code": "SNPAM",
+        "name": "Sönmez Pamuklu",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "SODSN",
+        "name": "Sodaş Sodyum Sanayii",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "SOKE",
+        "name": "Söke Değirmencilik",
+        "sector": "Gıda"
+    },
+    {
+        "code": "SOKM",
+        "name": "Şok Marketler",
+        "sector": "Perakande - Ticaret"
+    },
+    {
+        "code": "SONME",
+        "name": "Sönmez Filament",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "SRVGY",
+        "name": "Servet GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "SUMAS",
+        "name": "Sumas Mobilya",
+        "sector": "Mobilya"
+    },
+    {
+        "code": "SUNTK",
+        "name": "Sun Tekstil",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "SURGY",
+        "name": "Sur GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "SUWEN",
+        "name": "Suwen Tekstil",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "TABGD",
+        "name": "Tab Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "TARKM",
+        "name": "Tarkim",
+        "sector": "Tarım Kimyasalları"
+    },
+    {
+        "code": "TATEN",
+        "name": "Tatlıpınar Enerji",
+        "sector": "Elektrik Üretim"
+    },
+    {
+        "code": "TATGD",
+        "name": "Tat Gıda",
+        "sector": "Gıda"
+    },
+    {
+        "code": "TAVHL",
+        "name": "TAV Holding",
+        "sector": "Havayolları ve Hizm."
+    },
+    {
+        "code": "TBORG",
+        "name": "Tuborg",
+        "sector": "Meşrubat / İçecek"
+    },
+    {
+        "code": "TCELL",
+        "name": "Turkcell",
+        "sector": "İletişim"
+    },
+    {
+        "code": "TCKRC",
+        "name": "Kıraç Galvaniz",
+        "sector": "Diğer"
+    },
+    {
+        "code": "TDGYO",
+        "name": "Trend GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "TEKTU",
+        "name": "Tek-Art Turizm",
+        "sector": "Turizm"
+    },
+    {
+        "code": "TERA",
+        "name": "Tera Yatırım",
+        "sector": "Aracı Kurumlar"
+    },
+    {
+        "code": "TEZOL",
+        "name": "Europap Tezol",
+        "sector": "Kağıt Ürünleri"
+    },
+    {
+        "code": "TGSAS",
+        "name": "TGS Dış Ticaret",
+        "sector": "Pazarlama"
+    },
+    {
+        "code": "THYAO",
+        "name": "Türk Hava Yolları",
+        "sector": "Havayolları ve Hizm."
+    },
+    {
+        "code": "TKFEN",
+        "name": "Tekfen Holding",
+        "sector": "İnşaat- Taahhüt"
+    },
+    {
+        "code": "TKNSA",
+        "name": "Teknosa İç ve Dış Tic.",
+        "sector": "Perakande - Ticaret"
+    },
+    {
+        "code": "TLMAN",
+        "name": "Trabzon Liman İşletmeciliği",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "TMPOL",
+        "name": "TE-MAPOL Polimer Plastik",
+        "sector": "Kimyasal Ürün"
+    },
+    {
+        "code": "TMSN",
+        "name": "Tümosan Motor ve Traktör",
+        "sector": "Otomotiv"
+    },
+    {
+        "code": "TNZTP",
+        "name": "Tapdi Oksijen",
+        "sector": "Sağlık ve İlaç"
+    },
+    {
+        "code": "TOASO",
+        "name": "Tofaş Fabrika",
+        "sector": "Otomotiv"
+    },
+    {
+        "code": "TRCAS",
+        "name": "Turcas",
+        "sector": "Petrol"
+    },
+    {
+        "code": "TRGYO",
+        "name": "Torunlar GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "TRILC",
+        "name": "Turk İlaç ve Serum Sanayi",
+        "sector": "Sağlık ve İlaç"
+    },
+    {
+        "code": "TSGYO",
+        "name": "TSKB GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "TSKB",
+        "name": "TSKB",
+        "sector": "Bankacılık"
+    },
+    {
+        "code": "TSPOR",
+        "name": "Trabzonspor A.Ş",
+        "sector": "Spor"
+    },
+    {
+        "code": "TTKOM",
+        "name": "Türk Telekom",
+        "sector": "İletişim"
+    },
+    {
+        "code": "TTRAK",
+        "name": "Türk Traktör",
+        "sector": "Otomotiv"
+    },
+    {
+        "code": "TUCLK",
+        "name": "Tuğçelik Alüminyum ve Metal",
+        "sector": "Otomotiv Parçası"
+    },
+    {
+        "code": "TUKAS",
+        "name": "Tukaş",
+        "sector": "Gıda"
+    },
+    {
+        "code": "TUPRS",
+        "name": "Tüpraş",
+        "sector": "Petrol"
+    },
+    {
+        "code": "TUREX",
+        "name": "Tureks Tur.Taşımacılık",
+        "sector": "Ulaştırma-Lojistik"
+    },
+    {
+        "code": "TURGG",
+        "name": "Türker Proje Gay.Gel.",
+        "sector": "GYO"
+    },
+    {
+        "code": "TURSG",
+        "name": "Türkiye Sigorta",
+        "sector": "Sigorta"
     },
     {
         "code": "UFUK",
-        "name": "UFUK YATIRIM YÖNETİM VE GAYRİMENKUL A.Ş."
+        "name": "Ufuk Yat.Yön.ve Gay. AŞ.",
+        "sector": "Fin.Kiralama ve Faktoring"
     },
     {
         "code": "ULAS",
-        "name": "ULAŞLAR TURİZM ENERJİ TARIM GIDA VE İNŞAAT YATIRIMLARI A.Ş."
-    },
-    {
-        "code": "ULUFA",
-        "name": "ULUSAL FAKTORİNG A.Ş."
-    },
-    {
-        "code": "ULUSE",
-        "name": "ULUSOY ELEKTRİK İMALAT TAAHHÜT VE TİCARET A.Ş."
-    },
-    {
-        "code": "ULUUN",
-        "name": "ULUSOY UN SANAYİ VE TİCARET A.Ş."
-    },
-    {
-        "code": "UMPAS",
-        "name": "UMPAŞ HOLDİNG A.Ş."
-    },
-    {
-        "code": "USAK",
-        "name": "UŞAK SERAMİK SANAYİ A.Ş."
+        "name": "Ulaşlar Turizm Yatırımları",
+        "sector": "Turizm"
     },
     {
         "code": "ULKER",
-        "name": "ÜLKER BİSKÜVİ SANAYİ A.Ş."
+        "name": "Ülker Bisküvi",
+        "sector": "Gıda"
+    },
+    {
+        "code": "ULUFA",
+        "name": "Ulusal Faktoring",
+        "sector": "Fin.Kiralama ve Faktoring"
+    },
+    {
+        "code": "ULUSE",
+        "name": "Ulusoy Elektrik",
+        "sector": "Elektrik Enerji Ürt.Teçh/Tesis Kurulum"
+    },
+    {
+        "code": "ULUUN",
+        "name": "Ulusoy Un",
+        "sector": "Gıda"
+    },
+    {
+        "code": "UMPAS",
+        "name": "Umpaş Holding",
+        "sector": "Holdingler"
     },
     {
         "code": "UNLU",
-        "name": "ÜNLÜ YATIRIM HOLDİNG A.Ş."
+        "name": "Ünlü Yatırım Holding",
+        "sector": "Aracı Kurumlar"
+    },
+    {
+        "code": "USAK",
+        "name": "Uşak Seramik",
+        "sector": "Seramik"
+    },
+    {
+        "code": "VAKBN",
+        "name": "Vakıfbank",
+        "sector": "Bankacılık"
     },
     {
         "code": "VAKFN",
-        "name": "VAKIF FİNANSAL KİRALAMA A.Ş."
-    },
-    {
-        "code": "VKGYO",
-        "name": "VAKIF GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "VKFYO",
-        "name": "VAKIF MENKUL KIYMET YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "VAKVK",
-        "name": "VAKIF VARLIK KİRALAMA A.Ş."
+        "name": "Vakıf Fin. Kir.",
+        "sector": "Fin.Kiralama ve Faktoring"
     },
     {
         "code": "VAKKO",
-        "name": "VAKKO TEKSTİL VE HAZIR GİYİM SANAYİ İŞLETMELERİ A.Ş."
+        "name": "Vakko Tekstil",
+        "sector": "Perakande - Ticaret"
     },
     {
         "code": "VANGD",
-        "name": "VANET GIDA SANAYİ İÇ VE DIŞ TİCARET A.Ş."
+        "name": "Vanet Gıda Sanayi",
+        "sector": "Gıda"
     },
     {
         "code": "VBTYZ",
-        "name": "VBT YAZILIM A.Ş."
-    },
-    {
-        "code": "VDFLO",
-        "name": "VDF FİLO KİRALAMA A.Ş."
-    },
-    {
-        "code": "VRGYO",
-        "name": "VERA KONSEPT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "VERUS",
-        "name": "VERUSA HOLDİNG A.Ş."
+        "name": "VBT Yazılım",
+        "sector": "Teknoloji"
     },
     {
         "code": "VERTU",
-        "name": "VERUSATURK GİRİŞİM SERMAYESİ YATIRIM ORTAKLIĞI A.Ş."
+        "name": "Verusatürk Girişim Sermayesi",
+        "sector": "Yatırım Ortaklıkları"
+    },
+    {
+        "code": "VERUS",
+        "name": "Verusa Holding",
+        "sector": "Holdingler"
     },
     {
         "code": "VESBE",
-        "name": "VESTEL BEYAZ EŞYA SANAYİ VE TİCARET A.Ş."
+        "name": "Vestel Beyaz Esya",
+        "sector": "Dayanıklı Tüketim"
     },
     {
         "code": "VESTL",
-        "name": "VESTEL ELEKTRONİK SANAYİ VE TİCARET A.Ş."
+        "name": "Vestel Elektronik",
+        "sector": "Dayanıklı Tüketim"
+    },
+    {
+        "code": "VKFYO",
+        "name": "Vakıf YO",
+        "sector": "Yatırım Ortaklıkları"
+    },
+    {
+        "code": "VKGYO",
+        "name": "Vakıf GYO",
+        "sector": "GYO"
     },
     {
         "code": "VKING",
-        "name": "VİKİNG KAĞIT VE SELÜLOZ A.Ş."
+        "name": "Viking Kağıt",
+        "sector": "Kağıt Ürünleri"
     },
     {
-        "code": "VDFAS",
-        "name": "VOLKSWAGEN DOĞUŞ FİNANSMAN A.Ş."
-    },
-    {
-        "code": "YKFKT",
-        "name": "YAPI KREDİ FAKTORİNG A.Ş."
-    },
-    {
-        "code": "YKFIN",
-        "name": "YAPI KREDİ FİNANSAL KİRALAMA A.O."
-    },
-    {
-        "code": "YKR, YKYAT",
-        "name": "YAPI KREDİ YATIRIM MENKUL DEĞERLER A.Ş."
-    },
-    {
-        "code": "YKB, YKBNK",
-        "name": "YAPI VE KREDİ BANKASI A.Ş."
+        "code": "VRGYO",
+        "name": "Vera GYO",
+        "sector": "GYO"
     },
     {
         "code": "YAPRK",
-        "name": "YAPRAK SÜT VE BESİ ÇİFTLİKLERİ SANAYİ VE TİCARET A.Ş."
+        "name": "Yaprak Süt & Besi Çiftlikleri",
+        "sector": "Gıda"
     },
     {
         "code": "YATAS",
-        "name": "YATAŞ YATAK VE YORGAN SANAYİ TİCARET A.Ş."
-    },
-    {
-        "code": "YATVK",
-        "name": "YATIRIM VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "YYLGD",
-        "name": "YAYLA AGRO GIDA SANAYİ VE TİCARET A.Ş."
+        "name": "Yataş Yatak",
+        "sector": "Mobilya"
     },
     {
         "code": "YAYLA",
-        "name": "YAYLA ENERJİ ÜRETİM TURİZM VE İNŞAAT TİCARET A.Ş."
-    },
-    {
-        "code": "YGGYO",
-        "name": "YENİ GİMAT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "YEOTK",
-        "name": "YEO TEKNOLOJİ ENERJİ VE ENDÜSTRİ A.Ş."
-    },
-    {
-        "code": "YGYO",
-        "name": "YEŞİL GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "YYAPI",
-        "name": "YEŞİL YAPI ENDÜSTRİSİ A.Ş."
-    },
-    {
-        "code": "YESIL",
-        "name": "YEŞİL YATIRIM HOLDİNG A.Ş."
+        "name": "Yayla Enerji Uretim Turizm",
+        "sector": "Elektrik Üretim"
     },
     {
         "code": "YBTAS",
-        "name": "YİBİTAŞ YOZGAT İŞÇİ BİRLİĞİ İNŞAAT MALZEMELERİ TİCARET VE SANAYİ A.Ş."
+        "name": "Yibitaş İnş. Malzemeleri",
+        "sector": "İnşaat Malzemeleri"
+    },
+    {
+        "code": "YEOTK",
+        "name": "YEO Teknoloji",
+        "sector": "İnşaat- Taahhüt"
+    },
+    {
+        "code": "YESIL",
+        "name": "Yeşil Yatırım Holding",
+        "sector": "Holdingler"
+    },
+    {
+        "code": "YGGYO",
+        "name": "Yeni Gimat GYO",
+        "sector": "GYO"
+    },
+    {
+        "code": "YGYO",
+        "name": "Yeşil GYO",
+        "sector": "GYO"
     },
     {
         "code": "YIGIT",
-        "name": "YİĞİT AKÜ MALZEMELERİ NAKLİYAT TURİZM İNŞAAT SANAYİ VE TİCARET A.Ş."
+        "name": "Yiğit Akü",
+        "sector": "Otomotiv Parçası"
     },
     {
-        "code": "YONGA",
-        "name": "YONGA MOBİLYA SANAYİ VE TİCARET A.Ş."
+        "code": "YKBNK",
+        "name": "Yapı Kredi Bankası",
+        "sector": "Bankacılık"
     },
     {
         "code": "YKSLN",
-        "name": "YÜKSELEN ÇELİK A.Ş."
+        "name": "Yükselen Çelik",
+        "sector": "Demir-Çelik Temel"
+    },
+    {
+        "code": "YONGA",
+        "name": "Yonga Mobilya Sanayi",
+        "sector": "Mobilya"
     },
     {
         "code": "YUNSA",
-        "name": "YÜNSA YÜNLÜ SANAYİ VE TİCARET A.Ş."
+        "name": "Yünsa",
+        "sector": "Tekstil Entegre"
+    },
+    {
+        "code": "YYAPI",
+        "name": "Yesil Yapi",
+        "sector": "İnşaat- Taahhüt"
+    },
+    {
+        "code": "YYLGD",
+        "name": "Yayla Agro Gıda",
+        "sector": "Gıda"
     },
     {
         "code": "ZEDUR",
-        "name": "ZEDUR ENERJİ ELEKTRİK ÜRETİM A.Ş."
-    },
-    {
-        "code": "ZRGYO",
-        "name": "ZİRAAT GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş."
-    },
-    {
-        "code": "ZKBVK",
-        "name": "ZİRAAT KATILIM VARLIK KİRALAMA A.Ş."
-    },
-    {
-        "code": "ZKBVR",
-        "name": "ZKB VARLIK KİRALAMA A.Ş."
+        "name": "Zedur Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
         "code": "ZOREN",
-        "name": "ZORLU ENERJİ ELEKTRİK ÜRETİM A.Ş."
+        "name": "Zorlu Enerji",
+        "sector": "Elektrik Üretim"
     },
     {
-        "code": "ZORLF",
-        "name": "ZORLU FAKTORİNG A.Ş."
+        "code": "ZRGYO",
+        "name": "Ziraat GYO",
+        "sector": "GYO"
     }
 ]
