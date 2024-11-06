@@ -21,6 +21,34 @@ async function deleteAllBalanceSheetDates(req, res, next) {
     }
 }
 
+async function updateSpesicifData(req, res, next) {
+    try {
+        const stockCode = req.query.stockCode;
+        const period = req.query.period;
+        const newPrice = req.query.newPrice;
+
+        // Gerekli parametrelerin olup olmadığını kontrol edin
+        if (!stockCode || !period || !newPrice) {
+            return res.status(400).send("Lütfen geçerli bir stockCode, period ve newPrice belirtin.");
+        }
+
+        // Veritabanında belirtilen stockCode ile eşleşen ve "dates.period" alanı "2023/9" olan kaydı bulur ve günceller
+        const result = await config.BalanceSheetDate.updateOne(
+            { stockCode: stockCode, "dates.period": period },
+            { $set: { "dates.$.price": newPrice, lastUpdated: new Date() } }
+        );
+
+        if (result.nModified === 0) {
+            return res.status(404).send("Belirtilen kayıt bulunamadı veya güncellenmedi.");
+        }
+
+        res.status(200).send("Belirtilen kayıt başarıyla silindi.");
+    } catch (error) {
+        console.error(error)
+        res.status(500).send('Hata oluştu:' + error) // Hata mesajını daha kullanıcı dostu hale getirin
+    }
+}
+
 async function deleteSpesicifData(req, res, next) {
     try {
         const id = req.query.id;
