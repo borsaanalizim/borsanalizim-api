@@ -30,7 +30,7 @@ async function deleteSpesicifData(req, res, next) {
         }
 
         // ID'ye göre kayıt silme işlemi
-        const result = await BalanceSheetDate.findByIdAndDelete(id);
+        const result = await config.BalanceSheetDate.findByIdAndDelete(id);
 
         if (!result) {
             return res.status(404).send("Silinecek kayıt bulunamadı.");
