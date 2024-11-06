@@ -6,7 +6,7 @@ const balanceSheetDateSchema = new Schema({
     stockCode: {
         type: String,
         required: true,
-        unique
+        unique: true
     },
     lastPrice: {
         type: Number,
