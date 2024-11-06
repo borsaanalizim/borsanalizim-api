@@ -21,6 +21,28 @@ async function deleteAllBalanceSheetDates(req, res, next) {
     }
 }
 
+async function deleteSpesicifData(req, res, next) {
+    try {
+        const id = req.query.id;
+
+        if (!id) {
+            return res.status(400).send("Lütfen geçerli bir ID belirtin.");
+        }
+
+        // ID'ye göre kayıt silme işlemi
+        const result = await BalanceSheetDate.findByIdAndDelete(id);
+
+        if (!result) {
+            return res.status(404).send("Silinecek kayıt bulunamadı.");
+        }
+
+        res.status(200).send("Belirtilen kayıt başarıyla silindi.");
+    } catch (error) {
+        console.error(error)
+        res.status(500).send('Hata oluştu:' + error) // Hata mesajını daha kullanıcı dostu hale getirin
+    }
+}
+
 exports.get = async function (req, res, next) {
     await addBalanceSheetDates(req, res, next)
 }

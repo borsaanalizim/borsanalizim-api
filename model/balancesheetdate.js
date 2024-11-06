@@ -5,7 +5,8 @@ const Schema = mongoose.Schema
 const balanceSheetDateSchema = new Schema({
     stockCode: {
         type: String,
-        required: true
+        required: true,
+        unique
     },
     lastPrice: {
         type: Number,
@@ -31,7 +32,7 @@ const balanceSheetDateSchema = new Schema({
         type: Date,
         default: Date.now
     }
-}, { collection: 'balance_sheet_date' })
+}, { _id: false }, { collection: 'balance_sheet_date' })
 
 
 module.exports = mongoose.model('BalanceSheetDate', balanceSheetDateSchema);
