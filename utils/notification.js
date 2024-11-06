@@ -62,7 +62,7 @@ async function processDisclosureItem(item) {
     const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode });
 
     if (balanceSheetDate) {
-        updateExistingBalanceSheet(balanceSheetDate, period, publishedAt, price, lastPrice, lastUpdated);
+        await updateExistingBalanceSheet(balanceSheetDate, period, publishedAt, price, lastPrice, lastUpdated);
     } else {
         await createNewBalanceSheet(stockCode, period, publishedAt, price, lastPrice, lastUpdated);
     }
