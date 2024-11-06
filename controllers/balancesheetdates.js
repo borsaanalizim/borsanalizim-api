@@ -29,8 +29,11 @@ async function deleteSpesicifData(req, res, next) {
             return res.status(400).send("Lütfen geçerli bir ID belirtin.");
         }
 
+        // ID'yi ObjectId formatına çeviriyoruz
+        const objectId = mongoose.Types.ObjectId(id);
+
         // ID'ye göre kayıt silme işlemi
-        const result = await config.BalanceSheetDate.findByIdAndDelete(id);
+        const result = await config.BalanceSheetDate.findByIdAndDelete(objectId);
 
         if (!result) {
             return res.status(404).send("Silinecek kayıt bulunamadı.");
