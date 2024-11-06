@@ -5,12 +5,17 @@ const stockUtil = require('./stock');
 
 const { fetchPriceHistory } = require('./pricehistory');
 
-const nowYear = dateUtil.nowYear()
+async function memberDisclosureQuery(mkkMemberOid, year) {
 
-async function memberDisclosureQuery(mkkMemberOid) {
+    var yearValue = dateUtil.nowYear()
+
+    if (year) {
+        yearValue = year
+    }
+
     const requestData = {
-        "fromDate": nowYear + "-01-01",
-        "toDate": nowYear + "-12-31",
+        "fromDate": yearValue + "-01-01",
+        "toDate": yearValue + "-12-31",
         "year": "",
         "prd": "",
         "term": "",
@@ -37,14 +42,14 @@ async function memberDisclosureQuery(mkkMemberOid) {
         const responseData = response.data;
 
         for (const item of responseData) {
-            await processDisclosureItem(item);
+            await processDisclosureItem(item, yearValue);
         }
     } catch (error) {
         console.error("Disclosure Query Error:", error);
     }
 }
 
-async function processDisclosureItem(item) {
+async function processDisclosureItem(item, yearValue) {
     const { year, ruleTypeTerm, publishDate, stockCodes } = item;
     const formattedTime = dateUtil.formatDateOfSpecial(publishDate);
     const publishedAt = formattedTime || publishDate;
@@ -52,7 +57,7 @@ async function processDisclosureItem(item) {
     const lastUpdated = Date.now();
 
     const period = determinePeriod(year, ruleTypeTerm);
-    const { price, lastPrice } = await getPrices(stockCode, publishedAt);
+    const { price, lastPrice } = await getPrices(stockCode, publishedAt, yearValue);
 
     if(!lastPrice) {
         console.log('Stock: ' + stockCode + ' Period: ' + period + ' Price: ' + price + ' Last Price: ' + lastPrice)
@@ -75,10 +80,10 @@ function determinePeriod(year, ruleTypeTerm) {
     return "";
 }
 
-async function getPrices(stockCode, publishedAt) {
+async function getPrices(stockCode, publishedAt, yearValue) {
     let price, lastPrice;
     try {
-        const priceHistoryResponse = await fetchPriceHistory('1440', nowYear + '0101000000', nowYear + '1231235959', stockCode + '.E.BIST');
+        const priceHistoryResponse = await fetchPriceHistory('1440', yearValue + '0101000000', yearValue + '1231235959', stockCode + '.E.BIST');
 
         if (priceHistoryResponse) {
             const priceHistoryMap = priceHistoryResponse.data.data.reduce((map, item) => {
