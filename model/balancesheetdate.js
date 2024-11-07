@@ -16,7 +16,8 @@ const balanceSheetDateSchema = new Schema({
         {
             period: {
                 type: String,
-                required: true
+                required: true,
+                unique: true
             },
             publishedAt: {
                 type: String,
