@@ -70,6 +70,7 @@ async function updateSpesicifDataByPeriod(req, res, next) {
         }
 
         balanceSheetDate.dates.push({ period, publishedAt, price });
+        await balanceSheetDate.save();
 
         res.status(200).send("Belirtilen kayıt başarıyla güncellendi.");
     } catch (error) {
