@@ -75,16 +75,44 @@ async function deleteSpesicifData(req, res, next) {
     }
 }
 
+async function deletePeriodById(req, res, next) {
+    try {
+        const stockCode = req.query.stockCode;
+        const periodId = req.query.periodId;
+
+        if (!stockCode || !periodId) {
+            return res.status(400).send("Lütfen geçerli bir stockCode ve periodId belirtin.");
+        }
+
+        const result = await config.BalanceSheetDate.updateOne(
+            { stockCode: stockCode },
+            { $pull: { dates: { _id: periodId } } }
+        );
+
+        if (result.nModified === 0) {
+            return res.status(404).send("Belirtilen period bulunamadı veya silinemedi.");
+        }
+
+        res.status(200).send("Belirtilen period başarıyla silindi.");
+    } catch (error) {
+        console.error(error);
+        res.status(500).send('Hata oluştu:' + error);
+    }
+}
+
 exports.get = async function (req, res, next) {
     const isUpdate = req.query.isUpdate
     const isDeleteSpesific = req.query.isDeleteSpesific
     const isDeleteAll = req.query.isDeleteAll
+    const isDeletePeriodById = req.query.isDeletePeriodById
     if(isUpdate) {
         await updateSpesicifData(req, res, next)
     } else if(isDeleteSpesific) {
         await deleteSpesicifData(req, res, next)
     } else if(isDeleteAll) {
         await deleteAllBalanceSheetDates(req, res, next)
+    } else if (isDeletePeriodById) {
+        await deletePeriodById(req, res, next);
     } else {
         await addBalanceSheetDates(req, res, next)
     }
