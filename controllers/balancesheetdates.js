@@ -54,6 +54,7 @@ async function updateSpesicifData(req, res, next) {
 async function updateSpesicifDataByPeriod(req, res, next) {
     try {
         const stockCode = req.query.stockCode;
+        const lastPrice = req.query.lastPrice;
         const period = req.query.period;
         const publishedAt = req.query.publishedAt;
         const price = req.query.price;
@@ -69,6 +70,9 @@ async function updateSpesicifDataByPeriod(req, res, next) {
             return res.status(404).send("Belirtilen kayıt bulunamadı veya güncellenmedi.");
         }
 
+        if (lastPrice) {
+            balanceSheetDate.lastPrice = lastPrice
+        }
         balanceSheetDate.dates.push({ period, publishedAt, price });
         await balanceSheetDate.save();
 
