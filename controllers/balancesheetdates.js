@@ -76,5 +76,16 @@ async function deleteSpesicifData(req, res, next) {
 }
 
 exports.get = async function (req, res, next) {
-    await addBalanceSheetDates(req, res, next)
+    const isUpdate = req.query.isUpdate
+    const isDeleteSpesific = req.query.isDeleteSpesific
+    const isDeleteAll = req.query.isDeleteAll
+    if(isUpdate) {
+        await updateSpesicifData(req, res, next)
+    } else if(isDeleteSpesific) {
+        await deleteSpesicifData(req, res, next)
+    } else if(isDeleteAll) {
+        await deleteAllBalanceSheetDates(req, res, next)
+    } else {
+        await addBalanceSheetDates(req, res, next)
+    }
 }
