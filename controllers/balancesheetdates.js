@@ -1,5 +1,6 @@
 const notificationUtil = require('../utils/notification')
 const config = require('../config/config')
+const mongoose = require('mongoose');
 
 async function addBalanceSheetDates(req, res, next) {
     try {
@@ -84,13 +85,25 @@ async function deletePeriodById(req, res, next) {
             return res.status(400).send("Lütfen geçerli bir stockCode ve periodId belirtin.");
         }
 
+        // ObjectId'yi doğrulayarak işlem yapıyoruz
+        const objectId = mongoose.Types.ObjectId(periodId);
+
         const result = await config.BalanceSheetDate.updateOne(
             { stockCode: stockCode },
-            { $pull: { dates: { _id: periodId } } }
+            { $pull: { dates: { _id: objectId } } }
         );
 
-        if (result.nModified === 0) {
+        if (result.modifiedCount === 0) {
             return res.status(404).send("Belirtilen period bulunamadı veya silinemedi.");
+        }
+
+        // Silme işlemi sonrası kontrol
+        const updatedRecord = await config.BalanceSheetDate.findOne(
+            { stockCode: stockCode, "dates._id": objectId }
+        );
+
+        if (updatedRecord) {
+            return res.status(500).send("Silme işlemi başarısız oldu, period hala mevcut.");
         }
 
         res.status(200).send("Belirtilen period başarıyla silindi.");
