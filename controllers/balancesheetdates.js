@@ -51,6 +51,33 @@ async function updateSpesicifData(req, res, next) {
     }
 }
 
+async function updateSpesicifDataByPeriod(req, res, next) {
+    try {
+        const stockCode = req.query.stockCode;
+        const period = req.query.period;
+        const publishedAt = req.query.publishedAt;
+        const price = req.query.price;
+
+        // Gerekli parametrelerin olup olmadığını kontrol edin
+        if (!stockCode || !period || !price || !publishedAt) {
+            return res.status(400).send("Lütfen geçerli bir stockCode, period, publishedAt ve price belirtin.");
+        }
+
+        const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode });
+
+        if (!balanceSheetDate) {
+            return res.status(404).send("Belirtilen kayıt bulunamadı veya güncellenmedi.");
+        }
+
+        balanceSheetDate.dates.push({ period, publishedAt, price });
+
+        res.status(200).send("Belirtilen kayıt başarıyla güncellendi.");
+    } catch (error) {
+        console.error(error)
+        res.status(500).send('Hata oluştu:' + error) // Hata mesajını daha kullanıcı dostu hale getirin
+    }
+}
+
 async function deleteSpesicifData(req, res, next) {
     try {
         const id = req.query.id;
@@ -115,11 +142,14 @@ async function deletePeriodById(req, res, next) {
 
 exports.get = async function (req, res, next) {
     const isUpdate = req.query.isUpdate
+    const isUpdateByPeriod = req.query.isUpdateByPeriod
     const isDeleteSpesific = req.query.isDeleteSpesific
     const isDeleteAll = req.query.isDeleteAll
     const isDeletePeriodById = req.query.isDeletePeriodById
     if(isUpdate) {
         await updateSpesicifData(req, res, next)
+    } else if(isUpdateByPeriod) {
+        await updateSpesicifDataByPeriod(req, res, next)
     } else if(isDeleteSpesific) {
         await deleteSpesicifData(req, res, next)
     } else if(isDeleteAll) {
