@@ -60,7 +60,7 @@ async function deleteSpesicifData(req, res, next) {
         }
 
         // ID'yi ObjectId formatına çeviriyoruz
-        const objectId = await mongoose.Types.ObjectId(id);
+        const objectId = new mongoose.Types.ObjectId(id);
 
         // ID'ye göre kayıt silme işlemi
         const result = await config.BalanceSheetDate.findByIdAndDelete(objectId);
@@ -86,7 +86,7 @@ async function deletePeriodById(req, res, next) {
         }
 
         // ObjectId'yi doğrulayarak işlem yapıyoruz
-        const objectId = await mongoose.Types.ObjectId(periodId);
+        const objectId = new mongoose.Types.ObjectId(periodId);
 
         const result = await config.BalanceSheetDate.updateOne(
             { stockCode: stockCode },
