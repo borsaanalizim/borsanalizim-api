@@ -86,7 +86,7 @@ async function deletePeriodById(req, res, next) {
         }
 
         // ObjectId'yi doğrulayarak işlem yapıyoruz
-        const objectId = mongoose.Types.ObjectId(periodId);
+        const objectId = await mongoose.Types.ObjectId(periodId);
 
         const result = await config.BalanceSheetDate.updateOne(
             { stockCode: stockCode },
