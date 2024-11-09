@@ -119,7 +119,7 @@ async function updateExistingBalanceSheetDate(balanceSheetDate, period, publishe
         if (!existingPeriod) {
             balanceSheetDate.dates.push({ period, publishedAt, price })
             balanceSheetDate.lastUpdated = new Date()
-            console.log(`${balanceSheetDate.stockCode}-${period} güncellendi`)
+            console.log(`${balanceSheetDate.stockCode}-${period}-${price} güncellendi`)
         }
         await balanceSheetDate.save()
     } catch(error) {
