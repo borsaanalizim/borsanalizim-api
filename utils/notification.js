@@ -3,6 +3,7 @@ const axiosRetry = require('axios-retry').default
 const rateLimit = require('axios-rate-limit')
 const config = require('../config/config')
 const dateUtil = require('./date')
+const logUtil = require('./log')
 const stockUtil = require('./stock')
 const { fetchPriceHistory } = require('./pricehistory')
 
@@ -60,7 +61,7 @@ async function memberDisclosureQuery(mkkMemberOid, year) {
             responseData.map(item => processDisclosureItem(item, yearValue))
         )
     } catch (error) {
-        console.error(`Disclosure Query Error: ${error}`)
+        logUtil.logMessage('balancesheetdate_notification.txt', `Disclosure Query Error: ${error}`, true)
     }
 }
 
@@ -72,7 +73,7 @@ async function processDisclosureItem(item, yearValue) {
     const { price, lastPrice } = await getPrices(stockCode, publishedAt, yearValue)
 
     if (!lastPrice) {
-        console.log('Stock: ' + stockCode + ' Period: ' + period + ' Price: ' + price + ' Last Price: ' + lastPrice)
+        logUtil.logMessage('balancesheetdate_notification.txt', `Stock: ${stockCode} Period: ${period} Price: ${price} Last Price: ${lastPrice}`, null)
         return
     }
 
@@ -104,10 +105,18 @@ async function getPrices(stockCode, publishedAt, yearValue) {
             if (typeof publishedAt === 'string') {
                 const shortPublishedAt = publishedAt.split("T")[0]
                 price = Object.entries(priceHistoryMap).find(([date]) => date >= shortPublishedAt)?.[1]
+                if (!price) {
+                    let dateString;
+                    dateString += shortPublishedAt;
+                    Object.keys(priceHistoryMap).forEach((date) => {
+                        dateString += `${date} - `
+                    });
+                    logUtil.logMessage('balancesheetdate_notification.txt', `Price is null: ${error}`, true)
+                }
             }
         }
     } catch (error) {
-        console.error(`Fetch Price Error: ${error}`)
+        logUtil.logMessage('balancesheetdate_notification.txt', `Disclosure Query Error: ${error}`, true)
     }
     return { price, lastPrice }
 }
@@ -119,11 +128,11 @@ async function updateExistingBalanceSheetDate(balanceSheetDate, period, publishe
         if (!existingPeriod && price) {
             balanceSheetDate.dates.push({ period, publishedAt, price })
             balanceSheetDate.lastUpdated = new Date()
-            console.log(`${balanceSheetDate.stockCode}-${period}-${price} güncellendi`)
+            logUtil.logMessage('balancesheetdate_notification.txt', `${balanceSheetDate.stockCode}-${period}-${price} güncellendi`, null)
         }
         await balanceSheetDate.save()
-    } catch(error) {
-        console.error(`BalanceSheetDate Update Error: ${error}`)
+    } catch (error) {
+        logUtil.logMessage('balancesheetdate_notification.txt', `Disclosure Query Error: ${error}`, true)
     }
 }
 
@@ -135,10 +144,10 @@ async function createNewBalanceSheetDate(stockCode, period, publishedAt, price, 
             dates: [{ period, publishedAt, price }],
             lastUpdated: new Date()
         })
-        console.log(`${stockCode}-${period} eklendi`)
+        logUtil.logMessage('balancesheetdate_notification.txt', `${stockCode}-${period} eklendi`, null)
         await newBalanceSheetDate.save()
-    } catch(error) {
-        console.error(`BalanceSheetDate Create Error: ${error}`)
+    } catch (error) {
+        logUtil.logMessage('balancesheetdate_notification.txt', `Disclosure Query Error: ${error}`, true)
     }
 }
 
