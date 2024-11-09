@@ -18,6 +18,7 @@ async function addBalanceSheetDates(req, res, next) {
             }
         }
     } catch (error) {
+        console.error(`Add Balance Sheet Dates Error: ${error}`)
         res.status(500).json({ error: { message: "Bilinmeyen bir hata oluştu", detail: error } });
     }
 }
@@ -84,7 +85,7 @@ async function updateSpesicifDataByPeriod(req, res, next) {
 
         res.status(200).send("Belirtilen kayıt başarıyla güncellendi.");
     } catch (error) {
-        console.error(error)
+        console.error(`Update Spesicif Data By Period Error: ${error}`)
         res.status(500).send('Hata oluştu:' + error)
     }
 }

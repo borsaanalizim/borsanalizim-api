@@ -1,18 +1,21 @@
 const axios = require('axios')
 const axiosRetry = require('axios-retry').default
+const rateLimit = require('axios-rate-limit')
 const config = require('../config/config')
 const dateUtil = require('./date')
 const stockUtil = require('./stock')
 const { fetchPriceHistory } = require('./pricehistory')
 
+const http = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 1000 })
+
 axiosRetry(axios, {
     retries: 3, // Tekrar sayısı
     retryDelay: (retryCount) => {
         console.log(`Retry attempt: ${retryCount}`)
-        return retryCount * 1000 // Her denemede 1 saniye gecikme
+        return retryCount * 30000 // Her denemede 1 saniye gecikme
     },
     retryCondition: (error) => {
-        return error.code === 'ETIMEDOUT' // Sadece ETIMEDOUT hatalarında tekrar dene
+        return error.code === 'ETIMEDOUT' || error.code === 'HPE_INVALID_CONSTANT' // Sadece ETIMEDOUT hatalarında tekrar dene
     },
 })
 
@@ -45,7 +48,7 @@ async function memberDisclosureQuery(mkkMemberOid, year) {
     }
 
     try {
-        const response = await axios.post('https://www.kap.org.tr/tr/api/memberDisclosureQuery', requestData, {
+        const response = await http.post('https://www.kap.org.tr/tr/api/memberDisclosureQuery', requestData, {
             headers: {
                 "Accept": "application/json, text/plain, */*",
                 "Content-Type": "application/json",
@@ -57,7 +60,7 @@ async function memberDisclosureQuery(mkkMemberOid, year) {
             responseData.map(item => processDisclosureItem(item, yearValue))
         )
     } catch (error) {
-        console.error("Disclosure Query Error:", error)
+        console.error(`Disclosure Query Error: ${error}`)
     }
 }
 
@@ -75,7 +78,7 @@ async function processDisclosureItem(item, yearValue) {
 
     const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode })
     if (balanceSheetDate) {
-        updateExistingBalanceSheetDate(balanceSheetDate, period, publishedAt, price, lastPrice)
+        await updateExistingBalanceSheetDate(balanceSheetDate, period, publishedAt, price, lastPrice)
     } else {
         await createNewBalanceSheetDate(stockCode, period, publishedAt, price, lastPrice)
     }
@@ -104,29 +107,39 @@ async function getPrices(stockCode, publishedAt, yearValue) {
             }
         }
     } catch (error) {
-        console.error("Price Fetch Error:", error)
+        console.error(`Fetch Price Error: ${error}`)
     }
     return { price, lastPrice }
 }
 
 async function updateExistingBalanceSheetDate(balanceSheetDate, period, publishedAt, price, lastPrice) {
-    const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period)
-    balanceSheetDate.lastPrice = lastPrice
-    if (!existingPeriod) {
-        balanceSheetDate.dates.push({ period, publishedAt, price })
-        balanceSheetDate.lastUpdated = new Date()
+    try {
+        const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period)
+        balanceSheetDate.lastPrice = lastPrice
+        if (!existingPeriod) {
+            balanceSheetDate.dates.push({ period, publishedAt, price })
+            balanceSheetDate.lastUpdated = new Date()
+            console.log(`${balanceSheetDate.stockCode}-${period} güncellendi`)
+        }
+        await balanceSheetDate.save()
+    } catch(error) {
+        console.error(`BalanceSheetDate Update Error: ${error}`)
     }
-    await balanceSheetDate.save()
 }
 
 async function createNewBalanceSheetDate(stockCode, period, publishedAt, price, lastPrice) {
-    const newBalanceSheetDate = new config.BalanceSheetDate({
-        stockCode,
-        lastPrice,
-        dates: [{ period, publishedAt, price }],
-        lastUpdated: new Date()
-    })
-    await newBalanceSheetDate.save()
+    try {
+        const newBalanceSheetDate = new config.BalanceSheetDate({
+            stockCode,
+            lastPrice,
+            dates: [{ period, publishedAt, price }],
+            lastUpdated: new Date()
+        })
+        console.log(`${stockCode}-${period} eklendi`)
+        await newBalanceSheetDate.save()
+    } catch(error) {
+        console.error(`BalanceSheetDate Create Error: ${error}`)
+    }
 }
 
 module.exports = { memberDisclosureQuery }
