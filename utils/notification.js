@@ -116,7 +116,7 @@ async function updateExistingBalanceSheetDate(balanceSheetDate, period, publishe
     try {
         const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period)
         balanceSheetDate.lastPrice = lastPrice
-        if (!existingPeriod) {
+        if (!existingPeriod && price) {
             balanceSheetDate.dates.push({ period, publishedAt, price })
             balanceSheetDate.lastUpdated = new Date()
             console.log(`${balanceSheetDate.stockCode}-${period}-${price} güncellendi`)
