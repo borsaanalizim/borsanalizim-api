@@ -2,7 +2,7 @@ const axios = require('axios')
 const rateLimit = require('axios-rate-limit')
 const logUtil = require('./log')
 
-const http = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 1000 })
+const http = rateLimit(axios.create(), { maxRequests: 1, perMilliseconds: 2000 })
 
 async function fetchPriceHistory(period, from, to, endeks) {
     try {

@@ -7,7 +7,7 @@ const logUtil = require('./log')
 const stockUtil = require('./stock')
 const { fetchPriceHistory } = require('./pricehistory')
 
-const http = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 1000 })
+const http = rateLimit(axios.create(), { maxRequests: 1, perMilliseconds: 2000 })
 
 axiosRetry(axios, {
     retries: 3, // Tekrar sayısı
