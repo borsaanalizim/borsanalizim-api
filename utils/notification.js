@@ -116,7 +116,7 @@ async function getPrices(stockCode, publishedAt, yearValue) {
             }
         }
     } catch (error) {
-        logUtil.logMessage('balancesheetdate_notification.txt', `Disclosure Query Error: ${error}`, true)
+        logUtil.logMessage('balancesheetdate_notification.txt', `Fetch Price Error: ${error}`, true)
     }
     return { price, lastPrice }
 }
@@ -132,7 +132,7 @@ async function updateExistingBalanceSheetDate(balanceSheetDate, period, publishe
         }
         await balanceSheetDate.save()
     } catch (error) {
-        logUtil.logMessage('balancesheetdate_notification.txt', `Disclosure Query Error: ${error}`, true)
+        logUtil.logMessage('balancesheetdate_notification.txt', `BalanceSheetDate Update Error: ${error}`, true)
     }
 }
 
@@ -147,7 +147,7 @@ async function createNewBalanceSheetDate(stockCode, period, publishedAt, price, 
         logUtil.logMessage('balancesheetdate_notification.txt', `${stockCode}-${period} eklendi`, null)
         await newBalanceSheetDate.save()
     } catch (error) {
-        logUtil.logMessage('balancesheetdate_notification.txt', `Disclosure Query Error: ${error}`, true)
+        logUtil.logMessage('balancesheetdate_notification.txt', `BalanceSheetDate Create Error: ${error}`, true)
     }
 }
 
