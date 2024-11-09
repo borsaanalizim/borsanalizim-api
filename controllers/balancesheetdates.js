@@ -1,15 +1,24 @@
-const notificationUtil = require('../utils/notification')
-const config = require('../config/config')
+const notificationUtil = require('../utils/notification');
+const config = require('../config/config');
 const mongoose = require('mongoose');
 
 async function addBalanceSheetDates(req, res, next) {
     try {
-        const mkkMemberOid = req.query.mkkMemberOid
-        const year = req.query.year
-        notificationUtil.memberDisclosureQuery(mkkMemberOid, year)
-        res.status(200).send('Bildirimler yükleniyor...')
+        const mkkMemberOid = req.query.mkkMemberOid;
+        const year = req.query.year;
+
+        res.status(200).send('Bildirimler yükleniyor...');
+        
+        if (mkkMemberOid && year) {
+            await notificationUtil.memberDisclosureQuery(mkkMemberOid, year);
+        } else {
+            const stocks = await config.Stock.find();
+            for (const stockItem of stocks) {
+                await notificationUtil.memberDisclosureQuery(stockItem.mkkMemberOid, year);
+            }
+        }
     } catch (error) {
-        res.status(500).json({ error: { message: "Bilinmeyen bir hata oluştu", detail: error } })
+        res.status(500).json({ error: { message: "Bilinmeyen bir hata oluştu", detail: error } });
     }
 }
 
@@ -19,7 +28,7 @@ async function deleteAllBalanceSheetDates(req, res, next) {
         res.status(200).send("Kayıtlar silindi")
     } catch (error) {
         console.error(error)
-        res.status(500).send('Hata oluştu:' + error) // Hata mesajını daha kullanıcı dostu hale getirin
+        res.status(500).send('Hata oluştu:' + error)
     }
 }
 
@@ -29,12 +38,10 @@ async function updateSpesicifData(req, res, next) {
         const period = req.query.period;
         const newPrice = req.query.newPrice;
 
-        // Gerekli parametrelerin olup olmadığını kontrol edin
         if (!stockCode || !period || !newPrice) {
             return res.status(400).send("Lütfen geçerli bir stockCode, period ve newPrice belirtin.");
         }
 
-        // Veritabanında belirtilen stockCode ile eşleşen ve "dates.period" alanı "2023/9" olan kaydı bulur ve günceller
         const result = await config.BalanceSheetDate.updateOne(
             { stockCode: stockCode, "dates.period": period },
             { $set: { "dates.$.price": newPrice, lastUpdated: new Date() } }
@@ -43,7 +50,6 @@ async function updateSpesicifData(req, res, next) {
         if (result.nModified === 0) {
             return res.status(404).send("Belirtilen kayıt bulunamadı veya güncellenmedi.");
         }
-
         res.status(200).send("Belirtilen kayıt başarıyla güncellendi.");
     } catch (error) {
         console.error(error)
@@ -79,7 +85,7 @@ async function updateSpesicifDataByPeriod(req, res, next) {
         res.status(200).send("Belirtilen kayıt başarıyla güncellendi.");
     } catch (error) {
         console.error(error)
-        res.status(500).send('Hata oluştu:' + error) // Hata mesajını daha kullanıcı dostu hale getirin
+        res.status(500).send('Hata oluştu:' + error)
     }
 }
 
@@ -104,7 +110,7 @@ async function deleteSpesicifData(req, res, next) {
         res.status(200).send("Belirtilen kayıt başarıyla silindi.");
     } catch (error) {
         console.error(error)
-        res.status(500).send('Hata oluştu:' + error) // Hata mesajını daha kullanıcı dostu hale getirin
+        res.status(500).send('Hata oluştu:' + error)
     }
 }
 
@@ -146,22 +152,11 @@ async function deletePeriodById(req, res, next) {
 }
 
 exports.get = async function (req, res, next) {
-    const isUpdate = req.query.isUpdate
-    const isUpdateByPeriod = req.query.isUpdateByPeriod
-    const isDeleteSpesific = req.query.isDeleteSpesific
-    const isDeleteAll = req.query.isDeleteAll
-    const isDeletePeriodById = req.query.isDeletePeriodById
-    if(isUpdate) {
-        await updateSpesicifData(req, res, next)
-    } else if(isUpdateByPeriod) {
-        await updateSpesicifDataByPeriod(req, res, next)
-    } else if(isDeleteSpesific) {
-        await deleteSpesicifData(req, res, next)
-    } else if(isDeleteAll) {
-        await deleteAllBalanceSheetDates(req, res, next)
-    } else if (isDeletePeriodById) {
-        await deletePeriodById(req, res, next);
-    } else {
-        await addBalanceSheetDates(req, res, next)
-    }
-}
+    const { isUpdate, isUpdateByPeriod, isDeleteSpesific, isDeleteAll, isDeletePeriodById } = req.query;
+    if (isUpdate) await updateSpesicifData(req, res, next);
+    else if (isUpdateByPeriod) await updateSpesicifDataByPeriod(req, res, next);
+    else if (isDeleteSpesific) await deleteSpesicifData(req, res, next);
+    else if (isDeleteAll) await deleteAllBalanceSheetDates(req, res, next);
+    else if (isDeletePeriodById) await deletePeriodById(req, res, next);
+    else await addBalanceSheetDates(req, res, next);
+};

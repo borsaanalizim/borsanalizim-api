@@ -1,21 +1,27 @@
-const axios = require('axios');
-const config = require('../config/config');
-const dateUtil = require('./date');
-const stockUtil = require('./stock');
+const axios = require('axios')
+const axiosRetry = require('axios-retry').default
+const config = require('../config/config')
+const dateUtil = require('./date')
+const stockUtil = require('./stock')
+const { fetchPriceHistory } = require('./pricehistory')
 
-const { fetchPriceHistory } = require('./pricehistory');
+axiosRetry(axios, {
+    retries: 3, // Tekrar sayısı
+    retryDelay: (retryCount) => {
+        console.log(`Retry attempt: ${retryCount}`)
+        return retryCount * 1000 // Her denemede 1 saniye gecikme
+    },
+    retryCondition: (error) => {
+        return error.code === 'ETIMEDOUT' // Sadece ETIMEDOUT hatalarında tekrar dene
+    },
+})
 
 async function memberDisclosureQuery(mkkMemberOid, year) {
-
-    var yearValue = dateUtil.nowYear()
-
-    if (year) {
-        yearValue = year
-    }
+    const yearValue = year || dateUtil.nowYear()
 
     const requestData = {
-        "fromDate": yearValue + "-01-01",
-        "toDate": yearValue + "-12-31",
+        "fromDate": `${yearValue}-01-01`,
+        "toDate": `${yearValue}-12-31`,
         "year": "",
         "prd": "",
         "term": "",
@@ -36,95 +42,91 @@ async function memberDisclosureQuery(mkkMemberOid, year) {
         "fromSrc": "N",
         "srcCategory": "",
         "discIndex": []
-    };
-    try {
-        const response = await axios.post('https://www.kap.org.tr/tr/api/memberDisclosureQuery', requestData);
-        const responseData = response.data;
+    }
 
-        for (const item of responseData) {
-            await processDisclosureItem(item, yearValue);
-        }
+    try {
+        const response = await axios.post('https://www.kap.org.tr/tr/api/memberDisclosureQuery', requestData, {
+            headers: {
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/json",
+            }
+        })
+        const responseData = response.data
+
+        await Promise.all(
+            responseData.map(item => processDisclosureItem(item, yearValue))
+        )
     } catch (error) {
-        console.error("Disclosure Query Error:", error);
+        console.error("Disclosure Query Error:", error)
     }
 }
 
 async function processDisclosureItem(item, yearValue) {
-    const { year, ruleTypeTerm, publishDate, stockCodes } = item;
-    const formattedTime = dateUtil.formatDateOfSpecial(publishDate);
-    const publishedAt = formattedTime || publishDate;
-    const stockCode = stockUtil.getSingleStockCodeString(stockCodes);
-    const lastUpdated = Date.now();
+    const { year, ruleTypeTerm, publishDate, stockCodes } = item
+    const publishedAt = dateUtil.formatDateOfSpecial(publishDate) || publishDate
+    const stockCode = stockUtil.getSingleStockCodeString(stockCodes)
+    const period = determinePeriod(year, ruleTypeTerm)
+    const { price, lastPrice } = await getPrices(stockCode, publishedAt, yearValue)
 
-    const period = determinePeriod(year, ruleTypeTerm);
-    const { price, lastPrice } = await getPrices(stockCode, publishedAt, yearValue);
-
-    if(!lastPrice) {
+    if (!lastPrice) {
         console.log('Stock: ' + stockCode + ' Period: ' + period + ' Price: ' + price + ' Last Price: ' + lastPrice)
         return
     }
 
-    const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode });
-
+    const balanceSheetDate = await config.BalanceSheetDate.findOne({ stockCode })
     if (balanceSheetDate) {
-        await updateExistingBalanceSheet(balanceSheetDate, period, publishedAt, price, lastPrice, lastUpdated);
+        updateExistingBalanceSheetDate(balanceSheetDate, period, publishedAt, price, lastPrice)
     } else {
-        await createNewBalanceSheet(stockCode, period, publishedAt, price, lastPrice, lastUpdated);
+        await createNewBalanceSheetDate(stockCode, period, publishedAt, price, lastPrice)
     }
 }
 
 function determinePeriod(year, ruleTypeTerm) {
-    if (ruleTypeTerm && typeof ruleTypeTerm === 'string') {
-        return year + "/" + (ruleTypeTerm === "Yıllık" ? "12" : ruleTypeTerm.slice(0, 1));
-    }
-    return "";
+    return ruleTypeTerm && typeof ruleTypeTerm === 'string'
+        ? `${year}/${ruleTypeTerm === "Yıllık" ? "12" : ruleTypeTerm.slice(0, 1)}`
+        : ""
 }
 
 async function getPrices(stockCode, publishedAt, yearValue) {
-    let price, lastPrice;
+    let price, lastPrice
     try {
-        const priceHistoryResponse = await fetchPriceHistory('1440', yearValue + '0101000000', yearValue + '1231235959', stockCode + '.E.BIST');
-
+        const priceHistoryResponse = await fetchPriceHistory('1440', `${yearValue}0101000000`, `${yearValue}1231235959`, `${stockCode}.E.BIST`)
         if (priceHistoryResponse) {
             const priceHistoryMap = priceHistoryResponse.data.data.reduce((map, item) => {
-                const date = dateUtil.formatDateFromTimestamp(item[0]);
-                map[date] = item[1];
-                return map;
-            }, {});
-
-            lastPrice = Object.values(priceHistoryMap).slice(-1)[0];
-
+                const date = dateUtil.formatDateFromTimestamp(item[0])
+                map[date] = item[1]
+                return map
+            }, {})
+            lastPrice = Object.values(priceHistoryMap).slice(-1)[0]
             if (typeof publishedAt === 'string') {
-                const shortPublishedAt = publishedAt.split("T")[0];
-                price = Object.entries(priceHistoryMap).find(([date]) => date >= shortPublishedAt)?.[1];
+                const shortPublishedAt = publishedAt.split("T")[0]
+                price = Object.entries(priceHistoryMap).find(([date]) => date >= shortPublishedAt)?.[1]
             }
         }
     } catch (error) {
-        console.error("Price Fetch Error:", error);
+        console.error("Price Fetch Error:", error)
     }
-
-    return { price, lastPrice };
+    return { price, lastPrice }
 }
 
-async function updateExistingBalanceSheet(balanceSheetDate, period, publishedAt, price, lastPrice, lastUpdated) {
-    const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period);
-
-    balanceSheetDate.lastPrice = lastPrice;
+async function updateExistingBalanceSheetDate(balanceSheetDate, period, publishedAt, price, lastPrice) {
+    const existingPeriod = balanceSheetDate.dates.find(dateObj => dateObj.period === period)
+    balanceSheetDate.lastPrice = lastPrice
     if (!existingPeriod) {
-        balanceSheetDate.dates.push({ period, publishedAt, price });
-        balanceSheetDate.lastUpdated = lastUpdated;
+        balanceSheetDate.dates.push({ period, publishedAt, price })
+        balanceSheetDate.lastUpdated = new Date()
     }
-    await balanceSheetDate.save();
+    await balanceSheetDate.save()
 }
 
-async function createNewBalanceSheet(stockCode, period, publishedAt, price, lastPrice, lastUpdated) {
+async function createNewBalanceSheetDate(stockCode, period, publishedAt, price, lastPrice) {
     const newBalanceSheetDate = new config.BalanceSheetDate({
         stockCode,
         lastPrice,
         dates: [{ period, publishedAt, price }],
-        lastUpdated
-    });
-    await newBalanceSheetDate.save();
+        lastUpdated: new Date()
+    })
+    await newBalanceSheetDate.save()
 }
 
-module.exports = { memberDisclosureQuery };
+module.exports = { memberDisclosureQuery }
