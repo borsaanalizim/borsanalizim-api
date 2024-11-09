@@ -4,13 +4,13 @@ const mongoose = require('mongoose');
 
 async function addBalanceSheetDates(req, res, next) {
     try {
-        const mkkMemberOid = req.query.mkkMemberOid;
+        const id = req.query.id;
         const year = req.query.year;
 
         res.status(200).send('Bildirimler yükleniyor...');
         
-        if (mkkMemberOid && year) {
-            await notificationUtil.memberDisclosureQuery(mkkMemberOid, year);
+        if (id && year) {
+            await notificationUtil.memberDisclosureQuery(id, year);
         } else {
             const stocks = await config.Stock.find();
             for (const stockItem of stocks) {
