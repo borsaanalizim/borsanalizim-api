@@ -61,7 +61,7 @@ async function memberDisclosureQuery(mkkMemberOid, year) {
             responseData.map(item => processDisclosureItem(item, yearValue))
         )
     } catch (error) {
-        console.error(`Disclosure Query Error: ${error}`)
+        console.error(`Disclosure Query Error-${mkkMemberOid}-${yearValue}: ${error}`)
         logUtil.logMessage('balancesheetdate_notification.txt', `Disclosure Query Error: ${error}`, true)
     }
 }
@@ -112,12 +112,12 @@ async function getPrices(stockCode, publishedAt, yearValue) {
                     Object.keys(priceHistoryMap).forEach((date) => {
                         dateString += `${date} - `
                     });
-                    logUtil.logMessage('balancesheetdate_notification.txt', `Price is null: ${error}`, true)
+                    logUtil.logMessage('balancesheetdate_notification.txt', `Price is null: ${dateString}`, true)
                 }
             }
         }
     } catch (error) {
-        console.error(`Fetch Price Error: ${error}`)
+        console.error(`Fetch Price Error-${stockCode}-${publishedAt}: ${error}`)
         logUtil.logMessage('balancesheetdate_notification.txt', `Fetch Price Error: ${error}`, true)
     }
     return { price, lastPrice }
@@ -134,7 +134,7 @@ async function updateExistingBalanceSheetDate(balanceSheetDate, period, publishe
         }
         await balanceSheetDate.save()
     } catch (error) {
-        console.error(`BalanceSheetDate Update Error: ${error}`)
+        console.error(`BalanceSheetDate Update Error-${balanceSheetDate.stockCode}-${period}-${publishedAt}: ${error}`)
         logUtil.logMessage('balancesheetdate_notification.txt', `BalanceSheetDate Update Error: ${error}`, true)
     }
 }
@@ -150,7 +150,7 @@ async function createNewBalanceSheetDate(stockCode, period, publishedAt, price, 
         logUtil.logMessage('balancesheetdate_notification.txt', `${stockCode}-${period} eklendi`, null)
         await newBalanceSheetDate.save()
     } catch (error) {
-        console.error(`BalanceSheetDate Create Error: ${error}`)
+        console.error(`BalanceSheetDate Create Error-${stockCode}-${period}-${publishedAt}: ${error}`)
         logUtil.logMessage('balancesheetdate_notification.txt', `BalanceSheetDate Create Error: ${error}`, true)
     }
 }
