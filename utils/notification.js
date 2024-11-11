@@ -108,7 +108,7 @@ async function getPrices(stockCode, publishedAt, yearValue) {
                 price = Object.entries(priceHistoryMap).find(([date]) => date >= shortPublishedAt)?.[1]
                 if (!price) {
                     let dateString;
-                    dateString += shortPublishedAt;
+                    dateString += `PublishedAt: ${publishedAt} - `
                     Object.keys(priceHistoryMap).forEach((date) => {
                         dateString += `${date} - `
                     });
