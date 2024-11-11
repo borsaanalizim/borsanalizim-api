@@ -105,10 +105,10 @@ async function getPrices(stockCode, publishedAt, yearValue) {
             lastPrice = Object.values(priceHistoryMap).slice(-1)[0]
             if (typeof publishedAt === 'string') {
                 const shortPublishedAt = publishedAt.split("T")[0]
-                price = Object.entries(priceHistoryMap).find(([date]) => date >= shortPublishedAt)?.[1]
+                price = Object.entries(priceHistoryMap).find(([date]) => date >= shortPublishedAt)?.[1] || lastPrice
                 if (!price) {
                     let dateString;
-                    dateString += `PublishedAt: ${publishedAt} - `
+                    dateString += `StockCode: ${stockCode} PublishedAt: ${publishedAt} - `
                     Object.keys(priceHistoryMap).forEach((date) => {
                         dateString += `${date} - `
                     });
