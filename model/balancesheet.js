@@ -9,6 +9,8 @@ const balanceSheetSchema = new Schema({
             period: { type: String, required: true },
             currentAssets: { type: String },
             longTermAssets: { type: String },
+            inventories: { type: String },
+            totalAssets: { type: String },
             paidCapital: { type: String },
             equities: { type: String },
             equitiesOfParentCompany: { type: String },

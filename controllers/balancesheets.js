@@ -28,5 +28,10 @@ async function deleteAllBalanceSheets(req, res, next) {
 }
 
 exports.get = async function (req, res, next) {
-    await addBalanceSheets(req, res, next)
+    const isDeletaAll = req.query.isDeleteAll
+    if (isDeletaAll) {
+        await deleteAllBalanceSheets(req, res, next)
+    } else {
+        await addBalanceSheets(req, res, next)
+    }
 }

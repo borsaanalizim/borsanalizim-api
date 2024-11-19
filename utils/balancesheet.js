@@ -140,6 +140,8 @@ async function saveOrUpdateBalanceSheet(stockCode, period, data) {
             period,
             currentAssets: data['1A'],
             longTermAssets: data['1AK'],
+            inventories: data['1AF'],
+            totalAssets: data['1BL'],
             paidCapital: data['2OA'],
             equities: data['2N'],
             equitiesOfParentCompany: data['2O'],
