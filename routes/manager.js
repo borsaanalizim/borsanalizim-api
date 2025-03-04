@@ -13,6 +13,7 @@ const stocks = require('./stocks')
 const balanceSheets = require('./balancesheets')
 const balanceSheetDates = require('./balancesheetdates')
 
+const stockMarketApi = require("./api/stockmarket")
 const balanceSheetDatesApi = require("./api/balancesheetdates")
 const sectorsApi = require('./api/sectors')
 const stocksInSectorsApi = require('./api/stocksInSectors')
@@ -37,6 +38,7 @@ module.exports = function (app) {
     app.use("/balanceSheets", balanceSheets)
     app.use("/balanceSheetDates", balanceSheetDates)
 
+    app.use("/api/stockMarket", stockMarketApi)
     app.use("/api/balancesheetdates", balanceSheetDatesApi)
     app.use("/api/sectors", sectorsApi)
     app.use("/api/stocksInSectors", stocksInSectorsApi)
